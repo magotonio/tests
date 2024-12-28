@@ -1,0 +1,1716 @@
+﻿[
+  {
+    "nombre": "test01",
+    "test": [
+      {
+        "pregunta": "¿Cómo se clasifican las redes desde el punto de vista de un administrador?",
+        "resp": [
+          {
+            "texto": "Como cliente-servidor, peer-to-peer o híbridas."
+          },
+          {
+            "texto": "Como network mesh (malla), estructura de bus, estructura lineal, estructura de tipo estrella o estructura híbrida."
+          },
+          {
+            "texto": "Como privadas o públicas."
+          },
+          {
+            "texto": "Como LAN y WAN."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre PAN es correcta?",
+        "resp": [
+          {
+            "texto": "Es una red de ordenadores extendida dentro de un edificio y operado bajo un único sistema administrativo. "
+          },
+          {
+            "texto": "Por lo general, las redes de telecomunicaciones son una PAN."
+          },
+          {
+            "texto": "Utiliza el modelo TCP/IP y utiliza IP como su protocolo de direccionamiento."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre LAN es correcta?",
+        "resp": [
+          {
+            "texto": "Es una red de ordenadores extendida dentro de un edificio y operado bajo un único sistema administrativo."
+          },
+          {
+            "texto": "Ethernet es un protocolo habitual de LAN."
+          },
+          {
+            "texto": "Varias LAN pueden estar interconectadas mediante una MAN o una WAN."
+          },
+          {
+            "texto": "Todas las anteriores son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "feedback": "Es una red de ordenadores extendida dentro de un edificio y operado bajo un único sistema administrativo: la definición de edificio es flexible, y puede tratarse de varios edificios o un campus, por ejemplo. Ethernet no es el único, pero es el más extendido, junto a 802.11. Varias LAN pueden estar interconectadas mediante una MAN o una WAN. También pueden estar interconectadas por otras LAN (por ejemplo, con una LAN por piso en un edificio de varias plantas), pero, en este caso, todas las LAN juntas podrían considerarse una única LAN.",
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre WAN es correcta?",
+        "resp": [
+          {
+            "texto": "Es una red de ordenadores extendida dentro de un edificio y operado bajo un único sistema administrativo."
+          },
+          {
+            "texto": "Es una red pública."
+          },
+          {
+            "texto": "Abarca una extensión geográfica amplia, del orden de magnitud de un país o superior."
+          },
+          {
+            "texto": "Es de tipo peer-to-peer."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Cómo se clasifican las redes desde el punto de vista de la interconectividad?",
+        "resp": [
+          {
+            "texto": "Como cliente-servidor, peer-to-peer o híbridas."
+          },
+          {
+            "texto": "Como network mesh (malla), estructura de bus, estructura lineal, estructura de tipo estrella o estructura híbrida."
+          },
+          {
+            "texto": "Como privadas o públicas."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cómo se clasifican las redes desde el punto de vista de la extensión geográfica?",
+        "resp": [
+          {
+            "texto": "Como cliente-servidor, peer-to-peer o híbridas."
+          },
+          {
+            "texto": "Como network mesh (malla), estructura de bus, estructura lineal, estructura de tipo estrella o estructura híbrida."
+          },
+          {
+            "texto": "Como privadas o públicas."
+          },
+          {
+            "texto": "PAN, LAN, MAN y WAN."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre una red cliente-servidor es correcta?",
+        "resp": [
+          {
+            "texto": "Puede operar en una LAN, MAN y WAN, pero no en una PAN."
+          },
+          {
+            "texto": "Hay dos tipos de nodos con roles diferentes."
+          },
+          {
+            "texto": "No se usan para compartir archivos."
+          },
+          {
+            "texto": "Al contrario que las peer-to-peer, pueden funcionar sobre TCP/IP."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "Relaciona el tipo de red con el protocolo correspondiente.",
+        "resp": [],
+        "options": [
+          "PAN",
+          "LAN",
+          "MAN",
+          "WAN"
+        ],
+        "rels": [
+          "Bluetooth",
+          "Ethernet",
+          "WiMAX",
+          "MPLS"
+        ]
+      },
+      {
+        "pregunta": "¿Qué relación hay entre SevDevOps y DevOps?",
+        "resp": [
+          {
+            "texto": "SecDevOps es una ampliación del paradigma DevOps."
+          },
+          {
+            "texto": "SecDevOps es un modelo diferente de DevOps y aplica procedimientos diferentes."
+          },
+          {
+            "texto": "Los ingenieros de seguridad tienen el rol de SecDevOps, mientras que los administradores de sistemas tienen el rol de DevOps."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre la administración de redes tradicionales y de redes en la nube?",
+        "resp": [
+          {
+            "texto": "Principalmente los protocolos, ya que han hecho falta protocolos totalmente nuevos para trabajar en la nube."
+          },
+          {
+            "texto": "Principalmente las herramientas, ya que el funcionamiento básico de los protocolos no tiene por qué cambiar."
+          },
+          {
+            "texto": "No tienen nada que ver y deben ser roles separados dentro de una compañía."
+          },
+          {
+            "texto": "Ninguna, los procedimientos, herramientas y protocolos son iguales."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "nombre": "test02",
+    "test": [
+      {
+        "pregunta": "¿Qué capas componen el modelo TCP/IP?",
+        "resp": [
+          {
+            "texto": "Física, enlace, red, transporte y aplicación."
+          },
+          {
+            "texto": "Enlace, red, transporte y aplicación."
+          },
+          {
+            "texto": "Física, enlace, red, transporte, sesión, presentación y aplicación."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Qué relación hay entre servicios, interfaces y protocolos en el contexto de la arquitectura de capas?",
+        "resp": [
+          {
+            "texto": "Una capa ofrece un servicio a una capa superior cumpliendo una interfaz; la capa trabaja internamente siguiendo un protocolo."
+          },
+          {
+            "texto": "Servicio e interfaz son sinónimos y se refieren a las funciones de una capa que pueden usar el resto de las capas. El protocolo se refiere al nombre en la industria de ese servicio."
+          },
+          {
+            "texto": "La interfaz se refiere a la funcionalidad que una capa puede usar del protocolo de la capa inferior."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué servicios ofrece la capa de enlace de TCP/IP?",
+        "resp": [
+          {
+            "texto": "Control de flujo y enrutamiento."
+          },
+          {
+            "texto": "Ninguno, la capa de enlace no pertenece a TCP/IP."
+          },
+          {
+            "texto": "Garantía de entrega extremo a extremo."
+          },
+          {
+            "texto": "Control de flujo y control de errores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "feedback": "Control de errores: las señales pueden encontrar problemas en la transmisión y los bits pueden estar invertidos. Como se verá más adelante, algunos errores se pueden detectar y notificar y otros se pueden corregir en destino. Control de flujo: los nodos en el mismo enlace pueden funcionar a diferentes velocidades. La capa de enlace de datos controla estas situaciones para que ambos nodos puedan trabajar a una velocidad común.",
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Qué servicios ofrece la capa de red de TCP/IP?",
+        "resp": [
+          {
+            "texto": "Direccionamiento."
+          },
+          {
+            "texto": "Enrutamiento."
+          },
+          {
+            "texto": "Todas las anteriores."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre conmutación de paquetes y conmutación de circuitos?",
+        "resp": [
+          {
+            "texto": "Ninguna."
+          },
+          {
+            "texto": "En la conmutación de circuitos, todos los datos de un flujo de tráfico recorren el mismo camino entre origen y destino, que ha de establecerse antes de empezar a transmitir. En la conmutación de paquetes, los datos se dividen en paquetes que pueden recorrer caminos diferentes antes, para llegar a su destino."
+          },
+          {
+            "texto": "En la conmutación de circuitos, todos los datos de un flujo de tráfico recorren el mismo camino entre origen y destino, que ha de establecerse antes de empezar a transmitir. En la conmutación de paquetes, los datos se dividen en paquetes, que a su vez siguen un camino preestablecido antes de empezar la transmisión."
+          },
+          {
+            "texto": "La conmutación de circuitos se usa para comunicación de audio y la conmutación de paquetes se usa para datos digitales."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cuáles de los siguientes son ejemplos de protocolos de aplicación? Escoge todas las opciones correctas.",
+        "resp": [
+          {
+            "texto": "UDP."
+          },
+          {
+            "texto": "HTTP."
+          },
+          {
+            "texto": "IP."
+          },
+          {
+            "texto": "DNS."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿En qué se diferencian TCP y UDP?",
+        "resp": [
+          {
+            "texto": "TCP ofrece un servicio no orientado a conexión, mientras que UDP ofrece un servicio orientado a conexión."
+          },
+          {
+            "texto": "TCP ofrece un servicio orientado a conexión, mientras que UDP ofrece un servicio no orientado a conexión."
+          },
+          {
+            "texto": "TCP funciona en la capa de transporte y UDP en la capa de red."
+          },
+          {
+            "texto": "TCP forma parte del modelo TCP/IP y UDP forma parte del modelo OSI."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "Relaciona la capa con el protocolo correspondiente.",
+        "resp": [],
+        "options": [
+          "Aplicación",
+          "Transporte",
+          "Red",
+          "Enlace"
+        ],
+        "rels": [
+          "SMTP",
+          "UDP",
+          "IP",
+          "Ethernet"
+        ]
+      },
+      {
+        "pregunta": "¿Por qué el modelo TCP/IP no tiene capas de presentación y sesión?",
+        "resp": [
+          {
+            "texto": "Se asume que cada aplicación se encarga de los servicios de ambas capas."
+          },
+          {
+            "texto": "Porque OSI los añadió por razones políticas."
+          },
+          {
+            "texto": "TCP/IP sí que tiene ambas capas."
+          },
+          {
+            "texto": "Porque están integradas en la capa de transporte."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "Relaciona cada concepto con el ejemplo correspondiente.",
+        "resp": [],
+        "options": [
+          "Detección de errores",
+          "Control de flujo",
+          "Tipo de ruido",
+          "Multiplexación"
+        ],
+        "rels": [
+          "Checksum",
+          "Ventana deslizante",
+          "Térmico",
+          "FDMA"
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "test03",
+    "test": [
+      {
+        "pregunta": "¿Ofrece la capa de transporte un servicio orientado a conexión?",
+        "resp": [
+          {
+            "texto": "Sí, el protocolo TCP ofrece un servicio orientado a conexión."
+          },
+          {
+            "texto": "No, en ningún caso."
+          },
+          {
+            "texto": "Sí, el protocolo UDP ofrece un servicio orientado a conexión."
+          },
+          {
+            "texto": "Sí, la capa de transporte siempre ofrece un sistema orientado a conexión."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué protocolo ofrece garantía de entrega ordenada?",
+        "resp": [
+          {
+            "texto": "TPC."
+          },
+          {
+            "texto": "IP."
+          },
+          {
+            "texto": "UDP."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Cómo asegura TCP el control de flujo?",
+        "resp": [
+          {
+            "texto": "Mediante un tamaño de ventana fijo."
+          },
+          {
+            "texto": "TCP no ofrece control de flujo."
+          },
+          {
+            "texto": "Mediante el 3-way handshake."
+          },
+          {
+            "texto": "Mediante un tamaño de ventana variable."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Qué columnas tiene, al menos, una tabla de rutas?",
+        "resp": [
+          {
+            "texto": "Red de destino, interfaz de red."
+          },
+          {
+            "texto": "Red de destino, máscara, número de saltos, interfaz de red."
+          },
+          {
+            "texto": "Red de destino, máscara, siguiente salto, interfaz de red."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "  ¿Qué diferencia hay entre las direcciones 192.168.53.12 y 34.168.53.12? ",
+        "resp": [
+          {
+            "texto": "Ninguna, ambas son direcciones IP normales."
+          },
+          {
+            "texto": "La primera dirección está reservada para direccionamiento privado, mientras que la segunda es enrutable públicamente."
+          },
+          {
+            "texto": "El primer byte, nada más."
+          },
+          {
+            "texto": "Pertenecen a subredes diferentes."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cuáles de los siguientes protocolos funcionan sobre TCP? Escoge todas las opciones correctas.",
+        "resp": [
+          {
+            "texto": "FTP."
+          },
+          {
+            "texto": "DNS."
+          },
+          {
+            "texto": "HTTPS."
+          },
+          {
+            "texto": "Todas las anteriores son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿En qué tipo de enrutamiento se optimiza el ancho de banda enviando solo una copia del flujo en cada enlace, incluso si hay múltiples destinatarios?",
+        "resp": [
+          {
+            "texto": "Broadcast."
+          },
+          {
+            "texto": "Multicast."
+          },
+          {
+            "texto": "Unicast."
+          },
+          {
+            "texto": "Anycast."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿En qué puerto puede escuchar un servidor HTTP?",
+        "resp": [
+          {
+            "texto": "80 o 443 solamente."
+          },
+          {
+            "texto": "En cualquiera entre 0 y 65 535."
+          },
+          {
+            "texto": "En cualquiera menor de 1024."
+          },
+          {
+            "texto": "En cualquiera entre 1024 y 49 151."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cuáles de los siguientes son algoritmos de enrutamiento unicast?",
+        "resp": [
+          {
+            "texto": "Inundación."
+          },
+          {
+            "texto": "Camino más corto."
+          },
+          {
+            "texto": "Estado de enlace."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "Relaciona cada protocolo con la funcionalidad que ofrece.",
+        "resp": [],
+        "options": [
+          "IP",
+          "ICMP",
+          "TCP",
+          "UDP"
+        ],
+        "rels": [
+          "Direccionamiento de red",
+          "Diagnósticos",
+          "Servicio de transporte confiable",
+          "Servicio de transporte no confiable"
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "test04",
+    "test": [
+      {
+        "pregunta": "¿Por qué se pueden hacer peticiones SMTP o HTTP usando Telnet?",
+        "resp": [
+          {
+            "texto": "No es posible."
+          },
+          {
+            "texto": "Porque ambos son protocolos basados en texto que envían cadenas de texto plano sobre una conexión TCP."
+          },
+          {
+            "texto": "Porque Telnet es un protocolo genérico que actúa como capa de nivel 4."
+          },
+          {
+            "texto": "Porque HTTP y SMTP se encapsulan siempre sobre Telnet."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Por qué FTP ofrece un modo pasivo?",
+        "resp": [
+          {
+            "texto": "Porque los puertos del cliente pueden no estar accesibles al servidor debido a firewalls, NAT, etc."
+          },
+          {
+            "texto": "Para hacer el protocolo más completo."
+          },
+          {
+            "texto": "El modo pasivo está desaconsejado y es preferible usar el modo activo."
+          },
+          {
+            "texto": "Para la interacción entre dos servidores FTP, no entre cliente y servidor."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿A qué capa ofrece servicios la capa de aplicación?",
+        "resp": [
+          {
+            "texto": "A la capa de presentación."
+          },
+          {
+            "texto": "A la capa de transporte."
+          },
+          {
+            "texto": "A ninguna."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Por qué DNS funciona sobre UDP?",
+        "resp": [
+          {
+            "texto": "Porque el contenido de las peticiones es pequeño y, por tanto, comparable a la sobrecarga que añade TCP."
+          },
+          {
+            "texto": "Para reducir la latencia inicial que añade TCP."
+          },
+          {
+            "texto": "Todas las anteriores."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "Relaciona cada protocolo con su transporte capa 4.",
+        "resp": [],
+        "options": [
+          "HTTP",
+          "Petición DNS",
+          "-"
+        ],
+        "rels": [
+          "TCP",
+          "UDP",
+          "-"
+        ]
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre un registro DNS de tipo A y otro de tipo MX?",
+        "resp": [
+          {
+            "texto": "Ninguna."
+          },
+          {
+            "texto": "Un registro A contiene una IP, mientras que un registro MX contiene el nombre de host de un servidor de correo."
+          },
+          {
+            "texto": "Un registro A contiene una IP, mientras que un registro MX contiene un alias de otro nombre de dominio."
+          },
+          {
+            "texto": "Un registro A contiene una IP, mientras que un registro MX contiene el nombre del servidor DNS."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cuáles de los siguientes son ejemplos de protocolos de aplicación que funcionan en modo texto? Escoge todas las opciones correctas.",
+        "resp": [
+          {
+            "texto": "NTP."
+          },
+          {
+            "texto": "HTTP."
+          },
+          {
+            "texto": "FTP."
+          },
+          {
+            "texto": "Las respuestas $1 y $2 son correctas.."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuáles de los siguientes son ejemplos de métodos HTTP? Escoge todas las opciones correctas.",
+        "resp": [
+          {
+            "texto": "GET."
+          },
+          {
+            "texto": "POST."
+          },
+          {
+            "texto": "PUT."
+          },
+          {
+            "texto": "Todas son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "Relaciona el protocolo con el puerto correspondiente.",
+        "resp": [],
+        "options": [
+          "HTTP",
+          "FTP",
+          "Telnet",
+          "NTP"
+        ],
+        "rels": [
+          "80",
+          "21",
+          "23",
+          "123"
+        ]
+      },
+      {
+        "pregunta": "¿Cuál fue la última versión de SSL?",
+        "resp": [
+          {
+            "texto": "SSL 2.0."
+          },
+          {
+            "texto": "SSL 3.0."
+          },
+          {
+            "texto": "TLS 1.3."
+          },
+          {
+            "texto": "TLS 1.0."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "nombre": "test05",
+    "test": [
+      {
+        "pregunta": "¿Qué diferencia hay entre un equipo dual-homed y uno single-homed?",
+        "resp": [
+          {
+            "texto": "Ninguna, son iguales."
+          },
+          {
+            "texto": "El dual-homed tiene dos o más tarjetas de red, cada una conectada a una red diferente, mientas que el single-homed solo tiene una."
+          },
+          {
+            "texto": "El dual-homed tiene dos tarjetas de red, ambas en la misma red para soportar alta disponibilidad, mientas que el single-homed solo tiene una."
+          },
+          {
+            "texto": "El dual-homed tiene una tarjeta de red, mientas que el single-homed tiene dos o más."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cómo se denomina la sección entre dos rúters con servicios públicos?",
+        "resp": [
+          {
+            "texto": "DMZ."
+          },
+          {
+            "texto": "Rúter externo."
+          },
+          {
+            "texto": "Rúter de rastreo."
+          },
+          {
+            "texto": "Bastión."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué reglas se procesan primero en iptables?",
+        "resp": [
+          {
+            "texto": "Las primeras de la lista, en orden ascendente, seguidas de la política por defecto."
+          },
+          {
+            "texto": "Las últimas de la lista, en orden decreciente."
+          },
+          {
+            "texto": "Las últimas de la lista, en orden decreciente, seguidas de la política por defecto."
+          },
+          {
+            "texto": "No se sigue un orden: solo una regla puede identificar unívocamente un paquete."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Cómo se puede averiguar en qué interfaz se aplica una regla?",
+        "resp": [
+          {
+            "texto": "iptables -L."
+          },
+          {
+            "texto": "iptables -L --line-numbers."
+          },
+          {
+            "texto": "iptables -S."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "Relaciona cada protocolo con la capa en la que trabaja.",
+        "resp": [],
+        "options": [
+          "L2F",
+          "IPSec",
+          "-"
+        ],
+        "rels": [
+          "Nivel 2",
+          "Nivel 3",
+          "-"
+        ]
+      },
+      {
+        "pregunta": "¿Cuándo se considera que una VPN conecta dos subredes de manera segura?",
+        "resp": [
+          {
+            "texto": "Cuando evita que los datos se puedan leer en tránsito."
+          },
+          {
+            "texto": "Cuando evita que los datos se puedan modificar en tránsito."
+          },
+          {
+            "texto": "Todas las anteriores."
+          },
+          {
+            "texto": "Siempre, por el mero hecho de ser un túnel."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Por qué es más seguro como firewall un gateway de aplicación que un filtro de paquetes?",
+        "resp": [
+          {
+            "texto": "Son igual de seguros."
+          },
+          {
+            "texto": "Porque soporta más reglas."
+          },
+          {
+            "texto": "Porque un filtro de paquetes no tiene estado."
+          },
+          {
+            "texto": "Porque es capaz de analizar el contenido de los paquetes IP y TCP, lo que permite implementar políticas más específicas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Qué tráfico permite un grupo de seguridad predeterminado de AWS?",
+        "resp": [
+          {
+            "texto": "Todo el tráfico de salida."
+          },
+          {
+            "texto": "Todo el tráfico de entrada y de salida."
+          },
+          {
+            "texto": "Tráfico de entrada a cualquier origen en el puerto 80 y todo el tráfico de salida."
+          },
+          {
+            "texto": "Todo el tráfico de entrada desde otros grupos de seguridad de la misma red y todo el tráfico de salida."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué comando añade una regla en iptables al final de la lista?",
+        "resp": [
+          {
+            "texto": "sudo iptables -I INPUT 1 -p tcp --dport 22 -j ACCEPT."
+          },
+          {
+            "texto": " sudo iptables -D INPUT -p tcp --dport 22 -j ACCEPT."
+          },
+          {
+            "texto": " sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT."
+          },
+          {
+            "texto": " sudo iptables -I INPUT \"end\" -p tcp --dport 22 -j ACCEPT."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿De qué se encarga un equipo bastión?",
+        "resp": [
+          {
+            "texto": "Actúa como proxy de aplicación de servicios públicos como HTTP y FTP."
+          },
+          {
+            "texto": "Es un firewall sin estado."
+          },
+          {
+            "texto": "Actúa como rúter interno de una DMZ."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "nombre": "test06",
+    "test": [
+      {
+        "pregunta": "¿Qué rango de IP puede tener una subred en Azure?",
+        "resp": [
+          {
+            "texto": "10.0.1.0/24."
+          },
+          {
+            "texto": "10.0.0.0/16."
+          },
+          {
+            "texto": "192 168.0.0/24."
+          },
+          {
+            "texto": "Cualquiera de los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cómo es posible definir el destino concreto de una regla de entrada en un grupo de seguridad de red sin conocer la IP de destino?",
+        "resp": [
+          {
+            "texto": "Usando un grupo de seguridad de aplicación, y aplicando este grupo a la NIC de una máquina virtual."
+          },
+          {
+            "texto": "Con un asterisco."
+          },
+          {
+            "texto": "Con la dirección 0.0.0.0/0."
+          },
+          {
+            "texto": "No se puede."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué razones se pueden dar para usar una solución de red de otro fabricante en un proveedor de nube?",
+        "resp": [
+          {
+            "texto": "Para aprovechar la experiencia de los administradores."
+          },
+          {
+            "texto": "Para disponer de más funcionalidades que las ofrecidas por los servicios nativos."
+          },
+          {
+            "texto": "Todas las anteriores."
+          },
+          {
+            "texto": "No se puede: en la nube solo se pueden usar servicios propios de cada proveedor."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "feedback": "Para aprovechar la experiencia de los administradores: la experiencia en herramientas tradicionales es un valor añadido y facilita la transición a herramientas nativas. Para disponer de más funcionalidades que las ofrecidas por los servicios nativos: aunque los proveedores de nube aumentan su oferta continuamente, los servicios de terceros aportan un valor añadido.",
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Qué tipos de recursos se pueden desplegar con una plantilla de ARM?",
+        "resp": [
+          {
+            "texto": "Máquinas virtuales."
+          },
+          {
+            "texto": "Redes, subredes y grupos de seguridad."
+          },
+          {
+            "texto": "Discos e interfaces de red."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Qué significa que las plantillas ARM sean declarativas?",
+        "resp": [
+          {
+            "texto": "Que el desarrollador declara las variables explícitamente."
+          },
+          {
+            "texto": "Que la plantilla define el estado final deseado, sin expresar los pasos que hay que dar para llegar al él."
+          },
+          {
+            "texto": "Que se pueden ejecutar varias veces y se conseguirá el mismo resultado."
+          },
+          {
+            "texto": "Las plantillas ARM son imperativas, no declarativas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Qué significa que las plantillas ARM sean idempotentes?",
+        "resp": [
+          {
+            "texto": "Que la plantilla define el estado final, no los pasos que hay que dar para llegar a él."
+          },
+          {
+            "texto": "Que se pueden parametrizar."
+          },
+          {
+            "texto": "Que tienen variables de salida."
+          },
+          {
+            "texto": "Que una misma plantilla se puede ejecutar varias veces y el resultado será el mismo."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cómo afecta el orden de las reglas de un grupo de seguridad?",
+        "resp": [
+          {
+            "texto": "Se evaluarán por orden creciente de prioridad. Si una regla se activa con un paquete, ya no se procesan más reglas."
+          },
+          {
+            "texto": "El orden no afecta, todas las reglas se aplican a todos los paquetes."
+          },
+          {
+            "texto": "Se evaluarán primero las que tengan una prioridad más alta."
+          },
+          {
+            "texto": "Se evaluarán por orden creciente de puerto de destino."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué IP recibe un cliente VPN al establecer la conexión?",
+        "resp": [
+          {
+            "texto": "Una de la red privada local."
+          },
+          {
+            "texto": "Una de la subred establecida en el servidor de VPN."
+          },
+          {
+            "texto": "Ninguna, se enruta el tráfico con la IP de la red local."
+          },
+          {
+            "texto": "Una de la subred de aplicaciones que se quiere administrar."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "nombre": "test07",
+    "test": [
+      {
+        "pregunta": "¿Qué tipos de análisis de Inspector necesitan agente?",
+        "resp": [
+          {
+            "texto": "Los de red."
+          },
+          {
+            "texto": "Ninguno."
+          },
+          {
+            "texto": "Todos."
+          },
+          {
+            "texto": "Los de host y algunos de red."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Por qué Detective no es intrusivo?",
+        "resp": [
+          {
+            "texto": "Porque analiza logs de otros servicios, pero no actúa sobre las instancias bajo análisis."
+          },
+          {
+            "texto": "Es tan intrusivo como Inspector."
+          },
+          {
+            "texto": "Porque solo comprueba configuraciones estáticas."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Con qué formato se indican los recursos a los que aplica una directiva de IAM?",
+        "resp": [
+          {
+            "texto": "JSON."
+          },
+          {
+            "texto": "ARN, con soporte de comodines."
+          },
+          {
+            "texto": "ARN, pero no permite comodines."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Cuál es la retención de CloudTrail?",
+        "resp": [
+          {
+            "texto": "De 90 días por defecto."
+          },
+          {
+            "texto": "Arbitraria, si se definen trails para almacenar los registros."
+          },
+          {
+            "texto": "Todas las anteriores."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Qué permisos por defecto recibe un usuario al que no se le aplica ninguna directiva de IAM?",
+        "resp": [
+          {
+            "texto": "Ninguno."
+          },
+          {
+            "texto": "De impersonación."
+          },
+          {
+            "texto": "Solo de lectura sobre todos los recursos de la cuenta."
+          },
+          {
+            "texto": "Todos los permisos están habilitados, a menos que los restrinja una política explícitamente."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué tipos de recursos pueden asumir un rol de IAM?",
+        "resp": [
+          {
+            "texto": "Usuarios de la propia cuenta."
+          },
+          {
+            "texto": "Un servicio de AWS."
+          },
+          {
+            "texto": "Un usuario de otra cuenta."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "feedback": "Usuarios de la propia cuenta: esto permite asignar permisos puntuales a un usuario o grupo de usuarios. El usuario debe activar la impersonación explícitamente, por lo que se reduce el riesgo de un fallo inesperado. Un servicio de AWS: gracias a esta funcionalidad se pueden distribuir credenciales automáticamente a una aplicación ejecutada sobre infraestructura de AWS. Un usuario de otra cuenta: este servicio es muy útil para delegar la administración a un tercero (por ejemplo, a una consultora) o para integrar un servicio externo.",
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes acciones permiten leer los detalles de una instancia de EC2?",
+        "resp": [
+          {
+            "texto": "ec2:DescribeInstances."
+          },
+          {
+            "texto": "ec2:Describe*."
+          },
+          {
+            "texto": "ec2:*."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "  ¿Qué valor debe tener el campo effect para permitir una acción? ",
+        "resp": [
+          {
+            "texto": "Allow."
+          },
+          {
+            "texto": "Deny."
+          },
+          {
+            "texto": "Read."
+          },
+          {
+            "texto": "Enabled."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "¿Qué credenciales usa una cuenta con acceso programático?",
+        "resp": [
+          {
+            "texto": "Usuario y contraseña."
+          },
+          {
+            "texto": "OAuth."
+          },
+          {
+            "texto": "Access key y secret key."
+          },
+          {
+            "texto": "Clave pública y privada."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "nombre": "test08",
+    "test": [
+      {
+        "pregunta": "¿En cuántas subredes se dividen los pods de un clúster de Kubernetes?",
+        "resp": [
+          {
+            "texto": "En tantas como namespaces."
+          },
+          {
+            "texto": "Una única, común a todos los pods."
+          },
+          {
+            "texto": "Es configurable por el administrador."
+          },
+          {
+            "texto": "Cada nodo define una red local para los pods que se ejecutan en él."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Por defecto, qué restricciones de tráfico hay en la red de los pods?",
+        "resp": [
+          {
+            "texto": "Ninguna."
+          },
+          {
+            "texto": "Los pods solo pueden conectarse a pods del mismo namespace."
+          },
+          {
+            "texto": "Los pods solo pueden conectarse a servicios, no a pods."
+          },
+          {
+            "texto": "Por defecto no hay comunicación, hay que definirla expresamente."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      },
+      {
+        "pregunta": "Relaciona el recurso con su descripción.",
+        "resp": [],
+        "options": [
+          "Role",
+          "NetworkPolicy",
+          "Pod",
+          "RoleBinding"
+        ],
+        "rels": [
+          "Define unas acciones permitidas sobre unos recursos",
+          "Permite o deniega tráfico a, o desde, pods",
+          "Unidad básica de ejecución en Kubernetes",
+          "Asocia un Role con una cuenta de usuario o de servicio."
+        ]
+      },
+      {
+        "pregunta": "¿Por qué es necesario crear un servicio para exponer los puertos de un pod?",
+        "resp": [
+          {
+            "texto": "No es necesario, se puede trabajar sin un servicio."
+          },
+          {
+            "texto": "Por diseño, al crear un pod, se crea automáticamente un servicio."
+          },
+          {
+            "texto": "Los pods son efímeros por definición, por lo que una aplicación que quiera conectarse a un pod necesita disponer de un mecanismo que mantenga un nombre fijo para poder acceder, incluso aunque el pod desaparezca."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "  ¿Qué cabecera estándar HTTP usa un objeto Ingress para redirigir las peticiones? ",
+        "resp": [
+          {
+            "texto": "Location."
+          },
+          {
+            "texto": "Path."
+          },
+          {
+            "texto": "Site."
+          },
+          {
+            "texto": "Host."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿En qué formato se definen las plantillas de Kubernetes?",
+        "resp": [
+          {
+            "texto": "Python."
+          },
+          {
+            "texto": "YAML."
+          },
+          {
+            "texto": "HTML."
+          },
+          {
+            "texto": "XML."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿En qué casos de los siguientes un servicio con balanceador de carga desplegará un balanceador de carga nativo?",
+        "resp": [
+          {
+            "texto": "EKS."
+          },
+          {
+            "texto": "AKS."
+          },
+          {
+            "texto": "GKE."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "    ¿Cómo se pueden identificar destinos en una NetworkPolicy? ",
+        "resp": [
+          {
+            "texto": "Con etiquetas de pods."
+          },
+          {
+            "texto": "Con un nombre de namespace."
+          },
+          {
+            "texto": "Con una subred IP."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "    ¿Qué tipos de reglas aceptan las NetworkPolicy? ",
+        "resp": [
+          {
+            "texto": "Ingress."
+          },
+          {
+            "texto": "Egress."
+          },
+          {
+            "texto": "Todas las anteriores."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "    ¿Qué diferencia hay entre un Role y un ClusterRole? ",
+        "resp": [
+          {
+            "texto": "Ambos definen acciones permitidas sobre tipos de recursos, pero los Roles están restringidos a un namespace y los ClusterRoles aplican a todo el clúster completo."
+          },
+          {
+            "texto": "Ambos definen acciones permitidas sobre tipos de recursos, pero los Roles se aplican a usuarios y los ClusterRoles a cuentas de servicios."
+          },
+          {
+            "texto": "Los Roles están incluidos en el módulo RBAC, mientras que los ClusterRoles son nativos de Kubernetes."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "nombre": "test09",
+    "test": [
+      {
+        "pregunta": "¿Cuáles de los siguientes elementos hay que proteger en un pipeline DevOps?",
+        "resp": [
+          {
+            "texto": "La herramienta de CI/CD."
+          },
+          {
+            "texto": "La infraestructura."
+          },
+          {
+            "texto": "La aplicación."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuándo se puede analizar una aplicación en búsqueda de vulnerabilidades?",
+        "resp": [
+          {
+            "texto": "En cada nuevo parche."
+          },
+          {
+            "texto": "En producción, periódicamente."
+          },
+          {
+            "texto": "Todos los anteriores."
+          },
+          {
+            "texto": "Manualmente, siguiendo una agenda prefijada."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2
+      },
+      {
+        "pregunta": "¿Qué ventajas tiene incorporar pruebas de seguridad en el pipeline DevOps?",
+        "resp": [
+          {
+            "texto": "Se pueden detectar pruebas y vulnerabilidades antes incluso de publicar el parche en producción."
+          },
+          {
+            "texto": "Se ejecutan de manera automática, por lo que el funcionamiento es consistente."
+          },
+          {
+            "texto": "Se ejecutan de manera automática, por lo que no hay peligro de que, por un error humano, no se ejecuten."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "feedback": "Se pueden detectar pruebas y vulnerabilidades antes incluso de publicar el parche en producción: esto reduce el riesgo de la aplicación. Se ejecutan de manera automática por lo que el funcionamiento es consistente: si se evita el factor humano, la fiabilidad de las pruebas es mayor. Se ejecutan de manera automática por lo que no hay peligro de que, por un error humano, no se ejecuten.",
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cómo se puede proteger un sistema de control de versiones?",
+        "resp": [
+          {
+            "texto": "Aplicando un correcto control de acceso basado en roles."
+          },
+          {
+            "texto": "Firmando los commits."
+          },
+          {
+            "texto": "Protegiendo las ramas para evitar operaciones peligrosas."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Por qué son necesarias las pruebas de seguridad end-to-end?",
+        "resp": [
+          {
+            "texto": "Porque las pruebas estáticas no son capaces de descubrir ninguna vulnerabilidad."
+          },
+          {
+            "texto": "Porque hay vulnerabilidades que solo se pueden detectar si se prueba el flujo completo, por ejemplo, la autenticación."
+          },
+          {
+            "texto": "Normalmente no hacen falta y es suficiente con pruebas unitarias."
+          },
+          {
+            "texto": "Porque así se puede probar la aplicación en un navegador."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1
+      },
+      {
+        "pregunta": "¿Qué puede detectar una prueba de certificados HTTPS?",
+        "resp": [
+          {
+            "texto": "Si el certificado ha expirado."
+          },
+          {
+            "texto": "Si el certificado ha sido revocado."
+          },
+          {
+            "texto": "Si el certificado ha sido expedido por una CA de confianza."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿En qué casos pueden aparecer vulnerabilidades en las dependencias de la aplicación, incluso si no se ha cambiado el código propio?",
+        "resp": [
+          {
+            "texto": "Si el gestor de paquetes decide cambiar la versión por una más antigua."
+          },
+          {
+            "texto": "Si el gestor de paquetes actualiza la versión a una más nueva que introduce una vulnerabilidad inesperada."
+          },
+          {
+            "texto": "Si se descubre una vulnerabilidad en la versión que usa la aplicación y no se actualiza a una versión que la soluciona."
+          },
+          {
+            "texto": "$1 y $2 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3
+      },
+      {
+        "pregunta": "¿Cuál es el gestor de dependencias típico de NodeJS?",
+        "resp": [
+          {
+            "texto": "npm."
+          },
+          {
+            "texto": "pip."
+          },
+          {
+            "texto": "maven."
+          },
+          {
+            "texto": "yum."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0
+      }
+    ]
+  }
+]

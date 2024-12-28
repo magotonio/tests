@@ -1,0 +1,576 @@
+[
+  {
+    "nombre": "test01",
+    "test": [
+      {
+        "pregunta": "Los registros de Docker sirven para:",
+        "resp": [
+          {
+            "texto": "Mantener un control de los contenedores en ejecución."
+          },
+          {
+            "texto": "Almacenar y distribuir imágenes de Docker."
+          },
+          {
+            "texto": "Permitir la comunicación entre dos contenedores Docker."
+          },
+          {
+            "texto": "Instalar host de Docker remotos."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Un registro de Docker nos permite almacenar de manera centralizada las imágenes que utilizará nuestro sistema. Las imágenes se descargarán automáticamente del registro cuando se necesiten y no estén disponibles localmente."
+      },
+      {
+        "pregunta": "¿Qué es Docker Hub?:",
+        "resp": [
+          {
+            "texto": "Una herramienta para crear servidores Docker remotos."
+          },
+          {
+            "texto": "Proceso que ejecuta los contenedores Docker."
+          },
+          {
+            "texto": "Un registro público de imágenes Docker."
+          },
+          {
+            "texto": "El formato de contenedor utilizado por Docker."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Docker Hub es un registro público de imágenes en la nube mantenido por Docker. Los usuarios pueden crear sus propios repositorios para subir y compartir imágenes con otros usuarios. Además, ofrece multitud de imágenes gratuitas publicadas por terceros."
+      },
+      {
+        "pregunta": "¿Qué es Docker Desktop?:",
+        "resp": [
+          {
+            "texto": "Un registro público de imágenes Docker."
+          },
+          {
+            "texto": "Herramienta oficial de Docker para su instalación en Linux."
+          },
+          {
+            "texto": "Aplicación para instalar Docker en Windows y Mac OS."
+          },
+          {
+            "texto": "Herramienta para gestionar instalaciones de Docker remotas."
+          }
+        ],
+        "correct": 2,
+        "feedback": "El demonio de Docker no es compatible de forma nativa ni en Windows, ni Mac OS, por lo que deberemos utilizar el instalador Docker Desktop que proporciona de manera transparente una virtualización necesaria para la ejecución de los contenedores."
+      },
+      {
+        "pregunta": "Los contenedores de Docker:",
+        "resp": [
+          {
+            "texto": "Permiten aprovechar mejor el hardware de la máquina host."
+          },
+          {
+            "texto": "Son más pesados en tamaño que las máquinas virtuales."
+          },
+          {
+            "texto": "No son convenientes para trabajar con microservicios."
+          },
+          {
+            "texto": "Se inician más lento que las máquinas virtuales, pero son más seguros."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los contenedores son más ligeros y rápidos al desplegarse que las máquinas virtuales, lo que nos permite ejecutar más cargas de trabajo en el mismo hardware."
+      },
+      {
+        "pregunta": "Los espacios de nombres (o namespaces):",
+        "resp": [
+          {
+            "texto": "Proporcionan capas de aislamiento a los contenedores."
+          },
+          {
+            "texto": "Se utilizan para dar nombre a las imágenes Docker."
+          },
+          {
+            "texto": "Son sistemas de archivos compartidos."
+          },
+          {
+            "texto": "Sirven para clasificar imágenes Docker."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los namespaces proporcionan una capa de aislamiento al contenedor. Cada aspecto de un contenedor se ejecuta en un espacio de nombres separado y su acceso está limitado a ese espacio de nombres."
+      },
+      {
+        "pregunta": "Relacione los siguientes conceptos:",
+        "resp": [],
+        "options": ["namespaces", "libcontainer", "cgroups", "unionfs"],
+        "rels": [
+          "Permite crear una capa de aislamiento a los contenedores.",
+          "Formato de contenedor predeterminado de Docker.",
+          "Permite imponer límites y restricciones a los recursos de los contenedores.",
+          "Permite montar un sistema de archivos formado por la unión de otros."
+        ],
+        "feedback": ""
+      },
+      {
+        "pregunta": "¿En qué lenguaje de programación está escrito Docker?:",
+        "resp": [
+          {
+            "texto": "Go."
+          },
+          {
+            "texto": "Python."
+          },
+          {
+            "texto": "Java."
+          },
+          {
+            "texto": "C++."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Docker está escrito en el lenguaje de programación Go."
+      },
+      {
+        "pregunta": "¿Cómo podemos indicarle a Docker Machine las credenciales de nuestro proveedor de la nube?:",
+        "resp": [
+          {
+            "texto": "Utilizando variables de entorno."
+          },
+          {
+            "texto": "Mediante parámetros del comando docker-machine."
+          },
+          {
+            "texto": "Creando un fichero de configuración."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Todos los métodos son válidos. El nombre de las variables, parámetros y fichero variará según el proveedor, pero podremos utilizar el método más conveniente según nuestras necesidades."
+      },
+      {
+        "pregunta": "¿Cómo se comunica el cliente de Docker con el demonio de Docker?:",
+        "resp": [
+          {
+            "texto": "Mediante memoria compartida."
+          },
+          {
+            "texto": "Mediante un API REST."
+          },
+          {
+            "texto": "Utilizando un sistema de cola de mensajes."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "correct": 1,
+        "feedback": "El cliente Docker y el demonio de Docker se comunican mediante un API REST, ya sea a través de sockets UNIX o mediante una interfaz de red."
+      },
+      {
+        "pregunta": "Los contenedores de Docker:",
+        "resp": [
+          {
+            "texto": "Tienen su propio sistema operativo completo."
+          },
+          {
+            "texto": "Requieren más recursos que las máquinas virtuales."
+          },
+          {
+            "texto": "Comparten el kernel o núcleo del sistema operativo host."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Las imágenes son objetos de Docker que nos servirán para empaquetar una aplicación o servicio junto a todo lo necesario para su funcionamiento: código de la aplicación, librerías dependientes, configuraciones."
+      }
+    ]
+  },
+  {
+    "nombre": "test02",
+    "test": [
+      {
+        "pregunta": "¿Cómo podemos guardar el estado actual de un contenedor como imagen?:",
+        "resp": [
+          {
+            "texto": "Utilizando el comando docker commit"
+          },
+          {
+            "texto": "Utilizando el comando docker build"
+          },
+          {
+            "texto": "Utilizando la instrucción WORKDIR en el fichero Dockerfile"
+          },
+          {
+            "texto": "La imagen utilizada se actualiza automáticamente con el estado actual del contenedor."
+          }
+        ],
+        "correct": 0,
+        "feedback": "El comando docker commit guarda el estado actual del contenedor en una nueva imagen, devolviendo el identificador de esta."
+      },
+      {
+        "pregunta": "¿Qué hace la instrucción COPY package.tar . definida en un fichero Dockerfile al construir la imagen?:",
+        "resp": [
+          {
+            "texto": "Copia el fichero package.tar en el directorio de trabajo."
+          },
+          {
+            "texto": "Descomprime los ficheros y los copia en el directorio de trabajo."
+          },
+          {
+            "texto": "Comprime los ficheros del directorio de trabajo."
+          },
+          {
+            "texto": "Genera un error, no se pueden copiar ficheros tar con COPY."
+          }
+        ],
+        "correct": 0,
+        "feedback": "La instrucción COPY copia ficheros o directorios a la localización especificada."
+      },
+      {
+        "pregunta": "¿Qué formato tienen los ficheros Dockerfile?:",
+        "resp": [
+          {
+            "texto": "YAML."
+          },
+          {
+            "texto": "JSON."
+          },
+          {
+            "texto": "Texto."
+          },
+          {
+            "texto": "XML."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Un fichero Dockerfile es un archivo de texto que contiene las instrucciones que se usarán para generar una imagen de Docker con el comando docker build."
+      },
+      {
+        "pregunta": "¿Cómo podemos crear un registro Docker local?:",
+        "resp": [
+          {
+            "texto": "Utilizando el comando docker registry créate"
+          },
+          {
+            "texto": "Utilizando la imagen pública registry de Docker Hub."
+          },
+          {
+            "texto": "Descargando la aplicación Docker Registry."
+          },
+          {
+            "texto": "No es posible, los registros Docker solo tienen sentido en la nube."
+          }
+        ],
+        "correct": 1,
+        "feedback": "La imagen oficial de Docker para crear registros se llama registry y está disponible de manera pública en Docker Hub."
+      },
+      {
+        "pregunta": "El comando docker pull nginx:",
+        "resp": [
+          {
+            "texto": "Descarga todas las imágenes nginx sea cual sea su etiqueta."
+          },
+          {
+            "texto": "Descarga la imagen nginx etiquetada como latest."
+          },
+          {
+            "texto": "Descarga la imagen nginx que no esté etiquetada."
+          },
+          {
+            "texto": "Genera un error, es obligatorio indicar la etiqueta."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Si no se especifica etiqueta, el comando docker pull utilizará la etiqueta latest por defecto."
+      },
+      {
+        "pregunta": "¿Qué comando de Docker nos permite generar una imagen?:",
+        "resp": [
+          {
+            "texto": "docker rebuild"
+          },
+          {
+            "texto": "docker create"
+          },
+          {
+            "texto": "docker compile"
+          },
+          {
+            "texto": "docker build"
+          }
+        ],
+        "correct": 3,
+        "feedback": "El comando docker build genera una imagen a partir de un fichero Dockerfile."
+      },
+      {
+        "pregunta": "Hemos empaquetado todo el sistema de ficheros de una máquina virtual existente en un fichero TAR y queremos crear una imagen Docker a partir de él. ¿Cuál sería la primera instrucción de nuestro Dockerfile?:",
+        "resp": [
+          {
+            "texto": "FROM empty"
+          },
+          {
+            "texto": "FROM scratch"
+          },
+          {
+            "texto": "ADD filesystem.tar /"
+          },
+          {
+            "texto": "No es posible con ficheros Dockerfile"
+          }
+        ],
+        "correct": 1,
+        "feedback": "Necesitamos crear una imagen a partir de una imagen vacía, copiando directamente el sistema de ficheros en ella. Docker nos permite crear nuestras imágenes desde cero, partiendo como base de una imagen oficial de Docker, llamada scratch, publicada expresamente para este propósito. Cuando utilizamos la introducción FROM scratch en nuestro fichero de definición de imagen Dockerfile, esta no creará ninguna capa de imagen, sino que será la segunda instrucción la utilizada para crear la primera capa."
+      },
+      {
+        "pregunta": "El comando docker rmi myimage:",
+        "resp": [
+          {
+            "texto": "Elimina todas las imágenes del repositorio «myimage», sea cual sea su etiqueta."
+          },
+          {
+            "texto": "Elimina la imagen llamada «myimage» sin etiquetar o con etiqueta vacía."
+          },
+          {
+            "texto": "Elimina la imagen del repositorio «myimage» etiquetada como latest."
+          },
+          {
+            "texto": "Genera un error, es obligatorio indicar la etiqueta."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Si no se especifica etiqueta, el comando docker rmi myimage buscara la imagen etiquetada como latest y si existe la eliminara. Si hubiera otras imágenes referenciando a mismo identificador de imagen, estas no se verán afectadas."
+      },
+      {
+        "pregunta": "¿Para qué sirve la instrucción ONBUILD en un fichero Dockerfile?:",
+        "resp": [
+          {
+            "texto": "Permite indicar un registro en el cual se publicará automáticamente la imagen generada."
+          },
+          {
+            "texto": "Define una condición que debe cumplirse para poder generar la imagen."
+          },
+          {
+            "texto": "Ejecuta un comando en el host."
+          },
+          {
+            "texto": "Permite añadir a la imagen un comando que se ejecutará más adelante, al usar la imagen generada como base en otra construcción."
+          }
+        ],
+        "correct": 3,
+        "feedback": "La instrucción ONBUILD nos permite incluir, en la imagen que usaremos como plantilla o base, un comando que será ejecutado más adelante, cuando la imagen que estamos generando sea usada posteriormente como imagen base de otra referenciándola con la instrucción FROM."
+      },
+      {
+        "pregunta": "¿Qué comando de Docker nos permite listar las capas que componen una imagen?:",
+        "resp": [
+          {
+            "texto": "docker images stacks"
+          },
+          {
+            "texto": "docker image details"
+          },
+          {
+            "texto": "docker search"
+          },
+          {
+            "texto": "docker image history"
+          }
+        ],
+        "correct": 3,
+        "feedback": "El comando docker image history, o simplemente docker history, nos lista las diferentes capas que componen una imagen."
+      }
+    ]
+  },
+  {
+    "nombre": "test03",
+    "test": [
+      {
+        "pregunta": "¿Con qué comando podemos copiar ficheros de un contenedor al sistema de ficheros local?:",
+        "resp": [
+          {
+            "texto": "docker extract"
+          },
+          {
+            "texto": "docker cp"
+          },
+          {
+            "texto": "No hace falta, el sistema de ficheros del contenedor siempre está montado en el sistema de ficheros local."
+          },
+          {
+            "texto": "No es posible."
+          }
+        ],
+        "correct": 1,
+        "feedback": "El comando docker cp nos permite copiar ficheros y directorios entre el sistema de ficheros local y el del contenedor."
+      },
+      {
+        "pregunta": "¿En qué estado queda un contenedor cuando finaliza su ejecución?:",
+        "resp": [
+          {
+            "texto": "Finalized."
+          },
+          {
+            "texto": "Stopped."
+          },
+          {
+            "texto": "Removed."
+          },
+          {
+            "texto": "Exited."
+          }
+        ],
+        "correct": 3,
+        "feedback": "El estado Exited indica que la ejecución del contenedor ha finalizado."
+      },
+      {
+        "pregunta": "¿Cuál es el controlador de red por defecto cuando creamos una red?:",
+        "resp": [
+          {
+            "texto": "Host"
+          },
+          {
+            "texto": "None"
+          },
+          {
+            "texto": "Bridge"
+          },
+          {
+            "texto": "Macvlan"
+          }
+        ],
+        "correct": 2,
+        "feedback": "El controlador de red por defecto es bridge. Si no se especifica ninguna se creará una red de este tipo."
+      },
+      {
+        "pregunta": "Relaciona los siguientes\nconceptos:",
+        "resp": [],
+        "options": [
+          "Overlay",
+          "Host",
+          "Bridge",
+          "None"
+        ],
+        "rels": [
+          "Conecta servicios y contenedores en diferentes nodos.",
+          "Elimina aislamiento de red entre host y contenedor.",
+          "Permite conectar contenedores en un mismo host.",
+          "Deshabilita las redes del contenedor."
+        ],
+        "feedback": "Respuesta correcta"
+      },
+      {
+        "pregunta": "¿Qué comando nos permite eliminar las redes que no están en uso?:",
+        "resp": [
+          {
+            "texto": "docker network purge"
+          },
+          {
+            "texto": "docker network prune"
+          },
+          {
+            "texto": "docker network clean"
+          },
+          {
+            "texto": "docker network rm --unused"
+          }
+        ],
+        "correct": 1,
+        "feedback": "El comando docker network prune nos permite eliminar todas las redes que no están siendo utilizadas."
+      },
+      {
+        "pregunta": "Si ejecutamos un contenedor de la siguiente manera: $ docker run --name B --link A:aliasA appimage",
+        "resp": [
+          {
+            "texto": "El contenedor B podrá llegar al A por su nombre y alias, pero no por su IP."
+          },
+          {
+            "texto": "El contenedor B podrá llegar al A por su IP, nombre y alias."
+          },
+          {
+            "texto": "El contenedor B solo podrá llegar al A si este último también esta enlazado explícitamente con el primero."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Al enlazar el contenedor se crea una entrada en el fichero /etc/hosts que permite referenciar al contenedor por el nombre y, opcionalmente, también por el alias especificado."
+      },
+      {
+        "pregunta": "¿Cómo conectamos un contenedor en ejecución a una red ya existente?:",
+        "resp": [
+          {
+            "texto": "docker network connect miRed miContenedor"
+          },
+          {
+            "texto": "docker network link miContenedor miRed"
+          },
+          {
+            "texto": "Todas las anteriores"
+          },
+          {
+            "texto": "No es posible, el contenedor ya está en ejecución."
+          }
+        ],
+        "correct": 0,
+        "feedback": "El comando docker network connect permite conectar una red a un contenedor. Si quisiéramos conectar un contenedor a una red cuando lo ejecutamos con docker run utilizaríamos la opción --network. El comando docker network link no existe."
+      },
+      {
+        "pregunta": "Relaciona los siguientes\nconceptos:",
+        "resp": [],
+        "options": [
+          "Volumes",
+          "Bind mounts",
+          "Tmpfs mounts",
+          "Bind mounts"
+        ],
+        "rels": [
+          "Gestionado por Docker, solo accesible desde el host por comandos de Docker.",
+          "Los procesos del sistema anfitrión pueden modificarlos.",
+          "El almacenamiento se encuentra en la memoria del host.",
+          "El almacenamiento se encuentra en cualquier parte del sistema de ficheros del host."
+        ],
+        "feedback": "Respuesta correcta"
+      },
+      {
+        "pregunta": "Si ejecutamos un contenedor de la siguiente manera:Figura 8. Código de la pregunta 9. Fuente: elaboración propia.",
+        "resp": [
+          {
+            "texto": "Montará el volumen de Docker llamado «mis-datos» en la ruta /datos del contenedor."
+          },
+          {
+            "texto": "Montará el bind mount llamado «mis-datos» en la ruta /datos del host."
+          },
+          {
+            "texto": "Creará un tmpfs mount llamado «mis-datos» y los montará en la ruta /datos del host."
+          },
+          {
+            "texto": "Dará un error por no haber indicado el tipo de almacenamiento."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Ejecutará un contenedor montando un volumen de Docker llamado mis-datos en la ruta /datos del contenedor. Si el volumen no existe, creará uno vacío."
+      },
+      {
+        "pregunta": "¿Qué comando podríamos utilizar para obtener información sobre los procesos en ejecución de un contenedor?:",
+        "resp": [
+          {
+            "texto": "docker top"
+          },
+          {
+            "texto": "docker stats"
+          },
+          {
+            "texto": "docker exec"
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "correct": 3,
+        "feedback": "El comando docker top nos muestra los procesos en ejecución en un contenedor.El comando docker stats nos muestra en vivo el uso de recursos de los contenedores, incluyendo el numero de procesos del contenedor.El comando docker exec podría utilizarse para ejecutar un comando que muestre información de los procesos, por ejemplo, docker exec  ps."
+      }
+    ]
+  }
+]

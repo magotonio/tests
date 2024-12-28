@@ -1,0 +1,782 @@
+[
+  {
+    "nombre": "test01",
+    "test": [
+      {
+        "pregunta": "¿Cuáles son los objetivos de la gestión de proyectos?",
+        "resp": [
+          {
+            "texto": "Análisis de requisitos, diseño de la arquitectura, implementación del sistema, evaluación y pruebas del resultado final."
+          },
+          {
+            "texto": "Beneficiar a las empresas siempre sobre la fase de una metodología tradicional."
+          },
+          {
+            "texto": "Entregar al cliente siempre un producto viable y cumpliendo los requisitos, sea cual sea la viabilidad del trabajo."
+          },
+          {
+            "texto": "Análisis de viabilidad del proyecto, planificación del trabajo, ejecución del proyecto, seguimiento y control del trabajo, cierre del proyecto."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Estos son los objetivos o fases sobre los que se apoya la gestión de proyectos para obtener beneficios para las empresas)."
+      },
+      {
+        "pregunta": "En la gestión de proyectos en la realidad, ¿cuál de las razones siguientes no se puede asegurar?",
+        "resp": [
+          {
+            "texto": "Los equipos de desarrollo descubren la forma más efectiva de ejecutar el trabajo cuando se realiza la ejecución."
+          },
+          {
+            "texto": "Los clientes o usuarios no saben lo que quieren hasta que no ven el software funcionando."
+          },
+          {
+            "texto": "Durante el desarrollo del proyecto los requisitos siempre serán los mismos."
+          },
+          {
+            "texto": "Cuando se desarrolla el proyecto pueden surgir cambios y hay que adaptarse."
+          }
+        ],
+        "correct": 2,
+        "feedback": "No se puede asegurar que los requisitos y funcionalidades del proyecto no varíen, por lo que hay que adaptarse a lo que el cliente va requiriendo, cambios."
+      },
+      {
+        "pregunta": "Una de las razones del éxito del enfoque ágil es:",
+        "resp": [
+          {
+            "texto": "El coste mínimo del trabajo del equipo de desarrollo."
+          },
+          {
+            "texto": "La mejora en la implementación de un proyecto tradicional."
+          },
+          {
+            "texto": "El hecho de tener una comunicación transparente y más abierta entre los equipos."
+          },
+          {
+            "texto": "La buena documentación generada."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Con el enfoque ágil, las personas son el centro, en base a su conocimiento y la propia colaboración el equipo."
+      },
+      {
+        "pregunta": "¿En qué tipo de proyectos se recomienda el uso de la metodología ágil?",
+        "resp": [
+          {
+            "texto": "En los que los requisitos no varíen a lo largo del proyecto."
+          },
+          {
+            "texto": "En los que los requisitos y funcionalidades no estén del todo definidos desde el inicio y puedan tener cambios."
+          },
+          {
+            "texto": "En los que las funcionalidades varían en un nivel determinado desde el principio."
+          },
+          {
+            "texto": "En los que los clientes lo solicitan."
+          }
+        ],
+        "correct": 1,
+        "feedback": "En los proyectos donde no varían los requisitos y funcionalidades, se pueden usar metodologías tradicionales, cuando hay cambios es recomendable metodologías ágiles."
+      },
+      {
+        "pregunta": "En la relación entre el desarrollo de software ágil y DevOps:",
+        "resp": [
+          {
+            "texto": "Solo puede hacerse uso del agilismo en DevOps cuando se conocen los cambios."
+          },
+          {
+            "texto": "En realidad no se deberían usar a la vez, o bien uno u otro paradigma."
+          },
+          {
+            "texto": "DevOps le da la posibilidad al desarrollo software a la gestión continua de los cambios."
+          },
+          {
+            "texto": "El movimiento DevOps apuesta por ciclos de desarrollo cortos con lanzamientos confiables, alineado con los objetivos de la agilidad."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Es esta alineación la que hace que exista una relación importante, no cuestiones como que uno y otro tengan una dependencia, como se indica en otras respuestas."
+      },
+      {
+        "pregunta": "¿Qué tipo de enfoque se centra en un avance iterativo e incremental?",
+        "resp": [
+          {
+            "texto": "El enfoque ágil."
+          },
+          {
+            "texto": "El enfoque tradicional."
+          },
+          {
+            "texto": "Una metodología mixta entre enfoque ágil y tradicional."
+          },
+          {
+            "texto": "Se puede usar cualquier tipo de enfoque, pues no depende de esto."
+          }
+        ],
+        "correct": 0,
+        "feedback": "En los proyectos ágiles las iteraciones se ejecutan para realizar incrementos sobre el producto generado en cada iteración."
+      },
+      {
+        "pregunta": "El número de personas trabajando en un equipo ágil:",
+        "resp": [
+          {
+            "texto": "Siempre es variable y sin un límite, dependiendo del departamento."
+          },
+          {
+            "texto": "Se suele trabajar con equipos pequeños, de entre una y cinco personas, nunca más."
+          },
+          {
+            "texto": "Se manejan equipos de trabajos pequeños, normalmente no más de quince personas, dependiendo del proyecto."
+          },
+          {
+            "texto": "Se puede usar cualquier tipo de enfoque, pues no depende de esto."
+          }
+        ],
+        "correct": 2,
+        "feedback": "No es que sea un límite de valor absoluto, pero se recomienda grupos reducidos, aunque no tiene porqué estar entre una y cinco; y si en un proyecto se requieren cien personas, se harán varios equipos de ocho-diez personas en cada equipo."
+      },
+      {
+        "pregunta": "La principal diferencia entre el agilismo y DevOps:",
+        "resp": [
+          {
+            "texto": "Se debe a que no son para nada compatibles entre ellos."
+          },
+          {
+            "texto": "Es porque DevOps sólo puede usarse con metodologías tradicionales."
+          },
+          {
+            "texto": "Radica en que el agilismo trabaja con equipos reducidos, y DevOps siempre debe tener equipos amplios por la complejidad."
+          },
+          {
+            "texto": "Radica en los equipos de trabajo, porque en el agilismo los miembros se adaptan a cambios en el desarrollo y se apoyan, y en DevOps se unen equipo de desarrollo y operaciones."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Esta es la principal diferencia y, además, antes de la cultura DevOps no existía una interacción a nivel de comunicación y trabajo continuo entre el equipo de desarrollo y el de operaciones."
+      },
+      {
+        "pregunta": "¿Cuándo se obtiene un producto viable mínimo?",
+        "resp": [
+          {
+            "texto": "Solo cuando se aplican metodologías tradicionales junto con DevOps."
+          },
+          {
+            "texto": "Solo cuando se aplican metodologías ágiles junto con DevOps."
+          },
+          {
+            "texto": "Cuando se aplican metodologías ágiles, en cada iteración y en plazos cortos."
+          },
+          {
+            "texto": "Cuando se desarrolla un proyecto mediante la idea de DevOps se asegura."
+          }
+        ],
+        "correct": 2,
+        "feedback": "En una propuesta ágil, se van obteniendo MVP en cada iteración que se enriquece en las siguientes, y no tiene por qué emplearse DevOps."
+      },
+      {
+        "pregunta": "En DevOps se incluyen una serie de principios o prácticas en las fases de desarrollo, ¿cuáles son algunos de estos?",
+        "resp": [
+          {
+            "texto": "Desarrollo continuo, integración continua, entrega continua, supervisión continua."
+          },
+          {
+            "texto": "Análisis de requisitos, diseño, implementación y pruebas."
+          },
+          {
+            "texto": "Los mismos principios que los que tiene el enfoque ágil."
+          },
+          {
+            "texto": "Hacer equipos pequeños, reducir costes, no realizar cambios continuos y trabajar con metodología tradicional."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Estas prácticas son algunas de las que permiten una base de automatización y mejora continua en DevOps."
+      }
+    ]
+  },
+  {
+    "nombre": "test02",
+    "test": [
+      {
+        "pregunta": "El Manifiesto Ágil tiene como objetivo principal:",
+        "resp": [
+          {
+            "texto": "Realizar un análisis de un proyecto previo al desarrollo."
+          },
+          {
+            "texto": "Mejorar la aplicación de la metodología tradicional mediante una herramienta de prueba y error."
+          },
+          {
+            "texto": "Establecer un conjunto de valores y principios como guía a seguir para un desarrollo de calidad, rápido y adaptado a requisitos cambiantes."
+          },
+          {
+            "texto": "Estudiar la viabilidad de un proyecto desde su inicio hasta el final, y sin considerar cambios en tiempo real."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Lo fundamental fue el aglutinar estos valores y principios en un Manifiesto con esta finalidad de servir de modelo."
+      },
+      {
+        "pregunta": "¿Cuál de estos no es uno de los valores del Manifiesto Ágil?",
+        "resp": [
+          {
+            "texto": "Valorar más a los individuos e interacciones sobre procesos y herramientas."
+          },
+          {
+            "texto": "Valorar más la negociación de un contrato con el cliente sobre la colaboración con dicho cliente o usuario final."
+          },
+          {
+            "texto": "Valorar más el producto entregable que funciona sobre documentación exhaustiva."
+          },
+          {
+            "texto": "Valorar más la respuesta a cambios sobre seguir un plan estricto."
+          }
+        ],
+        "correct": 1,
+        "feedback": "El resto de los valores son ciertos, y este es justo al revés, se debe valorar la colaboración con el cliente sobre negociar el contrato."
+      },
+      {
+        "pregunta": "Entre los siguientes, ¿cuál no cumple con los principios del Manifiesto Ágil?",
+        "resp": [
+          {
+            "texto": "Los proyectos se desarrollan con un de individuos motivados."
+          },
+          {
+            "texto": "El método más eficiente y efectivo para comunicar información al equipo de desarrollo es el conversar entre ellos."
+          },
+          {
+            "texto": "El producto final y funcionando es la medida principal de progreso."
+          },
+          {
+            "texto": "Los procesos ágiles no pueden asegurar el desarrollo sostenible."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Justo lo contrario, deben promover el desarrollo sostenible, manteniendo un ritmo constante de trabajo."
+      },
+      {
+        "pregunta": "¿Debe una empresa hacer uso de metodología tradicional y ágil al mismo tiempo?",
+        "resp": [
+          {
+            "texto": "En ningún caso se pueden aplicar ambas metodologías en la misma empresa."
+          },
+          {
+            "texto": "Es difícil que un equipo de desarrollo trabaje en una metodología tradicional y que luego pase a ágil."
+          },
+          {
+            "texto": "Puede haber empresas que usen ambas metodologías, según el proyecto a desarrollar."
+          },
+          {
+            "texto": "Puede haber empresas que usen ambas metodologías, según el equipo de desarrollo y sus habilidades."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Se pueden usar ambas en distintos proyectos, y no depende del equipo de desarrollo, sino del proyecto en sí, si habrá cambios o no."
+      },
+      {
+        "pregunta": "¿Cuáles son los principios de Scrum?",
+        "resp": [
+          {
+            "texto": "La transparencia en el avance y comunicación, la inspección con revisiones a corto plazo, y la adaptación cuando surge nueva información."
+          },
+          {
+            "texto": "La transparencia en la comunicación, las revisiones cada varias iteraciones, y la adaptación a los cambios que considere el equipo de desarrollo."
+          },
+          {
+            "texto": "El obtener resultados lo más rápido posible y adaptándose a cambios, ya sea mediante la aplicación de metodología tradicional o ágil."
+          },
+          {
+            "texto": "Los indicados en el Manifiesto Ágil salvo que Scrum tiene su propio esquema de trabajo."
+          }
+        ],
+        "correct": 0,
+        "feedback": "En Scrum se contemplan los principios indicados en el Manifiesto Ágil que se centra en estos que se señalan aquí, y se aplica como metodología ágil, no tradicional."
+      },
+      {
+        "pregunta": "Lean es:",
+        "resp": [
+          {
+            "texto": "Un enfoque ágil enfocado a ser aplicado en fábricas de producción de sistemas físicos."
+          },
+          {
+            "texto": "Una metodología ágil que indica paso por paso cómo se puede alcanzar el valor esperado por el cliente."
+          },
+          {
+            "texto": "Una síntesis entre un conjunto de principios y un pensamiento para obtener productos diferentes y basados en la metodología ágil."
+          },
+          {
+            "texto": "Una metodología que, mediante una serie de pasos a aplicar, da valor al cliente, realiza mejora continua y ayuda a eliminar desperdicio."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Lean no es una metodología, es un enfoque o una filosofía sobre la que usar los principios o guía en la construcción de productos."
+      },
+      {
+        "pregunta": "Kanban no es:",
+        "resp": [
+          {
+            "texto": "Una metodología que define un conjunto de buenas prácticas usando un desarrollo incremental, con historias de usuario y tareas."
+          },
+          {
+            "texto": "Una herramienta para mostrar las tareas que se van desarrollando en un proyecto."
+          },
+          {
+            "texto": "Tanto una metodología como una herramienta que permite usar un conjunto de buenas prácticas haciendo uso de un tablero para indicar la evolución del proyecto."
+          },
+          {
+            "texto": "Tanto una metodología como una herramienta que automáticamente va mostrando la evolución del proyecto definido."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Kanban es tanto una metodología como una herramienta, por tanto, todas implican esto, pero no muestra automáticamente la evolución del proyecto, se debe hacer con el desarrollo incremental, con las historias de usuario y las tareas modificadas por el equipo en el tablero Kanban."
+      },
+      {
+        "pregunta": "¿Se pueden combinar las metodologías ágiles?",
+        "resp": [
+          {
+            "texto": "Varios enfoques o metodologías ágiles se pueden usar en conjunto, por ejemplo, Lean y Scrum, junto con Kanban."
+          },
+          {
+            "texto": "Siempre que sean enfoques que con la misma filosofía y que no ralenticen el proyecto."
+          },
+          {
+            "texto": "La unión de metodologías y enfoques ágiles no aporta valor al proyecto."
+          },
+          {
+            "texto": "Solo se podrían combinar en caso de que el cliente lo acepte, pues puede hacer que el proyecto se ralentice."
+          }
+        ],
+        "correct": 0,
+        "feedback": "No hay problema a combinar algunos enfoques y metodologías ágiles, pues aportan un valor añadido a los proyectos."
+      },
+      {
+        "pregunta": "Entre las ventajas de unir diferentes metodologías y enfoque ágiles, se encuentran las siguientes:",
+        "resp": [
+          {
+            "texto": "Se propone minimizar la documentación, maximizar resultados, no se pueden dar cambios, y hay autogestión de personas y trabajo."
+          },
+          {
+            "texto": "Se propone minimizar la documentación, maximizar resultados, se pueden dar cambios, y hay autogestión de personas y trabajo."
+          },
+          {
+            "texto": "Se propone maximizar la documentación, maximizar resultados, no se pueden dar cambios, y hay autogestión de personas y trabajo."
+          },
+          {
+            "texto": "Se propone minimizar la documentación, maximizar resultados, no se pueden dar cambios, y hay un jefe de proyecto."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Estos son los aspectos por concluir cuando se combinar diferentes metodologías y enfoques ágiles y se refuerzan todas las ventajas del pensamiento ágil."
+      },
+      {
+        "pregunta": "¿Cuándo se aplica frameworks de escalado ágil?",
+        "resp": [
+          {
+            "texto": "Cuando existen empresas pequeñas que no pueden aplicar los enfoques ágiles comunes."
+          },
+          {
+            "texto": "Cuando existen empresas grandes que no pueden aplicar las metodologías tradicionales."
+          },
+          {
+            "texto": "Cuando en un proyecto de grandes dimensiones no se pueden producir cambios en los requisitos."
+          },
+          {
+            "texto": "Cuando en un proyecto de grandes dimensiones no se pueden resolver ciertos aspectos con los enfoques ágiles, como la predictibilidad, la comercialización, la calidad y la visibilidad."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Hay ocasiones que las metodologías y enfoques ágiles comunes no se pueden usar en proyectos de dimensiones importante, y suele ocurrir en grandes organizaciones, por lo que se aplican los frameworks de escalado ágil."
+      }
+    ]
+  },
+  {
+    "nombre": "test03",
+    "test": [
+      {
+        "pregunta": "¿Cómo se origina Scrum?",
+        "resp": [
+          {
+            "texto": "Scrum se origina tras el poco éxito de Lean, en el que se apoya para poder aplicar la metodología ágil."
+          },
+          {
+            "texto": "Se origina como marco de trabajo ágil fundamental con aprendizaje empírico y autogestión, y se basa en el pensamiento Lean, centrándose en lo esencial."
+          },
+          {
+            "texto": "Surge después de los errores continuos en los que incurrían los proyectos desarrollados con metodología tradicional."
+          },
+          {
+            "texto": "Scrum se origina por la necesidad de cubrir algunos principios que no estaban incluidos en el Manifiesto Ágil."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Efectivamente, Scrum se basa en Lean, y no pretende cubrir otras cuestiones, sino que es un marco de trabajo y Lean es una filosofía."
+      },
+      {
+        "pregunta": "¿Qué tipo de errores se producen en algunas organizaciones al aplicar Scrum?",
+        "resp": [
+          {
+            "texto": "No se mantiene colaboración cliente y equipo de desarrollo, hay falta de liderazgo, no hay empatía, el equipo no es maduro."
+          },
+          {
+            "texto": "No se establece un liderazgo en el equipo de desarrollo con un jefe de proyecto."
+          },
+          {
+            "texto": "La implementación no se basa en el diseño que se genera durante el proceso de desarrollo."
+          },
+          {
+            "texto": "No hay una evaluación de producto final por parte del jefe de proyecto líder."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Estos son algunos de los errores fundamentales que se producen en organizaciones que no aplican correctamente Scrum."
+      },
+      {
+        "pregunta": "En LaGuía de Scrum 2020 se han realizado algunos cambios respecto a la de 2017, entre los que se incluyen estos aspectos:",
+        "resp": [
+          {
+            "texto": "Ya no se habla de Scrum Master sino de Scrum Lider."
+          },
+          {
+            "texto": "Ahora se habla de autoorganización y equipo se centra en el cliente."
+          },
+          {
+            "texto": "Se ha reducido la guía y se ha añadido un cambio de filosofía, y el Sprint se centra en el Por qué."
+          },
+          {
+            "texto": "Se ha hecho la guía menos prescriptiva, se habla de autogestión en vez de autoorganización, y en la planificación del Sprint se añade el por qué, además de qué y cómo."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Ha habido algunos cambios, no muy grandes, pero interesantes, entre los que se encuentras los aquí indicados."
+      },
+      {
+        "pregunta": "¿Cuáles son los pilares empíricos de Scrum?",
+        "resp": [
+          {
+            "texto": "Transparencia, inspección y adaptación."
+          },
+          {
+            "texto": "Transparencia, inspección e interoperabilidad."
+          },
+          {
+            "texto": "Transparencia, velocidad e interoperabilidad."
+          },
+          {
+            "texto": "Transparencia, inspección y gestión de análisis."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Estos son los pilares empíricos que se han añadido a la Guía de Scrum."
+      },
+      {
+        "pregunta": "¿Cuáles son los valores de Scrum?",
+        "resp": [
+          {
+            "texto": "Compromiso, visibilidad, sinceridad, respeto y rapidez."
+          },
+          {
+            "texto": "Compromiso, enfoque, sinceridad, respeto y rapidez."
+          },
+          {
+            "texto": "Compromiso, enfoque, sinceridad, respeto y coraje."
+          },
+          {
+            "texto": "Compromiso, enfoque, visibilidad, respeto y coraje."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Estos son los valores sobre los que se fundamenta Scrum."
+      },
+      {
+        "pregunta": "Cuando se habla de los roles de Scrum, se considera:",
+        "resp": [
+          {
+            "texto": "El Product Owner, el Scrum Master y el equipo DevOps."
+          },
+          {
+            "texto": "Uno de los cambios fundamentales en la Guía de Scrum 2020 ha sido que se sustituye roles directamente por responsabilidades."
+          },
+          {
+            "texto": "Uno de los cambios fundamentales en la Guía de Scrum 2020 ha sido que se sustituye responsabilidades y se habla de roles."
+          },
+          {
+            "texto": "Se habla de responsabilidades, y serían el Product Owner, el Scrum Lider y los Desarrolladores."
+          }
+        ],
+        "correct": 1,
+        "feedback": "En los proyectos ágiles las iteraciones se ejecutan para realizar incrementos sobre el producto generado en cada iteración."
+      },
+      {
+        "pregunta": "Entre las funciones principales del Scrum Master, se encuentran la siguientes:",
+        "resp": [
+          {
+            "texto": "Impulsar la adopción de agilidad, autogestión, multifuncionalidad, ser el líder del equipo Scrum, gestionar los problemas y delegar el aseguramiento de los eventos."
+          },
+          {
+            "texto": "Impulsar la adopción de agilidad, autoorganización, asignar tareas, ser el líder único del equipo Scrum, gestionar los problemas y asegurar la ejecución de los eventos."
+          },
+          {
+            "texto": "Impulsar la adopción de agilidad, autogestión, multifuncionalidad, ser el único líder del equipo Scrum, gestionar los problemas y delegar el aseguramiento de los eventos."
+          },
+          {
+            "texto": "Impulsar la adopción de agilidad, autogestión, multifuncionalidad, ser el líder del equipo Scrum, gestionar los problemas y asegurar la ejecución de los eventos."
+          }
+        ],
+        "correct": 3,
+        "feedback": "No es que sea un límite de valor absoluto, pero se recomienda grupos reducidos, aunque no tiene por qué estar entre uno y cinco; y si en un proyecto se requieren cien personas, se harán varios equipos de ocho-diez personas en cada equipo."
+      },
+      {
+        "pregunta": "¿Qué es un Sprint en Scrum?",
+        "resp": [
+          {
+            "texto": "El Sprint es un contenedor para los diferentes eventos del proyecto, como la planificación, Scrum diario, revisión del propio Sprint y retrospectiva de este."
+          },
+          {
+            "texto": "El Sprint es un artefacto de Scrum que lleva información de las reuniones con el cliente para los cambios necesarios."
+          },
+          {
+            "texto": "El Sprint es la fase en la que se lleva a cabo la iteración para establecer lo que el Product Backlog indica, y no puede tener cambios durante dicha iteración."
+          },
+          {
+            "texto": "El Sprint es la meta a la que llega el resultado del proyecto tras las iteraciones finales."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Estas son las características que engloban el Sprint de Scrum."
+      },
+      {
+        "pregunta": "¿Qué son los artefactos en Scrum y cuáles son?",
+        "resp": [
+          {
+            "texto": "Son la guía de autogestión del desarrollo, y anota los requisitos del proyecto que se van a implementar. Se tienen el Product Backlog, el Sprint Backlog y la Retrospectiva."
+          },
+          {
+            "texto": "Son los elementos que forman la base de la productividad y calidad del proyecto. Se tienen el Product Backlog, el Sprint Backlog y el Incremento."
+          },
+          {
+            "texto": "Son los elementos funcionales que establecen los intereses de los clientes. Se tienen el Product Backlog, el Sprint y la Retrospectiva."
+          },
+          {
+            "texto": "Son un conjunto de componentes del proyecto que deben ser asignados a cada miembro del equipo de desarrollo. Se tienen el Product Backlog, el Sprint y la Iteración."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Son estos tres artefactos que combinan como elementos necesarios para la productividad y calidad."
+      },
+      {
+        "pregunta": "Entre los compromisos del Product Backlog, se tiene:",
+        "resp": [
+          {
+            "texto": "Desarrollo de entrega continua y seguimiento de iteraciones."
+          },
+          {
+            "texto": "Análisis y gestión de los requisitos en cada iteración."
+          },
+          {
+            "texto": "Describe un estado futuro del producto como objetivo a largo plazo y que, si no se cumple, se puede cambiar el requisito correspondiente."
+          },
+          {
+            "texto": "Describe un estado futuro del producto como objetivo a largo plazo y que se debe cumplir antes de continuar."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Siempre se deben cumplir los objetivos marcados para continuar."
+      }
+    ]
+  },
+  {
+    "nombre": "test04",
+    "test": [
+      {
+        "pregunta": "Lean es una filosofía que consiste en:",
+        "resp": [
+          {
+            "texto": "Que todo negocio debe maximizar el valor dado al cliente y reducir las incidencias o despilfarros."
+          },
+          {
+            "texto": "Que toda organización debe minimizar el valor dado al cliente y garantizar que no haya incidencias o despilfarros."
+          },
+          {
+            "texto": "Que todo negocio debe implicar al cliente, cubrir sus necesidades y aplicar la metodología tradicional o ágil que sea necesaria."
+          },
+          {
+            "texto": "Que todo negocio debe maximizar el valor que se le da al cliente, cubrir sus necesidades y aplicar la metodología tradicional o ágil que sea necesaria."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Este es el objetivo principal detrás del pensamiento Lean."
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia entre Lean Management y Lean Manufacturing?",
+        "resp": [
+          {
+            "texto": "Lean Management se refiere a la aplicación de las técnicas de producción y Lean Manufacturing a la gestión de implantar Lean."
+          },
+          {
+            "texto": "Lean Management se refiere a gestión de implantar Lean y Lean Manufacturing a la aplicación de las técnicas de implementación de los sistemas en caliente."
+          },
+          {
+            "texto": "Lean Management se refiere a gestión de implantar Lean y Lean Manufacturing a la aplicación de las técnicas de producción."
+          },
+          {
+            "texto": "Lean Management se refiere a gestión de evaluar Lean y Lean Manufacturing a la aplicación de las técnicas de producción."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Estos son algunos de los errores fundamentales que se producen en organizaciones que no aplican correctamente Scrum."
+      },
+      {
+        "pregunta": "Entre los aspectos que suponen despilfarros o desperdicios en Lean, algunos son los siguientes:",
+        "resp": [
+          {
+            "texto": "Sobreproducción, porque se abarquen más requisitos de lo que se puede desarrollar, y transporte porque la logística sea complicada."
+          },
+          {
+            "texto": "Exceso de inventario, porque se generan productos que no llegan a usarse por los clientes, y esperas porque se requiera de respuestas o acciones de otros miembros del equipo para continuar."
+          },
+          {
+            "texto": "Movimientos innecesarios, por tener que trasladarse a departamentos o buscar continuamente herramientas, y esperas porque se requiera de respuestas o acciones de otros miembros del equipo para continuar."
+          },
+          {
+            "texto": "Defectos de producción, por no tener en consideración la opinión del cliente y generar productos defectuosos, y desaprovechamiento del talento por no escuchar esas ideas buenas del cliente."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Hay 7+1 = 8 despilfarros, aquí se describen algunos, lo importante es entender lo que se asocia a los que se indican."
+      },
+      {
+        "pregunta": "¿Cuáles son los principios de Lean?",
+        "resp": [
+          {
+            "texto": "Valor de cliente y calidad, eliminar desperdicios, mejora integra, procesos push, flexibilidad, y relación a largo plazo con proveedores."
+          },
+          {
+            "texto": "Valor de cliente y calidad, eliminar desperdicios, mejora continua, procesos push, flexibilidad, y relación a largo plazo con proveedores."
+          },
+          {
+            "texto": "Valor de cliente y calidad, eliminar desperdicios, mejora continua, procesos pull, flexibilidad, y relación a largo plazo con proveedores."
+          },
+          {
+            "texto": "Valor de cliente y calidad, eliminar desperdicios, mejora continua, procesos pull, facilidad, y relación a largo plazo con proveedores."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Estos son los pilares principios básicos de Lean."
+      },
+      {
+        "pregunta": "Imaginemos que una empresa quiere implantar Lean en su modelo de trabajo, ¿qué aspectos debería tener en cuenta?",
+        "resp": [
+          {
+            "texto": "Compromiso de la dirección y los clientes, darles valor a los requisitos pedidos por el cliente, y trabajo continuo."
+          },
+          {
+            "texto": "Compromiso de la dirección, localizar el valor del producto, implicar a la gente al trabajo de coste mínimo, y pensamiento de procesos."
+          },
+          {
+            "texto": "Compromiso de la dirección, localizar el valor de la colaboración entre la dirección y el equipo de desarrollo, implicar a la gente al trabajo real, y pensamiento de procesos."
+          },
+          {
+            "texto": "Compromiso de la dirección, localizar el valor del cliente y la calidad, implicar a la gente al trabajo real, y pensamiento de procesos."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Es fundamental que la dirección esté implicada, y a partir de ahí, dar valor al cliente, a tener procesos de calidad e implicar a las personas del equipo de desarrollo y la empresa en general a aplicar el pensamiento Lean."
+      },
+      {
+        "pregunta": "¿Puede ser un Kanban utilizado sobre una herramienta digital?",
+        "resp": [
+          {
+            "texto": "Siempre debe ser sobre tablero físico."
+          },
+          {
+            "texto": "Sí, en el caso que participen pocas personas, para llevar mejor control."
+          },
+          {
+            "texto": "Solo en caso de usar herramientas con licencia para usar Kanban."
+          },
+          {
+            "texto": "Sí, se puede hacer tanto físico como digital."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Es de hecho una realidad que, debido a la deslocalización de los equipos de trabajo, cada día se hace más uso de herramientas digitales."
+      },
+      {
+        "pregunta": "Los principios en los que se fundamenta Kanban incluyen:",
+        "resp": [
+          {
+            "texto": "Objetivos de cambios incrementales, cada miembro es líder, mejora continua y colaborativa, proceso claro, virtualizar y gestionar el flujo de trabajo."
+          },
+          {
+            "texto": "Objetivos de cambios iterativos, cada miembro tiene un jefe como líder, mejora continua y colaborativa, proceso claro, virtualizar y gestionar los requisitos dados por el cliente."
+          },
+          {
+            "texto": "Objetivos de cambios incrementales, cada miembro es líder, mejora colaborativa, proceso claro, virtualizar y gestionar los requisitos dados por el cliente."
+          },
+          {
+            "texto": "Objetivos de cambios incrementales, cada miembro tiene un jefe como líder, mejora continua y colaborativa, proceso claro, virtualizar y gestionar el flujo de trabajo."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Aquí se incluyen algunos de los principios de Kanban."
+      },
+      {
+        "pregunta": "¿Qué aspectos debe considerar un tablero Kanban con un buen diseño?",
+        "resp": [
+          {
+            "texto": "Que indique las diferentes tareas que se deben realizar, que use bastantes colores para identificarlas y que se ponga información de los tiempos de ejecución de las tareas."
+          },
+          {
+            "texto": "Se pueden usar colores, pero no de manera excesiva, pues puede dar lugar a confusión."
+          },
+          {
+            "texto": "Un buen diseño puede ser estructurado, con la información que sea fácil de leer, visible, entendible, que no use excesiva cantidad de colores y que se identifique bien las asignaciones a miembros.  (No hay una regla única para un buen diseño, sobretodo se alcanza con la práctica, pero sí que se puede considerar evitar algunos aspectos como los indicados)."
+          },
+          {
+            "texto": "Identificar claramente quién hace cada tarea y quién es el responsable de cada miembro del equipo de desarrollo."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Aquí se incluyen algunos de los principios de Kanban."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes opciones puede ser la mejor para reflejar quién está haciendo una tarea en Kanban?",
+        "resp": [
+          {
+            "texto": "Asignar la tarea al Scrum Master."
+          },
+          {
+            "texto": "Indicarlo con un número en la tarjeta."
+          },
+          {
+            "texto": "Indicarlo al Product Owner, y que decida. "
+          },
+          {
+            "texto": "Asignar la tarea al facilitador. "
+          }
+        ],
+        "correct": 3,
+        "feedback": "Una de las tareas del facilitador es que debe hacerse cargo de la gestión de las dependencias con otras organizaciones o proyectos. "
+      },
+      {
+        "pregunta": "Cuando se usa Kanban en un proyecto, ¿cuál de estas no incluye buenas prácticas?",
+        "resp": [
+          {
+            "texto": "Una tarea solo se asigna a una persona, las tareas se mueven hacia la derecha, pocas tareas en cada columna y no más de tres o cuatro personas asignadas a la vez a una tarea."
+          },
+          {
+            "texto": "No se pueden producir cambios dentro de un Timebox una vez comience una iteración, aunque las tareas se pueden distribuir en tantas personas del equipo como miembros haya trabajado en el proyecto, para agilizar el proceso."
+          },
+          {
+            "texto": "Debe haber pocas tareas asignadas por persona simultáneamente, y las tareas pueden ir hacia la derecha, o retroceder si ocurren errores o inconvenientes."
+          },
+          {
+            "texto": "Una tarea solo se asigna a una persona en principio, si esta no puede llevarla a cabo entonces se coge al siguiente en la lista y se le asigna, mientras todo se queda bloqueado."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Son aspectos importantes que deben considerarse para hacer un buen uso de Kanban, de lo contrario no se estará aplicando bien la metodología / herramienta."
+      }
+    ]
+  }
+]

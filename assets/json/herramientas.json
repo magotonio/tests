@@ -1,0 +1,1972 @@
+﻿[
+  {
+    "nombre": "test01",
+    "test": [
+      {
+        "pregunta": "¿Cuáles de las siguientes fases pertenecen a la definición del ciclo DevOps?",
+        "resp": [
+          {
+            "texto": "Análisis de viabilidad del proyecto."
+          },
+          {
+            "texto": "Pentesting."
+          },
+          {
+            "texto": "Monitorización."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La monitorización es una de las partes y fases del ciclo DevOps."
+      },
+      {
+        "pregunta": "¿Qué es el blast radius en un contexto DevOps?",
+        "resp": [
+          {
+            "texto": "El radio de infección de un virus informático."
+          },
+          {
+            "texto": "El radio de influencia en caso de error de un componente."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "La distancia que es necesario dejar entre servidores."
+          }
+        ],
+        "correct": 1,
+        "feedback": "En DevOps, el blast radius se define como el impacto de un problema en un componente."
+      },
+      {
+        "pregunta": "La infraestructura inmutable:",
+        "resp": [
+          {
+            "texto": "Consiste en piezas de infraestructura que no pueden cambiar bajo cortes de suministro o acceso."
+          },
+          {
+            "texto": "Consiste en piezas de infraestructura que no pueden cambiar por limitaciones propias de los componentes, como la región en muchos servicios de nube."
+          },
+          {
+            "texto": "Consiste en piezas de infraestructura que no pueden cambiar o bien por limitación de la tecnología o por política propia."
+          },
+          {
+            "texto": "Consiste en piezas de infraestructura que pueden cambiar y se modifican internamente, pero con ciertas facetas que se mantienen estables, como un servidor cuyo tipo no cambia; pero sus paquetes sí son actualizados y configurados."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La infraestructura inmutable consiste en la técnica de evitar modificar los componentes y optar por reemplazarlos en la medida de lo posible para evitar diferencias entre los distintos nodos debido a su historia."
+      },
+      {
+        "pregunta": "La infraestructura como código:",
+        "resp": [
+          {
+            "texto": "Consiste en definir la infraestructura de forma encriptada."
+          },
+          {
+            "texto": "Consiste en definir la infraestructura en forma de código frecuentemente. declarativo."
+          },
+          {
+            "texto": "Consiste en usar imágenes codificadas de máquinas virtuales en lugar de configurarlas."
+          },
+          {
+            "texto": "Consiste en definir la infraestructura en forma de código exclusivamente imperativo."
+          }
+        ],
+        "correct": 1,
+        "feedback": "La infraestructura como código define la infraestructura usando códigos declarativos o principalmente declarativos."
+      },
+      {
+        "pregunta": "CloudFormation es el sistema de infraestructura como código:",
+        "resp": [
+          {
+            "texto": "De la nube pública de Google, GCP."
+          },
+          {
+            "texto": "De la nube pública de Amazon, AWS."
+          },
+          {
+            "texto": "De la nube pública de Microsoft, Azure."
+          },
+          {
+            "texto": "Soportando múltiples nubes siendo generado por una compañía independiente."
+          }
+        ],
+        "correct": 1,
+        "feedback": "CloudFormation ha sido generado por Amazon."
+      },
+      {
+        "pregunta": "Resource Manager es el sistema de infraestructura como código:",
+        "resp": [
+          {
+            "texto": "De la nube pública de Google, GCP."
+          },
+          {
+            "texto": "De la nube pública de Amazon, AWS."
+          },
+          {
+            "texto": "De la nube pública de Microsoft, Azure."
+          },
+          {
+            "texto": "Soportando múltiples nubes siendo generado por una compañía independiente."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Resource Manager ha sido generado por Microsoft para Azure."
+      },
+      {
+        "pregunta": "Deployment Manager es el sistema de infraestructura como código:",
+        "resp": [
+          {
+            "texto": "De la nube pública de Google, GCP."
+          },
+          {
+            "texto": "De la nube pública de Amazon, AWS."
+          },
+          {
+            "texto": "De la nube pública de Microsoft, Azure."
+          },
+          {
+            "texto": "Soportando múltiples nubes siendo generado por una compañía independiente."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Deployment Manager ha sido generado por Google para GCP."
+      },
+      {
+        "pregunta": "Service Level Objectives:",
+        "resp": [
+          {
+            "texto": "Consiste en el nivel de servicio que objetivamente se percibe del servicio."
+          },
+          {
+            "texto": "Consiste en el nivel de servicio que se busca proveer a los clientes."
+          },
+          {
+            "texto": "Consiste en el nivel de servicio que es necesario proveer por motivos contractuales con al menos uno de los clientes."
+          },
+          {
+            "texto": "Todas las respuestas son incorrectas."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Service Level Objectives son los objetivos que una organización se propone como el nivel que desea ofrecer o mantener."
+      },
+      {
+        "pregunta": "Service Level Agreement:",
+        "resp": [
+          {
+            "texto": "Consiste en el nivel de servicio que objetivamente se percibe del servicio."
+          },
+          {
+            "texto": "Consiste en el nivel de servicio que se busca proveer a los clientes."
+          },
+          {
+            "texto": "Consiste en el nivel de servicio que es necesario proveer por motivos contractuales con al menos uno de los clientes."
+          },
+          {
+            "texto": "Todas las respuestas son incorrectas."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Service Level Agreement es el nivel de servicio que se contrata y que debe mantenerse para evitar las penalizaciones contempladas en el contrato."
+      },
+      {
+        "pregunta": "El mantenimiento en DevOps:",
+        "resp": [
+          {
+            "texto": "Es una fase realizada únicamente cuando se han finalizado las mejoras iterativas y no se esperan más cambios."
+          },
+          {
+            "texto": "Es una fase consistente en mantener el sistema operando y funcionando con respecto a nuestro Service Level Objetive, obteniendo datos para informar las mejorar que podríamos realizar."
+          },
+          {
+            "texto": "No es una fase de DevOps, ya que el mantenimiento corre a cargo de otro equipo."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          }
+        ],
+        "correct": 1,
+        "feedback": "El mantenimiento en DevOps es una fase continuada y parcialmente iterativa, ya que informa de datos para poder realizar la siguiente iteración de una forma correcta."
+      }
+    ]
+  },
+  {
+    "nombre": "test02",
+    "test": [
+      {
+        "pregunta": "CDN es:",
+        "resp": [
+          {
+            "texto": "Caché Delivery Namespace, una tecnología que permite ofrecer namespaces."
+          },
+          {
+            "texto": "Una tecnología de caché para almacenar resultados parciales por un tiempo corto."
+          },
+          {
+            "texto": "Una tecnología para servir contenido estático o cacheado desde múltiples localizaciones en el mundo."
+          },
+          {
+            "texto": "Un tipo de appliance que se despliega localmente."
+          }
+        ],
+        "correct": 2,
+        "feedback": "CDN significa Content Delivery Network, un tipo de solución que permite servir contenido, frecuentemente estático o cacheado, y que ofrece una red de servidores disponibles en todo el mundo para servir la información."
+      },
+      {
+        "pregunta": "¿Cuál es la principal desventaja de los sistemas de configuración dinámicos durante la ejecución?",
+        "resp": [
+          {
+            "texto": "Es imposible que pueden reaccionar a cambios de configuración fuera de la ventana de despliegues."
+          },
+          {
+            "texto": "Pueden convertirse es un punto de fallo único si no se gestionan cuidadosamente y requieren monitorización."
+          },
+          {
+            "texto": "Siguen el mismo ciclo de vida de despliegue."
+          },
+          {
+            "texto": "$1 y $2 son correctas."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Al ser un sistema de configuración dinámico durante la ejecución es posible cambiar el valor en cualquier momento no necesariamente durante el despliegue, aunque si no estuvieran disponibles las aplicaciones podrían fallar al no obtener valores necesarios para su funcionamiento."
+      },
+      {
+        "pregunta": "¿Cuáles son los dos patrones más frecuentes de las colas de mensajería?",
+        "resp": [
+          {
+            "texto": "Pub/Sub y consistencia eventual."
+          },
+          {
+            "texto": "ACID y colas de trabajo."
+          },
+          {
+            "texto": "Pub/Sub y colas de trabajo."
+          },
+          {
+            "texto": "ACID y consistencia eventual."
+          }
+        ],
+        "correct": 2,
+        "feedback": "ACID es un tipo de garantía de las bases de datos y Consistencia eventual también. Pub/Sub y las colas de trabajo son patrones de consumo en las colas de mensajería."
+      },
+      {
+        "pregunta": "Las bases de datos OLAP son:",
+        "resp": [
+          {
+            "texto": "Bases de datos que responden a peticiones en vivo sobre el estado actual."
+          },
+          {
+            "texto": "Bases de datos para procesamiento masivo sobre información histórica."
+          },
+          {
+            "texto": "Bases de datos principalmente NoSQL."
+          },
+          {
+            "texto": "Bases de datos que almacenan datos organizándolos en el paradigma OLAP."
+          }
+        ],
+        "correct": 0,
+        "feedback": "OLAP significa Online Analytical Processing y es una categoría de las bases de datos por su finalidad, no una forma de almacenar los datos, y se basa en responder las peticiones rápidamente."
+      },
+      {
+        "pregunta": "¿Cuál es la principal diferencia entre las bases de datos orientadas a documento y a columna?",
+        "resp": [
+          {
+            "texto": "Las bases de datos columnares almacenan cada columna junta en lugar de almacenar por filas."
+          },
+          {
+            "texto": "Las bases de datos orientadas a documento permiten almacenar documentos con un número distinto de campos."
+          },
+          {
+            "texto": "Las bases de datos columnares son muy utilizadas con tipos de algoritmos como MapReduce."
+          },
+          {
+            "texto": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Estas bases de datos son dos tipos de bases de datos que almacenan los documentos complejos por columnas o bien como un documento frecuentemente compuesto."
+      },
+      {
+        "pregunta": "¿Son todos los componentes reusables con estado?",
+        "resp": [
+          {
+            "texto": "Sí, porque un componente reusable debe tener una lógica no especializada a nuestro problema y los componentes sin estado no se pueden configurar."
+          },
+          {
+            "texto": "Sí, porque los componentes reusables son bases de datos y cachés."
+          },
+          {
+            "texto": "No, porque existen funcionalidades comunes frecuentes como pueden ser los proxies reversos o algoritmos de datos."
+          },
+          {
+            "texto": "No, porque todos los componentes deben ser sin estado sean reusables o no."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los proxies reversos o algoritmos de datos complejos como algunos de aprendizaje automático son ejemplos de componentes reusable con estado."
+      },
+      {
+        "pregunta": "FaaS es:",
+        "resp": [
+          {
+            "texto": "Un tipo de base de datos con procedimientos almacenados."
+          },
+          {
+            "texto": "Un tipo de despliegue de componentes de cómputo."
+          },
+          {
+            "texto": "Exclusiva de AWS con Lambda."
+          },
+          {
+            "texto": "Un tipo de despliegue que nunca puede escalar hasta cero."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Function as a Service es una técnica de desplegar funciones como nuestro pase de componente de cómputo."
+      },
+      {
+        "pregunta": "¿Cuáles de las siguientes son correctas?",
+        "resp": [
+          {
+            "texto": "La $1 y la $3."
+          },
+          {
+            "texto": "El escalado vertical, usando un componente con más recursos."
+          },
+          {
+            "texto": "El escalado horizontal, solo disponible para componentes sin estado."
+          },
+          {
+            "texto": "El escalado horizontal, por ejemplo, como Replica Sets para componentes con estado."
+          }
+        ],
+        "correct": 0,
+        "feedback": "El escalado horizontal puede realizarse mediante técnicas como los Replica set y el escalado vertical consiste en dar más recursos a un componente."
+      },
+      {
+        "pregunta": "¿Cómo podemos repartir la carga entre varios nodos de cómputo para aumentar la capacidad del sistema?",
+        "resp": [
+          {
+            "texto": "Con una cola de tareas."
+          },
+          {
+            "texto": "Con un sistema Pub/Sub."
+          },
+          {
+            "texto": "Con un balanceador de carga."
+          },
+          {
+            "texto": "$0 y $2 son correctas."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Pub/Sub permite repartir la carga entre varios nodos pero no aumenta la capacidad del sistema, ya que todos ellos reciben el evento y este no se reparte."
+      },
+      {
+        "pregunta": "¿Cuáles son bases de datos persistentes?",
+        "resp": [
+          {
+            "texto": "MongoDB, Spring Boot, Memcachéd."
+          },
+          {
+            "texto": "MariaDB, PostgreSQL, Memcachéd."
+          },
+          {
+            "texto": "MongoDB, PostgreSQL, MySQL."
+          },
+          {
+            "texto": "PostgreSQL, IaaS, Varnish."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Ni Spring Boot ni Varnish son bases de datos. Memcachéd puede almacenar datos, pero al no poder persistirlos en disco no se utiliza como base de datos persistentes."
+      }
+    ]
+  },
+  {
+    "nombre": "test03",
+    "test": [
+      {
+        "pregunta": "El coste de actualizar afecta al ciclo DevOps y la arquitectura porque:",
+        "resp": [
+          {
+            "texto": "Los errores afectan durante más tiempo, lo que implica que la arquitectura tiene que fomentar la predictibilidad."
+          },
+          {
+            "texto": "La reproducibilidad de los entornos se convierte en esencial, ya que descubrir un problema después de liberar es muy costoso."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas."
+          },
+          {
+            "texto": "No es tan fácil probar el valor de negocio de una actualización con los usuarios."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Un alto coste de actualización intrínseco afecta a todas las fases DevOps y debe traducirse en una arquitectura adaptada al problema."
+      },
+      {
+        "pregunta": "Las aplicaciones de navegador son siempre de cliente pesado:",
+        "resp": [
+          {
+            "texto": "No siempre, por ejemplo, las aplicaciones de una única página regidas por JavaScript (SPA) son de cliente ligero."
+          },
+          {
+            "texto": "No, es posible que sean ejecutadas con un navegador ligero como puede ser Safari o Firefox."
+          },
+          {
+            "texto": "No, las aplicaciones que no implementan la lógica en el navegador (poca cantidad de JavaScript) se asemejan filosóficamente a los denominados clientes ligeros quedando en un lugar intermedio."
+          },
+          {
+            "texto": "Sí, los navegadores modernos son necesariamente pesados."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La clasificación de cliente ligero surge en un contexto distinto, pero, traduciéndola a la actualidad, un cliente en el cual cada página es solo de presentación y toda interacción resulta en una petición al servidor se asemeja a un cliente ligero."
+      },
+      {
+        "pregunta": "Las aplicaciones monolíticas:",
+        "resp": [
+          {
+            "texto": "Frecuentemente tienen el estado integrado."
+          },
+          {
+            "texto": "Es sencillo mantenerlas operando sin cortes de servicio mientras actualizamos."
+          },
+          {
+            "texto": "Es conveniente mantener los datos lo más segregados posible para la mantenibilidad a largo plazo."
+          },
+          {
+            "texto": "$0 y $2 son correctas."
+          }
+        ],
+        "correct": 3,
+        "feedback": "En las aplicaciones monolíticas es difícil no tener cortes de servicio en todas las actualizaciones, aunque se puede mitigar su impacto con buenas prácticas para muchas de las actualizaciones."
+      },
+      {
+        "pregunta": "Las aplicaciones multicapa:",
+        "resp": [
+          {
+            "texto": "Se componen de diferentes capas con un orden donde solo se puede llamar a capas posteriores."
+          },
+          {
+            "texto": "Se componen de un único componente con muchas capas y no pueden estar distribuidas entre varios componentes."
+          },
+          {
+            "texto": "Se componen de diferentes capas donde todas pueden llamarse entre sí."
+          },
+          {
+            "texto": "Se componen de capas donde cada capa solo puede llamar a su capa anterior y posterior."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Las capas son llamadas desde capas anteriores y pueden llamar a capas posteriores, es decir, no pueden llamar a la anterior o anteriores y pueden estar desplegadas en componentes distintos."
+      },
+      {
+        "pregunta": "La ley de Conway:",
+        "resp": [
+          {
+            "texto": "Postula que el consumo de energía por unidad de superficie en los procesadores se mantiene constante."
+          },
+          {
+            "texto": "Postula que deberíamos organizar la arquitectura en microservicios para seguir la organización de empresas más común."
+          },
+          {
+            "texto": "Postula que la arquitectura de un sistema en una organización sigue los patrones de comunicación de la organización."
+          },
+          {
+            "texto": "Postula que las arquitecturas de microservicios no pueden funcionar salvo en empresas con un solo equipo."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La ley de Conway postula que las conexiones entre componentes implican comunicación entre equipos, por tanto, las conexiones seguirán los patrones de comunicación de una organización."
+      },
+      {
+        "pregunta": "Las mallas de servicios:",
+        "resp": [
+          {
+            "texto": "No puede usarse en una arquitectura de capas."
+          },
+          {
+            "texto": "Son un tipo de arquitectura opuesta a los microservicios."
+          },
+          {
+            "texto": "Son un tipo de componente que se despliega separadamente al resto de componentes del sistema."
+          },
+          {
+            "texto": "Es una técnica para gestionar la comunicación de componentes."
+          }
+        ],
+        "correct": 3,
+        "feedback": "La malla de servicios de una técnica de arquitectura que habilita un tipo de comunicación concreto para aumentar la comunicación, frecuentemente utilizado en sistemas de microservicios."
+      },
+      {
+        "pregunta": "Las aplicaciones web servidas como SaaS son un ejemplo de:",
+        "resp": [
+          {
+            "texto": "Aplicaciones difíciles de actualizar, ya que son muy propensas a romperse."
+          },
+          {
+            "texto": "Aplicaciones con un entorno muy controlado."
+          },
+          {
+            "texto": "Aplicaciones de fácil actualización, pero con un entorno sin control."
+          },
+          {
+            "texto": "Aplicaciones de fácil actualización y entorno con alto control."
+          }
+        ],
+        "correct": 2,
+        "feedback": "En las aplicaciones web en general no controlamos la versión del navegador, pero al ejecutar desde nuestros servidores podemos controlar que versión servimos."
+      },
+      {
+        "pregunta": "Los appliances que distribuimos a clientes son:",
+        "resp": [
+          {
+            "texto": "Aplicaciones que frecuentemente son despliegues monolíticos para facilitar la forma de desplegar a los clientes."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "Aplicaciones difíciles de actualizar, ya que los clientes suelen tener control sobre el ciclo de actualizaciones."
+          },
+          {
+            "texto": "Un tipo de aplicaciones compuestas por un único componente, frecuentemente desplegadas para realizar una función concreta en un datacenter físico o virtual."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Los appliances son frecuentemente utilizados por clientes sin que tengamos acceso a su infraestructura, lo que influye en su facilidad para desplegar, pero en nuestro poco control sobre la actualización."
+      },
+      {
+        "pregunta": "Las bases de datos:",
+        "resp": [
+          {
+            "texto": "No pueden formar parte de una arquitectura de microservicios."
+          },
+          {
+            "texto": "Son frecuentemente compartidas por varios microservicios."
+          },
+          {
+            "texto": "Ninguna de las otras respuestas es correcta."
+          },
+          {
+            "texto": "No pueden usarse en monolitos, ya que las bases de datos son siempre un componente desplegable separado."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Las bases de datos son una pieza de software reusable que puede ser un componente o parte de uno y como componente puede estar dentro de un microservicio, pero no compartido entre ellos."
+      },
+      {
+        "pregunta": "Istio es:",
+        "resp": [
+          {
+            "texto": "Un balanceador de carga."
+          },
+          {
+            "texto": "Un sistema de cache."
+          },
+          {
+            "texto": "Una implementación de bases de datos NoSQL."
+          },
+          {
+            "texto": "Una tecnología de Service Mesh."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Istio es una de las implementaciones más populares de Service Mesh para Kubernetes."
+      }
+    ]
+  },
+  {
+    "nombre": "test04",
+    "test": [
+      {
+        "pregunta": "¿Qué es Packer?",
+        "resp": [
+          {
+            "texto": "Una herramienta de despliegue de infraestructura."
+          },
+          {
+            "texto": "Una herramienta de monitorización."
+          },
+          {
+            "texto": "Una metodología de componentes inmutables."
+          },
+          {
+            "texto": "Una herramienta de creación de imágenes. "
+          }
+        ],
+        "correct": 3,
+        "feedback": "Packer es una herramienta para la creación de imágenes Open Source que soporta múltiples nubes y sistemas de virtualización."
+      },
+      {
+        "pregunta": "¿Es posible crear una imagen para varias nubes con Packer?",
+        "resp": [
+          {
+            "texto": "No, ya que Packer solo soporta un sistema de virtualización."
+          },
+          {
+            "texto": "Sí, pero siempre mediante distintos ficheros de template."
+          },
+          {
+            "texto": "Sí, usando los provisioner."
+          },
+          {
+            "texto": "Sí, usando los builders. "
+          }
+        ],
+        "correct": 3,
+        "feedback": "Los builders definen dónde se va a crear la imagen y es posible especificar más de uno."
+      },
+      {
+        "pregunta": "¿Soporta Packer las variables?",
+        "resp": [
+          {
+            "texto": "Sí, existe una sección de variables en el fichero de template. "
+          },
+          {
+            "texto": "No, Packer no puede parametrizarse."
+          },
+          {
+            "texto": "Sí, se puede poner cualquier variable que deseemos sin declararla."
+          },
+          {
+            "texto": "No, ya que Packer varía en cada ejecución."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Las variables en Packer se declaran en la sección variables del fichero de template en formato json."
+      },
+      {
+        "pregunta": "¿Qué son los communicators?",
+        "resp": [
+          {
+            "texto": "$2 y $3 son correctas. "
+          },
+          {
+            "texto": "Depende del contexto, pero no son un concepto de Packer."
+          },
+          {
+            "texto": "Definen la forma en la que los provisioners se pueden conectar."
+          },
+          {
+            "texto": "Se definen asociados a un builder."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los communicators son diferentes formas de que los provisioners se conecten durante la creación de imagen y se especifican en el builder."
+      },
+      {
+        "pregunta": "¿Qué hace el flag-parallel?",
+        "resp": [
+          {
+            "texto": "Permite que cada builder se ejecute en paralelo, pero los provisioners se ejecutarán en orden. "
+          },
+          {
+            "texto": "Permite que los provisioners se ejecuten en paralelo."
+          },
+          {
+            "texto": "Permite que tanto los builders como los provisioners se ejecuten en paralelo."
+          },
+          {
+            "texto": "Activa el flag parallel, ya que el valor por defecto es false."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Por defecto, los builders se ejecutan en paralelo y este flag hace que se ejecuten en serie. Los provisioners siempre se ejecutan en serie."
+      },
+      {
+        "pregunta": "¿Qué hace el flag-only?",
+        "resp": [
+          {
+            "texto": "Hace que solo se ejecute uno de los provisioners."
+          },
+          {
+            "texto": "Hace que solo se ejecute uno de los post-processors."
+          },
+          {
+            "texto": "Hace que solo se ejecute uno de los builders. "
+          },
+          {
+            "texto": "Solo puede recibir un único valor."
+          }
+        ],
+        "correct": 2,
+        "feedback": "El flag only afecta a los builders y permite varios valores separados por comas."
+      },
+      {
+        "pregunta": "La opción -on-error:",
+        "resp": [
+          {
+            "texto": "Con el valor abort permite que cuando haya un error podamos mirar los ficheros temporales."
+          },
+          {
+            "texto": "Con el valor ask nos pregunta que queremos hacer."
+          },
+          {
+            "texto": "Con el valor cleanup limpia todos los datos temporales."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas. "
+          }
+        ],
+        "correct": 3,
+        "feedback": "La opción -on-error puede tomar los valores cleanup, abort y ask."
+      },
+      {
+        "pregunta": "Las variables en Packer se pasan mediante:",
+        "resp": [
+          {
+            "texto": "La $1 y la $2. "
+          },
+          {
+            "texto": "El parámetro -var."
+          },
+          {
+            "texto": "El parámetro -var-file, dando un json con las variables."
+          },
+          {
+            "texto": "El parámetro -with."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Tanto -var como -var-file están soportadas en Packer."
+      },
+      {
+        "pregunta": "Si queremos cambiar un fichero además de enviarlo podemos:",
+        "resp": [
+          {
+            "texto": "Ejecutar un provisioner local-shell para cambiarlo y luego subirlo con file."
+          },
+          {
+            "texto": "Ejecutar un provisioner file y luego cambiarlo en el sistema de destino con Shell."
+          },
+          {
+            "texto": "Ejecutar un sistema de configuración tipo Ansible, Chef o Puppet."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas. "
+          }
+        ],
+        "correct": 3,
+        "feedback": "Las anteriores opciones permiten modificar el fichero y que acabe en el sistema de destino."
+      },
+      {
+        "pregunta": "Las variables en Packer:",
+        "resp": [
+          {
+            "texto": "Solo las variables de entorno están disponibles."
+          },
+          {
+            "texto": "Solo las variables de línea de comando están disponibles."
+          },
+          {
+            "texto": "Los providers no pueden proveer variables adicionales."
+          },
+          {
+            "texto": "Ninguna de las otras respuestas es correcta. "
+          }
+        ],
+        "correct": 3,
+        "feedback": "Existen muchos tipos de variables como las provistas por los providers, las de línea de comandos, las de entorno y además muchas incluidas por Packer por defecto."
+      }
+    ]
+  },
+  {
+    "nombre": "test05",
+    "test": [
+      {
+        "pregunta": "Terraform es una herramienta de:",
+        "resp": [
+          {
+            "texto": "Infraestructura como código."
+          },
+          {
+            "texto": "Balanceo de carga."
+          },
+          {
+            "texto": "Creación de imágenes inmutables."
+          },
+          {
+            "texto": "Monitorización de sistemas."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Terraform es una herramienta de despliegue y configuración de infraestructura donde definimos la infraestructura de forma principalmente declarativa."
+      },
+      {
+        "pregunta": "Las dependencias en Terraform:",
+        "resp": [
+          {
+            "texto": "Tienen que ser definidas explícitamente con depends_on."
+          },
+          {
+            "texto": "Solo se definen de forma implícita mediante referencias a variables."
+          },
+          {
+            "texto": "Pueden ser definidas explícita o implícitamente."
+          },
+          {
+            "texto": "Solo se usan como documentación."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Terraform utiliza tanto dependencias explicitas como implícitas al decidir el orden de los despliegues."
+      },
+      {
+        "pregunta": "Un caso de uso típico de Terraform es:",
+        "resp": [
+          {
+            "texto": "La configuración de un servidor desplegado con otra herramienta."
+          },
+          {
+            "texto": "El despliegue de infraestructura física mediante netboot."
+          },
+          {
+            "texto": "El despliegue de infraestructura virtual en una o varias nubes."
+          },
+          {
+            "texto": "El despliegue de infraestructura virtual pero siempre en una nube."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Terraform permite desplegar muchos tipos de recursos, principalmente infraestructura virtual en diferentes nubes."
+      },
+      {
+        "pregunta": "Terraform interactúa con las redes:",
+        "resp": [
+          {
+            "texto": "Ya que permite enrutar en tráfico entre piezas de la infraestructura a través de su binario al estar programado en Go."
+          },
+          {
+            "texto": "Ya que puede configurar redes virtuales de varios proveedores de nubes."
+          },
+          {
+            "texto": "Terraform no puede configurar redes."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Terraform permite configurar redes virtuales en muchos proveedores como por ejemplo AWS VPC, pero no permite enrutar tráfico ya que Terraform solo aplica durante el despliegue y configuración."
+      },
+      {
+        "pregunta": "Si queremos desplegar una máquina dejándola configurada con Terraform podemos:",
+        "resp": [
+          {
+            "texto": "Crear una imagen ya configurada con Packer y desplegarla con Terraform."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas."
+          },
+          {
+            "texto": "Aprovisionar la configuración con una de las integraciones de Terraform con Chef, Puppet o Ansible."
+          },
+          {
+            "texto": "Usar scripts nativos de la nube como Cloud Init configurados desde Terraform."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Existen diferentes técnicas para configurar máquinas virtuales con Terraform y todas las expresadas aquí son válidas."
+      },
+      {
+        "pregunta": "El recurso aws_eip:",
+        "resp": [
+          {
+            "texto": "Despliega una máquina virtual con conexión IP."
+          },
+          {
+            "texto": "No existe en el provider de aws."
+          },
+          {
+            "texto": "Reserva una IP elástica."
+          },
+          {
+            "texto": "Crea un pool de IP que auto escalan elásticamente."
+          }
+        ],
+        "correct": 2,
+        "feedback": "El recurso aws_eip reserva una IP elástica, que es una IP que puede asignarse a una máquina y moverse posteriormente."
+      },
+      {
+        "pregunta": "El comando terraform show:",
+        "resp": [
+          {
+            "texto": "Refresca el estado con los recursos desplegados y muestra sus valores."
+          },
+          {
+            "texto": "Refresca el estado con los recursos desplegados."
+          },
+          {
+            "texto": "Muestra la versión de Terraform."
+          },
+          {
+            "texto": "Muestra los valores del estado."
+          }
+        ],
+        "correct": 3,
+        "feedback": "El comando terraform show muestra los valores del estado que tenemos ahí pero no los refresca con el estado actual en la nube."
+      },
+      {
+        "pregunta": "El comando terraform apply:",
+        "resp": [
+          {
+            "texto": "Permite aplicar cambios de configuración a los componentes pero no puede crearlos ni eliminarlos."
+          },
+          {
+            "texto": "Permite aplicar cambios de configuración, crear y eliminar componentes."
+          },
+          {
+            "texto": "Permite aplicar cambios de configuración y crear componentes pero no eliminarlos."
+          },
+          {
+            "texto": "Permite crear y eliminar componentes pero no aplicar cambios de configuración."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Terraform apply puede crear y eliminar componentes y en algunos casos cambiar la configuración de algunos ya existentes."
+      },
+      {
+        "pregunta": "El comando terraform init:",
+        "resp": [
+          {
+            "texto": "Realiza el primer despliegue de las configuraciones que tenemos."
+          },
+          {
+            "texto": "Inicializa el proyecto actual y se asegura que tengamos las últimas versiones de los plugins."
+          },
+          {
+            "texto": "Inicializa el proyecto actual, se asegura que tengamos las versiones apropiadas de los plugins y realiza el primer despliegue de las configuraciones que tenemos."
+          },
+          {
+            "texto": "Inicializa el proyecto actual y se asegura que tengamos las versiones apropiadas de los plugins."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Terraform init descarga las versiones seleccionadas, o las últimas si no hemos elegido versión, pero no realiza acciones sobre la infraestructura."
+      },
+      {
+        "pregunta": "Terraform está escrito en:",
+        "resp": [
+          {
+            "texto": "Go."
+          },
+          {
+            "texto": "Python."
+          },
+          {
+            "texto": "Javascript."
+          },
+          {
+            "texto": "Bash."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Terraform está escrito en el lenguaje de programación Go."
+      }
+    ]
+  },
+  {
+    "nombre": "test06",
+    "test": [
+      {
+        "pregunta": "El estado de Terraform:",
+        "resp": [
+          {
+            "texto": "No existe, ya que es un único binario y no puede guardar estado."
+          },
+          {
+            "texto": "$2 y $3 son correctas."
+          },
+          {
+            "texto": "Es configurable y permite diferentes backends."
+          },
+          {
+            "texto": "Por defecto usa ficheros en disco de la máquina."
+          }
+        ],
+        "correct": 1,
+        "feedback": "El estado de Terraform es configurable y por defecto usa ficheros locales."
+      },
+      {
+        "pregunta": "El recurso aws_instance:",
+        "resp": [
+          {
+            "texto": "Puede utilizarse solo con un único provider de Amazon."
+          },
+          {
+            "texto": "Puede utilizarse con varios providers porque Terraform es multicloud."
+          },
+          {
+            "texto": "Puede utilizarse con un provider del tipo aws asignado por defecto o asociarlo a otro provider por nombre."
+          },
+          {
+            "texto": "Ninguna de las respuestas es correcta."
+          }
+        ],
+        "correct": 2,
+        "feedback": "El recurso aws_instance está asociado a AWS y utilizara el provider por defecto si no se enlaza a una explícitamente."
+      },
+      {
+        "pregunta": "Los provisioners:",
+        "resp": [
+          {
+            "texto": "Se asocian a un provider."
+          },
+          {
+            "texto": "Son lo mismo que los providers."
+          },
+          {
+            "texto": "Se utilizan a nivel superior del fichero."
+          },
+          {
+            "texto": "Se asocian a un recurso."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Los provisioners (no confundir con providers) se definen dentro de un recurso."
+      },
+      {
+        "pregunta": "Un fallo en un provisioner:",
+        "resp": [
+          {
+            "texto": "Destruirá el recurso sobre el que fallo, ya que este es inválido."
+          },
+          {
+            "texto": "Deja el recurso marcado como contaminado."
+          },
+          {
+            "texto": "$1 y $3 son correctas."
+          },
+          {
+            "texto": "La próxima vez que se ejecute un plan, Terraform planificará destruirlo."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los fallos en los provisioner dejan el recurso como contaminado, pero no lo destruyen, ya que no estaba en el plan. La próxima ejecución planificará destruirlo."
+      },
+      {
+        "pregunta": "Los archivos terraform.tfvars:",
+        "resp": [
+          {
+            "texto": "Permiten definir el tipo de variables que luego serán pasadas por la línea de comandos individualmente."
+          },
+          {
+            "texto": "$2 y $3 son correctas."
+          },
+          {
+            "texto": "Son cargados automáticamente por Terraform."
+          },
+          {
+            "texto": "Definen los valores de variables."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Los ficheros con el nombre terraform.tfvars o el patron *.auto.tfvars son cargados automáticamente y contienen asignaciones de valores de variables."
+      },
+      {
+        "pregunta": "¿Qué orden se utiliza para el valor de variables en Terraform si hay más de uno definido (aplica el primero que se encuentra)?",
+        "resp": [
+          {
+            "texto": "Variables desde un archivo, variables de entorno, variables dadas interactivamente desde la entrada, valores por defecto en la definición de la variable."
+          },
+          {
+            "texto": "Variables de entorno, variables desde un archivo, variables dadas interactivamente desde la entrada, valores por defecto en la definición de la variable."
+          },
+          {
+            "texto": "Variables dadas interactivamente desde la entrada, valores por defecto en la definición de la variable y variables de entorno."
+          },
+          {
+            "texto": "Las variables solo pueden asignarse en su definición."
+          }
+        ],
+        "correct": 0,
+        "feedback": "El orden está definido por Terraform y lo aplicará automáticamente."
+      },
+      {
+        "pregunta": "Los tipos de variable compuestos de Terraform son:",
+        "resp": [
+          {
+            "texto": "El recurso, provider y provisioner."
+          },
+          {
+            "texto": "La lista (list) y el mapa (map)."
+          },
+          {
+            "texto": "El fichero y el módulo."
+          },
+          {
+            "texto": "La cadena de texto y el número."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Terraform permite, además de los tipos básicos, tipos compuestos como list y map."
+      },
+      {
+        "pregunta": "Terraform soporta nativamente los ficheros de configuración como:",
+        "resp": [
+          {
+            "texto": "Ficheros en formato .tf."
+          },
+          {
+            "texto": "Ficheros en formato .json."
+          },
+          {
+            "texto": "Ficheros en formato.tf y en formato .json."
+          },
+          {
+            "texto": "Ficheros en formato.md."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Terraform soporta tanto el lenguaje de Terraform como .json."
+      },
+      {
+        "pregunta": "Los módulos:",
+        "resp": [
+          {
+            "texto": "Deben definir variables de entrada."
+          },
+          {
+            "texto": "Contienen el atributo source, que especifica de dónde recuperar el módulo."
+          },
+          {
+            "texto": "Los módulos no pueden definir salidas."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Las variables de entrada son opcionales, se pueden definir salidas y el atributo source es requerido."
+      },
+      {
+        "pregunta": "Los backends remotos:",
+        "resp": [
+          {
+            "texto": "Permiten almacenar que recursos se han desplegado por Terraform para poder aplicar actualizaciones."
+          },
+          {
+            "texto": "No soportan Consul o AWS S3."
+          },
+          {
+            "texto": "Sirven principalmente para obtener ficheros de configuración que subir a máquinas virtuales."
+          },
+          {
+            "texto": "No se pueden consultar desde la línea de comandos de Terraform."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los backend remotos almacenan la información que se ha recopilado sobre el estado de los despliegues incluyendo valores dinámicos y los recursos contaminados."
+      }
+    ]
+  },
+  {
+    "nombre": "test07",
+    "test": [
+      {
+        "pregunta": "¿Qué tipo de herramienta es ElasticSearch?",
+        "resp": [
+          {
+            "texto": "Una base de datos transaccional."
+          },
+          {
+            "texto": "Un almacén de datos especializado en el tratamiento de logs y filtros por claves específicas."
+          },
+          {
+            "texto": "Un motor de búsqueda de propósito general frecuentemente usado para logs."
+          },
+          {
+            "texto": "Un procesador de logs."
+          }
+        ],
+        "correct": 2,
+        "feedback": "ElasticSearch es un motor de búsqueda que, aunque es muy utilizado para logs, también es usado como motor de búsqueda general."
+      },
+      {
+        "pregunta": "ElasticSearch almacena los datos en:",
+        "resp": [
+          {
+            "texto": "Tablas."
+          },
+          {
+            "texto": "Colecciones."
+          },
+          {
+            "texto": "Índices."
+          },
+          {
+            "texto": "Grafos."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los documentos en ElasticSearch se añaden a índices que permiten la búsqueda rápida de estos datos."
+      },
+      {
+        "pregunta": "ElasticSearch se utiliza para los siguientes casos de uso:",
+        "resp": [
+          {
+            "texto": "Soportar la búsqueda en aplicaciones web."
+          },
+          {
+            "texto": "Almacenar y procesar logs y otra información telemétrica."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas."
+          },
+          {
+            "texto": "Almacenamiento de datos geográficos."
+          }
+        ],
+        "correct": 2,
+        "feedback": "ElasticSearch tiene muchas capacidades y es utilizado en todos estos dominios."
+      },
+      {
+        "pregunta": "Cada documento almacenado en ElasticSearch:",
+        "resp": [
+          {
+            "texto": "Tiene una serie de campos simples correspondientes a las columnas definidos en el índice."
+          },
+          {
+            "texto": "Está representado por un documento JSON soportando valores anidados."
+          },
+          {
+            "texto": "Cada campo puede tener un único valor."
+          },
+          {
+            "texto": "Por defecto, ningún campo se indexa."
+          }
+        ],
+        "correct": 1,
+        "feedback": "ElasticSearch almacena documentos JSON en sus documentos y por defecto indexa cada uno de los campos, que pueden tener varios valores almacenando una lista."
+      },
+      {
+        "pregunta": "¿Para qué sirve Rollup?",
+        "resp": [
+          {
+            "texto": "Para agrupar resultados de documentos en una Query."
+          },
+          {
+            "texto": "Para condensar valores históricos reduciendo su consumo."
+          },
+          {
+            "texto": "Para agrupar resultados de campos en una Query."
+          },
+          {
+            "texto": "Rollup no es una funcionalidad de ElasticSearch."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Rollup permite agrupar valores históricos y proporcionar una forma de hacer queries sobre ellos transparente."
+      },
+      {
+        "pregunta": "¿Qué son los índices congelados o frozen indexes?",
+        "resp": [
+          {
+            "texto": "Una feature promocional realizada junto con Disney para conmemorar la segunda película."
+          },
+          {
+            "texto": "Una forma de liberar los índices en memoria casi completamente sin perder la opción de poder recuperar los datos."
+          },
+          {
+            "texto": "Una forma de liberar los índices en memoria sin afectar a la velocidad de las consultas."
+          },
+          {
+            "texto": "Los índices congelados no existen, solo los campos congelados."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Los índices congelados permiten liberar recursos de memoria para índices que no se acceden frecuentemente a cambio de ralentizar las consultas y obligar a los datos a ser cargados cuando se consultan."
+      },
+      {
+        "pregunta": "¿Como se crea un índice?",
+        "resp": [
+          {
+            "texto": "Se crea únicamente mediante la UI de Kibana."
+          },
+          {
+            "texto": "Se crea mediante una petición GET a /elasticsearch/docs/indexes/newIndex."
+          },
+          {
+            "texto": "Se puede crear simplemente añadiendo un documento al índice mediante PUT /index_name/_doc/ID."
+          },
+          {
+            "texto": "Solo se puede crear adjuntando el tipo de esquema para todos los campos."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los índices en ElasticSearch se pueden crear dinámicamente simplemente insertando un documento."
+      },
+      {
+        "pregunta": "¿Cómo se obtiene el valor de un valor en ElasticSearch mediante su índice?",
+        "resp": [
+          {
+            "texto": "No se puede, ya que en ElasticSearch todas las consultas deben ser de texto."
+          },
+          {
+            "texto": "Mediante GET /getDocumentByKey/document_id/index_id."
+          },
+          {
+            "texto": "Mediante GET /index_name/_doc/id."
+          },
+          {
+            "texto": "Mediante Kibana exclusivamente."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Esta es la consulta correcta."
+      },
+      {
+        "pregunta": "En ElasticSearch los documentos se pueden incluir:",
+        "resp": [
+          {
+            "texto": "Individualmente realizando un PUT mediante su document Id."
+          },
+          {
+            "texto": "En batches realizando un POST al endpoint _bulk del índice."
+          },
+          {
+            "texto": "Mediante otras herramientas como Beats."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Todas las respuestas documentan formas explicadas en la lección sobre cómo enviar documentos a ElasticSearch."
+      },
+      {
+        "pregunta": "Las agregaciones en ElasticSearch son de tipo:",
+        "resp": [
+          {
+            "texto": "Métricas."
+          },
+          {
+            "texto": "De Matriz."
+          },
+          {
+            "texto": "De pipeline."
+          },
+          {
+            "texto": "Todas las otras respuestas son correctas."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Estos son los tipos principales de agregaciones en ElasticSearch."
+      }
+    ]
+  },
+  {
+    "nombre": "test08",
+    "test": [
+      {
+        "pregunta": "¿Cuáles son las principales ventajas de Beats frente a Logstash?",
+        "resp": [
+          {
+            "texto": "Su mejor consumo de recursos y su fácil mantenimiento."
+          },
+          {
+            "texto": "Su gran capacidad para procesar los datos en el propio proceso antes de enviarlos."
+          },
+          {
+            "texto": "Su capacidad para enviar a muchos más destinos que Logstash."
+          },
+          {
+            "texto": "El estar escritos en Java frente a Go utilizado para Logstash."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Beats tienen un menor consumo de recursos, especialmente de memoria, frente a otras soluciones."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes patrones de comunicación son comúnmente utilizados?",
+        "resp": [
+          {
+            "texto": "Filebeats -> Logstash -> ElasticSearch."
+          },
+          {
+            "texto": "Logstash -> Metricbeats -> ElasticSearch."
+          },
+          {
+            "texto": "Metricbeats -> ElasticSearch."
+          },
+          {
+            "texto": "$0 y $2 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Beats es frecuentemente utilizado para enviar datos tanto con ElasticSearch como con Logstash pero no son utilizados para recibir datos desde la red."
+      },
+      {
+        "pregunta": "AuditBeat:",
+        "resp": [
+          {
+            "texto": "$2 y $3 son correctas."
+          },
+          {
+            "texto": "Permite obtener información de audio."
+          },
+          {
+            "texto": "Permite auditar que los ficheros del sistema no han sido modificados."
+          },
+          {
+            "texto": "Es frecuentemente utilizado para detectar intrusiones."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "AuditBeat comprueba el contenido de ficheros esenciales del sistema."
+      },
+      {
+        "pregunta": "Algunos componentes de Beats son:",
+        "resp": [
+          {
+            "texto": "PacketBeat, que permite analizar el tráfico de red inspeccionando paquetes."
+          },
+          {
+            "texto": "WinlogBeat, que permite capturar logs del sistema en equipos Windows."
+          },
+          {
+            "texto": "HeartBeat, que permite enviar mensajes periódicamente para asegurarse de que la conectividad es correcta."
+          },
+          {
+            "texto": "Todos los anteriores son correctos."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Todos los anteriores son Beats oficiales de Elastic.co."
+      },
+      {
+        "pregunta": "Los beats se configuran mediante:",
+        "resp": [
+          {
+            "texto": "Una serie de ficheros en disco."
+          },
+          {
+            "texto": "Un único fichero YAML."
+          },
+          {
+            "texto": "Un único fichero XLM."
+          },
+          {
+            "texto": "Un único fichero TOML."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Beats utiliza un fichero YAML para su configuración."
+      },
+      {
+        "pregunta": "El formato YAML:",
+        "resp": [
+          {
+            "texto": "$1 y $2 son correctas."
+          },
+          {
+            "texto": "La indentación permite hacer más fácil de leer YAML, pero no es considerada para parsear el formato."
+          },
+          {
+            "texto": "Permite expresar todos los tipos de JSON como las listas y los objetos."
+          },
+          {
+            "texto": "Es más fácil de leer y escribir por humanos que JSON."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "YAML considera la indentación de forma semántica."
+      },
+      {
+        "pregunta": "En un fichero de YAML para beats:",
+        "resp": [
+          {
+            "texto": "off sin comillas es interpretado como el boolean false."
+          },
+          {
+            "texto": "6ms representa 6 milisegundos en muchos parámetros."
+          },
+          {
+            "texto": "yes es interpretado como el boolean true."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Todos estos son patrones que vienen o bien de YAML 1.1 o de convenciones en Beats."
+      },
+      {
+        "pregunta": "Si necesitamos utilizar el valor de una variable de entorno en el fichero de configuración de Beats:",
+        "resp": [
+          {
+            "texto": "$1 y $3 son correctas."
+          },
+          {
+            "texto": "Podemos usar %{ENVIRONMENT_VARIABLE} para usar ese valor en strings."
+          },
+          {
+            "texto": "Necesitaremos preprocesar el YAML con otro programa, ya que Beats no soporta variables de entorno."
+          },
+          {
+            "texto": "Es recomendable dar un valor por defecto dentro del fichero de configuración mediante %{ENVIRONMENT_VARIABLE:valor por defecto}."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Es posible utilizar variables de entorno, aunque es conveniente darles un valor por defecto."
+      },
+      {
+        "pregunta": "Si necesitamos cambiar el valor de una variable sin cambiar el fichero de configuración:",
+        "resp": [
+          {
+            "texto": "Podemos modificar parte mediante el argumento -e."
+          },
+          {
+            "texto": "Si utilizamos el nombre correcto de la variable de entorno podemos cambiar cualquier valor de configuración."
+          },
+          {
+            "texto": "Si utiliza interpolación de variables de entorno, podemos cambiarlo pasando esa variable de entorno."
+          },
+          {
+            "texto": "$0 y $2 son correctos."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "El argumento -e se utiliza frecuentemente cuando estamos realizando pruebas y podemos utilizar la interpolación de variable o cambiar el valor en el fichero para un uso más permanente."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre Filebeats es más correcta?",
+        "resp": [
+          {
+            "texto": "Procesa los ficheros indicados enviando un mensaje por cada línea."
+          },
+          {
+            "texto": "Procesa los ficheros indicados enviando un mensaje por cada línea, a no ser que se utilice la opción multiline."
+          },
+          {
+            "texto": "Procesa los ficheros indicados mediante el tipo log enviando un mensaje por cada línea, a no ser que se utilice la opción multiline."
+          },
+          {
+            "texto": "Procesa los ficheros por TCP indicados mediante el tipo de log enviando un mensaje por cada línea, a no ser que se utilice la opción multiline."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Es correcto, pero los ficheros se leen de disco con la opción log, no por TCP."
+      }
+    ]
+  },
+  {
+    "nombre": "test09",
+    "test": [
+      {
+        "pregunta": "¿Cuál de los siguientes NO es un caso de uso frecuente para Kibana?",
+        "resp": [
+          {
+            "texto": "Exploración de datos almacenados en ElasticSearch."
+          },
+          {
+            "texto": "Análisis de datos de logs."
+          },
+          {
+            "texto": "Creación de imágenes para el despliegue de instancias."
+          },
+          {
+            "texto": "Gestión de una instalación de Elastic Stack."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Este caso de uso no se resuelve con Kibana."
+      },
+      {
+        "pregunta": "Los Spaces:",
+        "resp": [
+          {
+            "texto": "Es el nombre que reciben los índices de ElasticSearch en Kibana."
+          },
+          {
+            "texto": "Permite separar las vistas, paneles y el acceso a diferentes índices."
+          },
+          {
+            "texto": "Deben ser configurados en Beats."
+          },
+          {
+            "texto": "Definen cuanto espacio va a consumir Kibana en los índices."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Spaces permiten separar las vistas, paneles y diferentes índices."
+      },
+      {
+        "pregunta": "La funcionalidad de Discovery se usa principalmente para:",
+        "resp": [
+          {
+            "texto": "Buscar datos filtrando resultados de búsqueda."
+          },
+          {
+            "texto": "Ver eventos que ocurrieron justo antes o después de un documento."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "Obtener detalles de los campos que coinciden con una búsqueda."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Kibana soporta todos estos casos de uso con Discovery."
+      },
+      {
+        "pregunta": "La función de Visualize:",
+        "resp": [
+          {
+            "texto": "Está diseñada para visualizar los diferentes nodos de ElasticSearch y como se comunican entre ellos."
+          },
+          {
+            "texto": "Permite visualizar datos en gráficos basados en una consulta."
+          },
+          {
+            "texto": "Está diseñada para visualizar los diferentes nodos de Beats y Logstash y como se conectan con Kibana."
+          },
+          {
+            "texto": "Está pensada para mostrar cómo se conectan los nodos de Beats entre ellos y con Kibana."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Visualize permite generar gráficos basados en agregaciones sobre los resultados de una consulta."
+      },
+      {
+        "pregunta": "Los siguientes son gráficos soportados por Visualize:",
+        "resp": [
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "Mapas de calor."
+          },
+          {
+            "texto": "Tablas de datos."
+          },
+          {
+            "texto": "Series temporales."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Visualize soporta gran cantidad de gráficos distintos incluyendo los que están en las respuestas."
+      },
+      {
+        "pregunta": "Es posible utilizar una visualización generada por Visualize mediante:",
+        "resp": [
+          {
+            "texto": "Su inclusión en un Dashboard."
+          },
+          {
+            "texto": "La generación de un informe en PDF."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Su incrustación en una página web con su propia autenticación distinta a la de Kibana."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Se puede incrustar en una página web pero utiliza la misma autenticación que Kibana."
+      },
+      {
+        "pregunta": "La aplicación de métricas:",
+        "resp": [
+          {
+            "texto": "Permite mostrar todo tipo de métricas, centrándose en las métricas derivadas de una señal como puede ser la desviación típica o varianza."
+          },
+          {
+            "texto": "Se centra en inspeccionar las métricas básicas para servidores, contenedores y otros servicios comunes."
+          },
+          {
+            "texto": "Permite analizar el detalle de una métrica para un servidor concreto."
+          },
+          {
+            "texto": "$1 y $2 son correctos."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Aunque es posible mostrar varios tipos de métricas, no se centra en mostrar métricas derivadas sino las métricas en la forma más fácil de analizar dependiendo de su tipo."
+      },
+      {
+        "pregunta": "¿Cuáles son las principales diferencias de la aplicación de logs respecto a Discovery?",
+        "resp": [
+          {
+            "texto": "La aplicación de logs solo muestra logs, mientras la aplicación de Discovery solo muestra eventos. Muestran distintos datos."
+          },
+          {
+            "texto": "$0 y $2 son correctos."
+          },
+          {
+            "texto": "La aplicación de logs muestra eventos de logs pero en una representación más compacta y hace cómodo mantener una transmisión en vivo frente a Discovery."
+          },
+          {
+            "texto": "Discovery no muestra los logs a no ser que sobrescribamos los índices en Beats."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La aplicación de logs se centra en mostrar una representación más compacta y en vivo de los eventos de logs. Discovery puede mostrar también los logs sin problema y es usada para esto también."
+      },
+      {
+        "pregunta": "En Kibana:",
+        "resp": [
+          {
+            "texto": "Es posible habilitar un análisis de anomalías."
+          },
+          {
+            "texto": "Se pueden habilitar diferentes aplicaciones dependiendo de los casos de usos que necesitemos."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "Es posible monitorizar contenedores si lo combinamos con el Beat correcto."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Todas las anteriores son capacidades de Kibana."
+      },
+      {
+        "pregunta": "En la aplicación de logs:",
+        "resp": [
+          {
+            "texto": "No es posible especificar la hora y fecha, siempre veremos los últimos datos. Para datos históricos es necesario usar Discovery."
+          },
+          {
+            "texto": "Todas las otras respuestas son incorrectas."
+          },
+          {
+            "texto": "Si necesitamos añadir algún campo adicional deberemos utilizar la función de Discovery."
+          },
+          {
+            "texto": "Si queremos inspeccionar los detalles de un log, es necesario copiar su identificador e ir a Discovery o ElasticSearch para ver más detalles."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Es posible especificar un rango de tiempo, configurar los campos por defecto y ver los detalles de un evento mediante un menú desplegable."
+      }
+    ]
+  },
+  {
+    "nombre": "test10",
+    "test": [
+      {
+        "pregunta": "Los datos de APM se recopilan mediante:",
+        "resp": [
+          {
+            "texto": "Logstash."
+          },
+          {
+            "texto": "Filebeat."
+          },
+          {
+            "texto": "Metricbeat."
+          },
+          {
+            "texto": "La librería de agentes de APM."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Los datos se recopilan dentro de los procesos mediante la librería de agentes."
+      },
+      {
+        "pregunta": "Es necesario un servidor APM:",
+        "resp": [
+          {
+            "texto": "Sí, ya que el servidor APM almacena los datos que luego son servidos desde Kibana APM."
+          },
+          {
+            "texto": "Sí, ya que los datos son recopilados por el APM server accediendo a las aplicaciones desde él."
+          },
+          {
+            "texto": "Sí, ya que recopila los datos enviados al mismo mediante la librería de APM y luego los envía a ElasticSearch."
+          },
+          {
+            "texto": "No, ya que los datos son recopilados por el agente de APM y enviados directamente a Kibana."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los datos son recopilados por la librería para agentes de APM y enviados al servidor de APM, que luego los almacena en ElasticSearch."
+      },
+      {
+        "pregunta": "Los filtros contextuales:",
+        "resp": [
+          {
+            "texto": "Se siguen aplicando aun cuando nos movemos por las diferentes funcionalidades siempre."
+          },
+          {
+            "texto": "Son diferentes a los filtros globales que siempre se mueven con nosotros."
+          },
+          {
+            "texto": "La $1 y $3 son correctas."
+          },
+          {
+            "texto": "Se mueven con nosotros pero solo cuando siguen aplicando en la nueva página."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los filtros contextuales siguen mientras movemos de página, pero no siempre serán aplicables, a diferencia de los globales."
+      },
+      {
+        "pregunta": "Los Servicios:",
+        "resp": [
+          {
+            "texto": "Representan una petición servida a un cliente."
+          },
+          {
+            "texto": "Nos permiten analizar el tiempo de respuesta de una transacción en concreto fácilmente."
+          },
+          {
+            "texto": "Nos permiten analizar el tiempo de respecta, transacciones y errores que pasan por ese componente o servicio."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los servicios no representan una petición, aunque analizan todas las transacciones que pasan por el servicio en agregado."
+      },
+      {
+        "pregunta": "Cuando analizamos una traza específica en APM:",
+        "resp": [
+          {
+            "texto": "Podemos ver cuánto tiempo consume en cada una de las transacciones que ha generado."
+          },
+          {
+            "texto": "Podemos ver los diferentes servicios o Spans que ha recorrido."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "Podemos ver tanto las partes que se han ejecutado en paralelo como de forma anidada."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Las trazas permiten agregar transacciones en diferentes servicios y visualizar cuánto tiempo ha consumido cada parte."
+      },
+      {
+        "pregunta": "La vista de transacciones:",
+        "resp": [
+          {
+            "texto": "Permite ver los errores categorizados por tipo de error para ver su impacto en la aplicación."
+          },
+          {
+            "texto": "Son una parte de Kibana Discovery y no de APM."
+          },
+          {
+            "texto": "Nos permite analizar las transacciones en agregado para ver las que se están llamando más frecuentemente y las que duran más."
+          },
+          {
+            "texto": "Todas las respuestas anteriores son correctas."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La página de transacciones nos permite ver agregados de las diferentes transacciones."
+      },
+      {
+        "pregunta": "¿Qué es SLO?",
+        "resp": [
+          {
+            "texto": "Sistema Logístico Ortogonal."
+          },
+          {
+            "texto": "Service Level Objetive, objetivo a nivel de servicio."
+          },
+          {
+            "texto": "System Logical Objectives, sistema de objetivos lógicos."
+          },
+          {
+            "texto": "Survey Linguistic Oriented, encuesta lingüística orientada."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Es Service Level Objective, nuestro objetivo de nivel de servicio."
+      },
+      {
+        "pregunta": "¿Es posible monitorizar un proceso Java?",
+        "resp": [
+          {
+            "texto": "Sí, desde fuera analizando el consumo de CPU y Memoria general en la máquina."
+          },
+          {
+            "texto": "Todas las respuestas son correctas."
+          },
+          {
+            "texto": "Sí, obteniendo métricas propias de la JVM como Heap Memory o GC por minuto."
+          },
+          {
+            "texto": "Sí, analizando las transacciones que cruzan el sistema para ver como este operando."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Todas las respuestas muestran diferentes facetas que se pueden utilizar para monitorizar procesos y componentes Java."
+      },
+      {
+        "pregunta": "¿Qué es el componente Watcher?",
+        "resp": [
+          {
+            "texto": "Un componente que permite enviar alertas a otros sistemas cuando se cumplen condiciones especificadas."
+          },
+          {
+            "texto": "Un componente que monitoriza la performance de ElasticSearch respecto a consultas."
+          },
+          {
+            "texto": "Un componente dentro de Beats, WatcherBeats, que vigila a los vigilantes."
+          },
+          {
+            "texto": "Un componente que comprueba que los Beats están funcionando, enviándoles mensajes."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Watcher es un componente no Open Source de la suite de Elastic que permite enviar alerta reaccionando a ciertos eventos y reglas."
+      },
+      {
+        "pregunta": "¿Qué es RUM?",
+        "resp": [
+          {
+            "texto": "Runtime Update Management, un tipo de actualización de configuración de Beats en vivo."
+          },
+          {
+            "texto": "Real User Monitoring, un tipo de agente y dashboard para clientes JavaScript en el navegador."
+          },
+          {
+            "texto": "Realtime Unknown Model, un tipo de aprendizaje automático no asistido."
+          },
+          {
+            "texto": "Round Urgent Monitoring, un tipo de monitorización para alertas urgentes."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Real User Monitoring es un tipo de monitorización pasiva para agentes web y en Elastic un tipo de agente y dashboard para ese tipo de monitorización."
+      }
+    ]
+  }
+]

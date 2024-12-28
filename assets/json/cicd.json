@@ -1,0 +1,313 @@
+[
+  {
+    "nombre": "test01",
+    "test": [
+      {
+        "pregunta": "¿Cuáles son los tres aspectos de ALM?",
+        "resp": [
+          {
+            "texto": "Gobierno, integración y despliegue."
+          },
+          {
+            "texto": "Gobierno, desarrollo y operaciones."
+          },
+          {
+            "texto": "SDLC,CICD y despliegue continuo."
+          },
+          {
+            "texto": "Desarrollo y operaciones."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Estos tres aspectos forman parte del ciclo de ALM e intervienen en cada una de las fases, según corresponda."
+      },
+      {
+        "pregunta": "¿Qué significa construir, probar y desplegar automáticamente?",
+        "resp": [
+          {
+            "texto": "Escribir unos scripts de bash para cada tarea."
+          },
+          {
+            "texto": "Definir trabajos en Jenkins y ejecutarlos cada vez que hay un cambio."
+          },
+          {
+            "texto": "Documentar cada paso del despliegue exhaustivamente."
+          },
+          {
+            "texto": "Conseguir que los cambios de código inicien una construcción, ejecuten las pruebas y permitan un despliegue sin intervención humana."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Las respuestas A y B son ciertas en parte, pero no son suficientes de manera individual para desplegar automáticamente."
+      },
+      {
+        "pregunta": "¿Por qué es útil desplegar un entorno de producción antes de que acabe el desarrollo?",
+        "resp": [
+          {
+            "texto": "Para probar el proceso de despliegue antes de la fecha clave."
+          },
+          {
+            "texto": "Para comprobar que el sistema funciona bien en este entorno, que puede ser y será diferente de los entornos de desarrollo."
+          },
+          {
+            "texto": "Para aumentar la fiabilidad del proceso."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Aunque pueden existir razones de costes para no desplegar en producción mucho antes de la salida al mercado, desplegar en un entorno similar a producción es clave para conseguir un proceso de despliegue fiable."
+      },
+      {
+        "pregunta": "¿Qué significa gestionar automáticamente la configuración?",
+        "resp": [
+          {
+            "texto": "Mantener la configuración de cada entorno separada del script de despliegue y con un control de versiones."
+          },
+          {
+            "texto": "Escribir scripts separados, uno por entorno, que no dependan de ningún otro fichero."
+          },
+          {
+            "texto": "Guardar la configuración aplicada en cada entorno en una base de datos."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Es fundamental que todos los entornos se desplieguen con el mismo proceso y que la configuración específica se guarde por separado."
+      },
+      {
+        "pregunta": "¿Cuál es el objetivo de la integración continua?",
+        "resp": [
+          {
+            "texto": "Obligar a los desarrolladores a integrar cambios todos los días para controlar lo que hacen."
+          },
+          {
+            "texto": "Implantar una herramienta moderna como Jenkins."
+          },
+          {
+            "texto": "Aumentar la calidad del código detectando los errores lo más pronto posible y la velocidad a la que se entrega a los clientes."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "correct": 2,
+        "feedback": "El objetivo principal es aumentar la calidad del código ofrecido a los clientes, ya que es el único sitio en el que aporta valor."
+      },
+      {
+        "pregunta": "¿Cuál es el objetivo de la entrega continua?",
+        "resp": [
+          {
+            "texto": "Aumentar la fiabilidad del código, reduciendo el número de errores."
+          },
+          {
+            "texto": "Reducir el tiempo necesario para entregar software en producción."
+          },
+          {
+            "texto": "Aumentar la fiabilidad de los procesos de despliegue."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Cuando se consiguen todos los objetivos anteriores, el resultado es el código de calidad que aporta valor al producto lo más rápido posible."
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre entrega y despliegue continuos?",
+        "resp": [
+          {
+            "texto": "Ninguna, son sinónimos."
+          },
+          {
+            "texto": "La entrega deja el producto listo para desplegar después de cada cambio, pero no tiene por qué desplegar en producción. El despliegue continuo prosigue el flujo de la entrega múltiples veces al día hasta completar el despliegue en producción."
+          },
+          {
+            "texto": "La entrega solo compila el código, el despliegue, además, incorpora las pruebas."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Puede haber razones de negocio o técnicas para implementar entrega continua sin despliegue continuo."
+      },
+      {
+        "pregunta": "¿Qué se puede esperar de las construcciones de software en una organización que no ha empezado a madurar en la integración continua?",
+        "resp": [
+          {
+            "texto": "El pase a producción es automático, fiable e indoloro."
+          },
+          {
+            "texto": "Los cambios en la base de datos se ejecutan manualmente."
+          },
+          {
+            "texto": "La construcción es manual y no se gestionan los artefactos."
+          },
+          {
+            "texto": "No hay batería de pruebas alguna."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Además, los despliegues son manuales, no hay un proceso común de despliegue, las pruebas no están integradas en el desarrollo y las migraciones de las bases de datos no están versionadas y se ejecutan manualmente."
+      },
+      {
+        "pregunta": "¿En qué debe centrar sus esfuerzos una organización que intenta mejorar su calidad de software?",
+        "resp": [
+          {
+            "texto": "En aquellos aspectos del proceso de integración y entrega que sean más dolorosos."
+          },
+          {
+            "texto": "En automatizar todo el proceso cuanto antes."
+          },
+          {
+            "texto": "En desplegar la aplicación sobre Kubernetes."
+          },
+          {
+            "texto": "En versionar todos los elementos de la configuración."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Aquellos aspectos más dolorosos y que más riesgo introducen serán los que más valor puedan aportar si se mejoran. Poco a poco se podrán ir mejorando otros aspectos."
+      },
+      {
+        "pregunta": "¿Cuál de estos elementos es fundamental para empezar a aplicar integración continua?",
+        "resp": [
+          {
+            "texto": "Un sistema de control de versiones."
+          },
+          {
+            "texto": "Una batería de pruebas y automatización."
+          },
+          {
+            "texto": "Aceptación del equipo."
+          },
+          {
+            "texto": "Todos los anteriores."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Todos los elementos citados, tanto técnicos como humanos, son esenciales para implementar integración continua en un proyecto."
+      }
+    ]
+  },
+  {
+    "nombre": "test02",
+    "test": [
+      [
+        {
+          "pregunta": "¿En qué consiste un commit?",
+          "resp": [
+            {
+              "texto": "Es el proceso de incluir un fichero en un sistema de control de cambios."
+            },
+            {
+              "texto": "Es un conjunto de cambios registrados en la historia de un sistema de control de cambios."
+            },
+            {
+              "texto": "Es una carpeta con los ficheros de una versión de la aplicación."
+            },
+            {
+              "texto": "Es el cambio a un punto anterior de la historia del repositorio."
+            }
+          ],
+          "correct": 1,
+          "feedback": "Los cambios pueden ser modificaciones de líneas en ficheros existentes (nuevas líneas, líneas eliminadas o modificadas), ficheros añadidos o eliminados del repositorio. Algunos sistemas detectan el renombrado de ficheros como un cambio en sí mismo, otros consideran un renombrado cuando desaparece un fichero y se añade uno nuevo."
+        },
+        {
+          "pregunta": "¿Qué debería ser versionado?",
+          "resp": [
+            { "texto": "El código fuente de la aplicación." },
+            { "texto": "La documentación." },
+            { "texto": "Las herramientas de despliegue." },
+            { "texto": "Todos los anteriores." }
+          ],
+          "correct": 3,
+          "feedback": "Es fundamental ser capaz de reproducir una versión de la aplicación y esto no se consigue solo con el código fuente. Son necesarios también los scripts de despliegues, las dependencias, herramientas, etc."
+        },
+        {
+          "pregunta": "¿En qué consiste la edición simultánea?",
+          "resp": [
+            {
+              "texto": "Varios desarrolladores editan un mismo fichero y uno de ellos combina los cambios del resto manualmente."
+            },
+            {
+              "texto": "Un desarrollador bloquea un fichero para trabajar sobre él."
+            },
+            {
+              "texto": "Varios desarrolladores trabajan sobre el mismo repositorio y probablemente sobre los mismos ficheros y el sistema se encarga de fusionar los cambios de todos automáticamente."
+            },
+            { "texto": "Ninguna de las anteriores." }
+          ],
+          "correct": 2,
+          "feedback": "En algunos casos es necesario corregir conflictos manualmente."
+        },
+        {
+          "pregunta": "Relaciona el concepto con su\ndefinición.",
+          "resp": [],
+          "correct": null,
+          "feedback": "Respuesta correctaRespuesta correcta"
+        },
+        {
+          "pregunta": "¿Qué significa «viajar en el tiempo» en el contexto de los sistemas de control de versiones?",
+          "resp": [
+            {
+              "texto": "Que se pueden instalar versiones antiguas de una aplicación."
+            },
+            {
+              "texto": "Que las nuevas versiones son compatibles con las anteriores."
+            },
+            {
+              "texto": "Que un desarrollador puede trabajar en una versión antigua del repositorio."
+            },
+            { "texto": "Ninguna de las anteriores." }
+          ],
+          "correct": 2,
+          "feedback": "Más concretamente, la copia de trabajo se puede actualizar con cualquier commit del histórico."
+        },
+        {
+          "pregunta": "¿Qué metadatos incluyen los commits?",
+          "resp": [
+            { "texto": "Autor." },
+            { "texto": "Fecha." },
+            { "texto": "Comentarios." },
+            { "texto": "Todos los anteriores." }
+          ],
+          "correct": 3,
+          "feedback": "También incluyen un identificador único, pueden incluir una firma, etc."
+        },
+        {
+          "pregunta": "¿Cómo se recomienda versionar las dependencias de una aplicación?",
+          "resp": [
+            {
+              "texto": "Copiando el código fuente de la dependencia dentro de una carpeta del repositorio de la aplicación."
+            },
+            {
+              "texto": "Manteniendo un documento con instrucciones sobre cómo instalarla."
+            },
+            {
+              "texto": "Referenciando la versión de la dependencia como una librería e instalándola con un gestor de paquetes durante el despliegue."
+            },
+            { "texto": "Todas los anteriores son estrategias válidas." }
+          ],
+          "correct": 2,
+          "feedback": "Técnicamente, todas las opciones son posible, pero la A no permite actualizar la versión de la dependencia fácilmente y la B no tiene en cuenta una instalación automatizada."
+        },
+        {
+          "pregunta": "¿Cómo se crea una nueva rama llamada feature en Git?",
+          "resp": [
+            { "texto": "git checkout -b feature." },
+            { "texto": "git branch feature." },
+            { "texto": "git create branch feature." },
+            { "texto": "$0 y $1." }
+          ],
+          "correct": 3,
+          "feedback": "«$0» crea la rama y la activa en la copia de trabajo, mientras que «B» la crea, pero no cambia la rama activa."
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,2135 @@
+﻿[
+  {
+    "nombre": "test01",
+    "test": [
+      {
+        "pregunta": "¿Cuáles de las siguientes afirmaciones acerca de DevOps son falsas?",
+        "resp": [
+          {
+            "texto": "La filosofía, cultura y herramientas DevOps son exclusivas para las start-ups."
+          },
+          {
+            "texto": "Para la adopción de DevOps, solo es necesario que las áreas de desarrollo y operaciones trabajen en equipo, mientras el resto de la organización persigue sus objetivos individuales."
+          },
+          {
+            "texto": "Para la implementación de DevOps es necesario que se haga un push a producción a diario."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Todas las afirmaciones son falsas, porque todas provienen de los mitos sobre DevOps, que como hemos visto, se han originado en empresas que no han sabido realizar el cambio cultural necesario ni implementar sus procesos con éxito."
+      },
+      {
+        "pregunta": "¿Qué objetivos persigue la estrategia DevOps?",
+        "resp": [
+          {
+            "texto": "Aumentar la capacidad de una organización para entregar aplicaciones y servicios a alta velocidad."
+          },
+          {
+            "texto": "Mejorar sus productos de forma continua a un ritmo más rápido que las organizaciones tradicionales."
+          },
+          {
+            "texto": "Ofrecer un mejor servicio a sus clientes y competir en el mercado de forma más eficiente."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Los objetivos que persigue DevOps son variados y por tanto es complicado numerarlos todos, pero podemos resumirlos en las respuestas $0, $1 y $2."
+      },
+      {
+        "pregunta": "¿Cuáles de los siguientes enunciados representan beneficios directos de la implementación de DevOps en una organización?",
+        "resp": [
+          {
+            "texto": "Impacto positivo en la cuenta de resultados debido a un aumento de la facturación anual."
+          },
+          {
+            "texto": "Aumento de la satisfacción laboral."
+          },
+          {
+            "texto": "Aceleración de la innovación."
+          },
+          {
+            "texto": "$1 y $2 son correctas"
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "DevOps proporciona enormes beneficios a las organizaciones, pero no por ello podemos afirmar que la facturación anual de una empresa se verá directamente repercutida, ya que hay otros factores que influyen en este aspecto. Lo que sí podemos afirmar es que la satisfacción de los trabajadores aumentará, al igual que lo hará la innovación."
+      },
+      {
+        "pregunta": "¿Cuáles son los principios fundamentales de DevOps?",
+        "resp": [
+          {
+            "texto": "La colaboración, mejora continua, responsabilidad equitativa, automatización de procesos, foco en el cliente, equipos multifuncionales y el aprendizaje en base a errores."
+          },
+          {
+            "texto": "La colaboración y la automatización."
+          },
+          {
+            "texto": "La gestión de la configuración, la automatización y la colaboración."
+          },
+          {
+            "texto": "La integración y entrega continuas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Como hemos visto en este tema, los principios DevOps no son fijos ni absolutos, ya que es un enfoque emergente. Sin embargo, lo que resulta común a muchas de las fuentes especializadas en DevOps son los listados en la opción $0. Las demás opciones de respuesta no son erróneas, pero están incompletas."
+      },
+      {
+        "pregunta": "¿Cuál definición de DevOps es la más acertada?",
+        "resp": [
+          {
+            "texto": "DevOps es una combinación de filosofías, prácticas y herramientas culturales que utiliza software ágil para mejorar, gestionar y automatizar sus procesos."
+          },
+          {
+            "texto": "DevOps es una metodología basada en la tecnología."
+          },
+          {
+            "texto": "DevOps es un enfoque basado en la metodología en cascada que aboga por la cooperación e interacción entre los miembros de los equipos IT."
+          },
+          {
+            "texto": "DevOps es una mejora en la comunicación entre los equipos."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Existen numerosas definiciones sobre lo que es DevOps. En esta pregunta se busca poner énfasis en los tres pilares que lo componen: filosofías, prácticas y herramientas. No podemos entender a DevOps como un conjunto de herramientas, o una mejora en la comunicación, ya que esas definiciones son parciales y no representan a DevOps en su totalidad."
+      },
+      {
+        "pregunta": "¿Qué impulsa a las empresas hacia la adopción de DevOps?",
+        "resp": [
+          {
+            "texto": "La reducción del time-to-market."
+          },
+          {
+            "texto": "La mejora de procesos a través de la automatización."
+          },
+          {
+            "texto": "La mejora de la comunicación, la interacción y la colaboración entre los equipos."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "La adopción de DevOps está impulsada por sus múltiples beneficios. La respuesta $3 engloba la mayor cantidad de ellos (aunque no todos) y por ello resulta la opción más adecuada."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes enunciados es correcto?",
+        "resp": [
+          {
+            "texto": "Los equipos de operaciones deben identificar y resolver los problemas de forma temprana mediante la monitorización."
+          },
+          {
+            "texto": "La monitorización es opcional para el enfoque DevOps, solo la virtualización es obligatoria y necesaria."
+          },
+          {
+            "texto": "La virtualización en sí misma es opcional para implementar DevOps, pero reportará enormes beneficios en caso de que se integre."
+          },
+          {
+            "texto": "$0 y $2 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "En este caso, las opciones $0 y $2 son correctas porque enuncian verdades acerca de DevOps, mientras que la opción $1 indica que la monitorización es opcional. Según lo que hemos estudiado en este tema, la monitorización es fundamental y debe hacerse de forma temprana y en todas las fases de desarrollo."
+      },
+      {
+        "pregunta": "Termina la frase: «Las herramientas automatizadas?»",
+        "resp": [
+          {
+            "texto": "Ofrecen oportunidades adicionales para mejorar la eficiencia."
+          },
+          {
+            "texto": "Ayudan a acortar los ciclos de desarrollo."
+          },
+          {
+            "texto": "Aceleran la entrega del producto."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Todas las opciones son correctas acerca de las herramientas automatizadas que se utilizan para la implementación de DevOps. Es sabido que todas ellas ayudan a los equipos a mejorar la eficiencia, acelerar los ciclos de desarrollo y permiten que las entregas se hagan con mayor rapidez."
+      },
+      {
+        "pregunta": "El término shift left hace alusión a?",
+        "resp": [
+          {
+            "texto": "El trabajo en entornos similares a producción durante el desarrollo del software y la ejecución de pruebas."
+          },
+          {
+            "texto": "La automatización de las pruebas antes del pase a producción."
+          },
+          {
+            "texto": "El trabajo denominado pair programming (programación en parejas) que llevan a cabo los desarrolladores en ocasiones."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Como hemos comentado en el apartado sobre los principios DevOps, el término shift left hace alusión a la idea de que los equipos de desarrollo y calidad (QA) trabajen en entornos similares a producción para verificar el comportamiento y desempeño de la aplicación mucho antes de que esté lista para su despliegue."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes prácticas se corresponde con las metodologías DevOps?",
+        "resp": [
+          {
+            "texto": "Integración continua, entrega continua, gestión de la configuración y monitorización."
+          },
+          {
+            "texto": "Atraer y contratar a más trabajadores para contar con una fuerza de trabajo más fuerte y numerosa."
+          },
+          {
+            "texto": "Rediseñar la estrategia de marketing para atraer a una mayor cantidad de clientes."
+          },
+          {
+            "texto": "Reestablecer los objetivos de negocio para aumentar la facturación y extender las directrices necesarias al resto de la organización para alcanzar esta meta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Las metodologías DevOps incluyen a la integración continua (creación de código, la construcción, la integración y las pruebas), la entrega y los despliegues continuos a través de la automatización, y la gestión de la configuración y monitorización continua."
+      }
+    ]
+  },
+  {
+    "nombre": "test02",
+    "test": [
+      {
+        "pregunta": "Indica cuáles de estas afirmaciones son correctas acerca de la colaboración en DevOps:",
+        "resp": [
+          {
+            "texto": "Los resultados de la transformación de la cultura organizacional son inmediatos."
+          },
+          {
+            "texto": "La cultura de la colaboración involucra únicamente a las personas."
+          },
+          {
+            "texto": "La colaboración solo puede ser abordada de la mano de la tecnología, por lo tanto, sin herramientas tecnológicas, no habrá un entorno de trabajo colaborativo."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Como hemos estudiado en este tema, es posible implementar DevOps en una organización sin la necesidad de adoptar numerosas herramientas de software, pero sí es totalmente necesario el abrazar el cambio cultural (y esto incluye a las personas). Además, los cambios a nivel humano demoran algún tiempo en dar frutos, por lo que los resultados no son inmediatos, sino progresivos."
+      },
+      {
+        "pregunta": "Indica cuáles de estas afirmaciones son correctas acerca de las herramientas metodológicas:",
+        "resp": [
+          {
+            "texto": "Estas herramientas fomentan la creación de un entorno innovador, de cambio y de colaboración."
+          },
+          {
+            "texto": "Se ha demostrado que estas herramientas son menos eficaces que los métodos tradicionales."
+          },
+          {
+            "texto": "Estas herramientas incluyen a las metodologías ágiles."
+          },
+          {
+            "texto": "$0 y $2 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Cuando hablamos de herramientas metodológicas, nos referimos a aquellas que favorecen la mejora de las prácticas que hacen posible la colaboración. Un ejemplo de ello podrían ser las metodologías ágiles, que fomentan la creación de un entorno innovador, de cambio y de colaboración."
+      },
+      {
+        "pregunta": "El shadow IT acarrea importantes consecuencias. Indica cuál de las siguientes opciones es la más adecuada para describir algunas de ellas:",
+        "resp": [
+          {
+            "texto": "Fuga de información y datos sensibles, e ineficiencia en la resolución de problemas."
+          },
+          {
+            "texto": "Ralentización de procesos, y rotación del personal."
+          },
+          {
+            "texto": "Fuga de talentos, información y datos sensibles."
+          },
+          {
+            "texto": "Fuga de información y datos sensibles, ralentización de procesos e ineficiencia en la resolución de problemas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "De acuerdo con lo que hemos estudiado, el shadow IT afecta, principalmente, a las organizaciones por la pérdida o fuga de información confidencial, la ralentización de los procesos y la ineficiencia a la hora de resolver los problemas que surgen de la práctica profesional."
+      },
+      {
+        "pregunta": "¿Cuáles suelen ser los problemas que actúan como potenciadores de la adopción de DevOps? Elige la opción más acertada:",
+        "resp": [
+          {
+            "texto": "Falta de visibilidad, miedo y procesos burocráticos que van en detrimento de la agilidad."
+          },
+          {
+            "texto": "Pérdida de la capacidad de innovación, dificultades técnicas y shadow IT."
+          },
+          {
+            "texto": "Personal poco cualificado."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Muchas empresas se han visto forzadas a cambiar la forma en que realizan sus operaciones por los problemas que han experimentado. Los más comunes (aunque no todos) suelen ser la falta de visibilidad, el miedo, exceso de burocracia, falta de pérdida de la capacidad de innovación, dificultades técnicas evitables y shadow IT."
+      },
+      {
+        "pregunta": "DevOps puede ser entendido como una capacidad de negocio porque:",
+        "resp": [
+          {
+            "texto": "Es un conjunto de actividades o tareas que produce un resultado específico (producto o servicio) para los clientes."
+          },
+          {
+            "texto": "Consiste en llevar las capacidades fijadas por las áreas de negocio, a través de todo el ciclo de desarrollo, desde su inicio y hasta su fin (end-to-end)."
+          },
+          {
+            "texto": "Toda organización debe adoptar DevOps si desea competir en el mercado de forma exitosa."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "DevOps es un enfoque que involucra a toda la organización y permite a las empresas brindar servicios y ofrecer productos a sus clientes. El área de negocio también forma parte del ciclo DevOps, ya que es la encargada de definir los casos de uso y objetivos. Como hemos visto, DevOps no involucra únicamente al área de desarrollo y operaciones, sino a toda la organización."
+      },
+      {
+        "pregunta": "Termina la frase: «Para la conformación de un equipo DevOps debemos procurar?»:",
+        "resp": [
+          {
+            "texto": "Que funcione como una perfecta maquinaria con diversos engranajes; que prime la colaboración como valor fundamental; y que no se añadan niveles de burocracia en los procesos internos."
+          },
+          {
+            "texto": "Que cada individuo vele por sus propios objetivos de eficiencia y productividad, a fin de que su evaluación de desempeño tenga un excelente resultado."
+          },
+          {
+            "texto": "Que los desarrolladores puedan trabajar en parejas, bajo la práctica del pair programming."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Es esencial que el equipo DevOps funcione como una perfecta maquinaria, que pueda brindar un servicio de excelencia a sus clientes (internos y externos) y que todos sus miembros colaboren y se ayuden mutuamente, a la vez que se eliminen puntos de control en pos de la visibilidad, la agilidad y la flexibilidad."
+      },
+      {
+        "pregunta": "Relaciona los elementos intervinientes en la cultura de la colaboración DevOps en contraposición con aquellos de las metodologías tradicionales (en cascada):",
+        "resp": [],
+        "options": [
+          "Visibilidad",
+          "Automatización",
+          "Agilidad",
+          "Ciclos iterativos"
+        ],
+        "rels": [
+          "Control",
+          "Trabajo manual",
+          "Burocracia",
+          "Modelo secuencial"
+        ],
+        "feedback": ""
+      },
+      {
+        "pregunta": "Termina la frase: «Para garantizar el éxito en la adopción de DevOps, los líderes deben?»:",
+        "resp": [
+          {
+            "texto": "Establecer un conjunto común de herramientas a toda la organización para que los trabajadores conozcan los diferentes entornos y trabajen de la forma más ágil que les sea posible."
+          },
+          {
+            "texto": "Lograr que todos los trabajadores estén alineados con los objetivos de negocio."
+          },
+          {
+            "texto": "Crear procesos que eliminen la burocracia y proporcionen flexibilidad, a fin de que los equipos puedan solventar los fallos cuando sea necesario."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Los líderes de la organización deben propulsar el cambio a través de la creación de políticas que garanticen que los trabajadores conocen cuáles son los objetivos y puedan comprometerse con ellos. Esto se logra, sobre todo, informando a los trabajadores qué es lo que se espera de ellos y cuál es el impacto de su trabajo. A su vez, se debe optar por la estandarización del conjunto de herramientas y eliminar la burocracia al máximo posible."
+      },
+      {
+        "pregunta": "Elige la opción correcta para la siguiente afirmación: «En un ciclo de vida DevOps, intervienen los siguientes procesos»:",
+        "resp": [
+          {
+            "texto": "El establecimiento de los objetivos de negocio y casos de uso, la comunicación de los objetivos y requisitos al equipo de desarrollo, el check-in de software y el desarrollo automatizado."
+          },
+          {
+            "texto": "La integración y entrega continuas."
+          },
+          {
+            "texto": "Las pruebas y despliegues automatizados, y la monitorización continua."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Todas las prácticas y procesos listados forman parte del ciclo de vida DevOps. Como hemos visto en este tema, el ciclo DevOps comienza desde antes que el código comience a desarrollarse y perdura hasta su llegada a producción, donde la monitorización nunca cesa."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es correcta acerca de DevOps?:",
+        "resp": [
+          {
+            "texto": "Este enfoque resulta apropiado para las organizaciones que pueden invertir grandes cantidades de dinero en software y hardware."
+          },
+          {
+            "texto": "DevOps no es el objetivo final de una organización, sino que es una herramienta que permite alcanzar los objetivos propuestos."
+          },
+          {
+            "texto": "DevOps no es compatible con la virtualización."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "DevOps no puede ser entendido como el destino final del viaje, sino como el que camino que deben atravesar las organizaciones para transformar sus prácticas y flujos de comunicación con el fin de volverse más ágiles."
+      }
+    ]
+  },
+  {
+    "nombre": "test03",
+    "test": [
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la definición de Dojo.",
+        "resp": [
+          {
+            "texto": "Es un espacio diseñado para albergar una experiencia de aprendizaje inmersiva donde los equipos acuden para aprender ingeniería moderna, productos y prácticas ágiles."
+          },
+          {
+            "texto": "Es una herramienta de HashiCorp."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Esta es la definición precisa con la que hemos estado trabajando."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con el rol de entrenador de Dojo.",
+        "resp": [
+          {
+            "texto": "Es el encargado del primer equipo."
+          },
+          {
+            "texto": "Es el coach que entiende el panorama general del estado inicial de los equipos y les ayuda a atravesar las etapas de aprendizaje «mostrándoles el camino»."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "El rol de entrenador de un Dojo de ingeniería es similar al de un Dojo de artes marciales, que representa a un maestro."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con el concepto de Dojo in a box.",
+        "resp": [
+          {
+            "texto": "Es un proceso de Dojo normal, pero los entrenadores del Dojo acuden al entorno de trabajo habitual de los equipos."
+          },
+          {
+            "texto": "Se refiere al espacio de reuniones recomendado para las demos y reuniones."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Esto tiene la gran ventaja de que los trabajadores empezaran a producir beneficios reales antes, pero por otro lado no se les saca de la zona de confort, lo que podría dificultar el cambio."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con el reto de realizar un Dojo con equipos deslocalizados.",
+        "resp": [
+          {
+            "texto": "No presenta ningún reto, es exactamente igual al Dojo presencial."
+          },
+          {
+            "texto": "No presenta ningún reto si se tienen las herramientas de colaboración correctas."
+          },
+          {
+            "texto": "El mayor reto viene dado por el hecho de tener seis horas diarias de interacción virtual con altos grados de atención y resultados."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Hemos analizado con anterioridad las ventajas de la colocalización y cómo la comunicación es inevitablemente más fluida en este caso, en contraposición con la experiencia del Dojo a distancia."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la definición de oferta básica en el contexto de los Dojos.",
+        "resp": [
+          {
+            "texto": "Es el catálogo estable de servicios de entrenamiento que ofrece la empresa organizadora del Dojo."
+          },
+          {
+            "texto": "Es el servicio a coste reducido que ofrecen las empresas que forman en Dojo."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Tener esos servicios publicitados y ofertados facilita el enrolamiento de nuevos equipos y el inicio de las negociaciones sobre las necesidades particulares de cada empresa."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la definición de un taller de líderes en el contexto de los Dojos.",
+        "resp": [
+          {
+            "texto": "Son talleres que enseñan a los miembros de los equipos a adquirir competencias de liderazgo."
+          },
+          {
+            "texto": "Son talleres que pretenden enseñar a los mandos intermedios el proceso de transformación que están viviendo sus equipos."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Los mandos intermedios suelen tener más problemas a la hora de apoyar los Dojos, porque sus objetivos suelen estar asociados al delivery a corto plazo."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la definición de un formato de Dojo basado en un desafío.",
+        "resp": [
+          {
+            "texto": "Se le da este nombre al Dojo cuando es casi imposible que los equipos mejoren."
+          },
+          {
+            "texto": "DevOps es siempre un desafío."
+          },
+          {
+            "texto": "Ninguna de las afirmaciones es correcta."
+          },
+          {
+            "texto": "Es el formato de Dojo donde el equipo trae sus propios objetivos y retos/reto."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Como hemos explicado en otras secciones, esto permite tener pequeñas victorias de forma rápida y aumentar, así, la satisfacción de todos los implicados."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la descripción de los métodos de medición del éxito de los Dojos.",
+        "resp": [
+          {
+            "texto": "La medición se realiza teniendo en cuenta el número de los equipos entrenados."
+          },
+          {
+            "texto": "Es Agile, no hay métricas."
+          },
+          {
+            "texto": "La medición se realiza teniendo en cuenta la cantidad de entrenadores que trabajan en la experiencia."
+          },
+          {
+            "texto": "Cada organización suele usar sus propias métricas, pero casi todas suelen centrarse en el aumento de la eficiencia y la entrega de valor."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "En algunos casos también se usan entrevistas, sobre todo para establecer la situación inicial a partir de la que se va a empezar a mejorar."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la descripción ideal de un equipo para ser seleccionado para un Dojo.",
+        "resp": [
+          {
+            "texto": "Comprometido, enfocado en producto, localizado en el mismo entorno y multidisciplinar."
+          },
+          {
+            "texto": "Pequeño y tradicional."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Esto facilitará el cambio cultural y permitirá ejecutar el aprendizaje y el cambio de forma más rápida y eficiente."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponda con la descripción del formato dos por cuatro.",
+        "resp": [
+          {
+            "texto": "Ocho."
+          },
+          {
+            "texto": "Es el formato del Dojo que permite su implementación con las dos primeras semanas trabajando in situ y otras cuatro en el puesto de trabajo habitual, incluso si este es distinto para cada trabajador."
+          },
+          {
+            "texto": "Es una métrica de eficiencia de los Dojos."
+          },
+          {
+            "texto": "Ninguna de las anteriores es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Este formato suele facilitar el comienzo del Dojo porque no requiere el retirar los recursos de su dedicación habitual tanto tiempo, y al mismo tiempo permite mostrar resultados rápidamente."
+      }
+    ]
+  },
+  {
+    "nombre": "test04",
+    "test": [
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la definición de virtualización de almacenamiento.",
+        "resp": [
+          {
+            "texto": "Es el proceso de abstracción lógica del almacenamiento físico."
+          },
+          {
+            "texto": "Son los ficheros de las máquinas virtuales."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "La abstracción lógica permite que las máquinas virtuales hagan uso de almacenamiento lógico que puede estar implementado en diferentes soluciones de hardware."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con definición de virtualización de escritorio.",
+        "resp": [
+          {
+            "texto": "Es la posibilidad de tener sistemas de virtualización en un PC de escritorio."
+          },
+          {
+            "texto": "Es el proceso de convertir los PC de escritorio en máquinas virtuales."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "También se conoce como VDI y tiene muchas ventajas a la hora de simplificar la gestión y reducir costes."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con virtualización del sistema operativo.",
+        "resp": [
+          {
+            "texto": "Este tipo de virtualización se corresponde a lo que hoy en día llamamos Contenedores (Containers)."
+          },
+          {
+            "texto": "Es la virtualización de máquinas virtuales."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "La virtualización del sistema operativo permite la ejecución de aplicaciones de forma virtualizada y de una forma más ligera que con virtualización del hardware."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la definición de «paravirtualización».",
+        "resp": [
+          {
+            "texto": "Se llama así a la virtualización implementada sobre una segunda capa de virtualización."
+          },
+          {
+            "texto": "Se llama así a la virtualización anidada."
+          },
+          {
+            "texto": "La paravirtualización no intenta emular un entorno de hardware en software."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Un hipervisor de paravirtualización coordina o multiplexa el acceso a los recursos de hardware subyacentes del servidor."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la virtualización de red.",
+        "resp": [
+          {
+            "texto": "Es el proceso de abstracción lógica de la capa de red."
+          },
+          {
+            "texto": "Es el servicio que facilita la transferencia de máquinas virtuales por la red."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "La abstracción lógica permite que las máquinas virtuales hagan uso de servicios de red a nivel lógico implementados sobre una tecnología física de red potencialmente diferente."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la virtualización de aplicaciones.",
+        "resp": [
+          {
+            "texto": "Son máquinas virtuales especializadas en la ejecución de aplicaciones."
+          },
+          {
+            "texto": "Es una separación de la ejecución del programa y de la visualización de este."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "En otras palabras, un programa como Microsoft Word se ejecuta en un servidor ubicado en el centro de datos, pero la salida gráfica se envía a un dispositivo cliente remoto."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la definición de hipervisor de tipo 1.",
+        "resp": [
+          {
+            "texto": "Son los hipervisores que funcionan sobre un sistema operativo."
+          },
+          {
+            "texto": "Son el tipo de hipervisor más antiguo."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          },
+          {
+            "texto": "Son los hipervisores que pueden ejecutarse directamente sobre el hardware sin la necesidad de un sistema operativo."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "La abstracción lógica permite que las máquinas virtuales hagan uso de almacenamiento lógico que puede estar implementado en diferentes soluciones de hardware."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la descripción de VirtualBox.",
+        "resp": [
+          {
+            "texto": "Es un software de virtualización propiedad de Oracle."
+          },
+          {
+            "texto": "Es un software de virtualización de aplicaciones."
+          },
+          {
+            "texto": "Es un hipervisor de tipo 2."
+          },
+          {
+            "texto": "$0 y $2 son verdaderas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Oracle virtualBox es un hipervisor de tipo 2 disponible en múltiples plataformas de PC."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la definición de streaming de escritorio.",
+        "resp": [
+          {
+            "texto": "Es proceso de capturar la entrada y salida de un escritorio (virtual o físico)."
+          },
+          {
+            "texto": "Utilizar servicios de streaming desde el escritorio."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "El streaming de escritorio permitirá que se puedan acceder a los escritorios de forma remota."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor se corresponde con la descripción de KVM.",
+        "resp": [
+          {
+            "texto": "Es el Keyboard Virtual Module que permite el uso de teclados en máquinas virtuales."
+          },
+          {
+            "texto": "Es el sistema de virtualización incorporado en la mayoría de los sistemas Linux."
+          },
+          {
+            "texto": "Es un producto de virtualización de VMware."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Está basado en Linux y se puede agregar a la mayoría de los sistemas operativos Linux, incluidos Ubuntu, Debian, SUSE y Red Hat Enterprise Linux, pero también Solaris y Windows."
+      }
+    ]
+  },
+  {
+    "nombre": "test05",
+    "test": [
+      {
+        "pregunta": "Señala la opción que no se encuentra entre los casos de uso apropiados para virtualización:",
+        "resp": [
+          {
+            "texto": "Consolidación de servidores."
+          },
+          {
+            "texto": "Entornos de desarrollo y pruebas."
+          },
+          {
+            "texto": "Computación de nube privada."
+          },
+          {
+            "texto": "Incrementar la seguridad de red."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Si bien es posible securizar una red virtual, no hay ninguna razón por la que una red virtual sea intrínsecamente más segura."
+      },
+      {
+        "pregunta": "Señala la opción que ayudará a encauzar la puesta en marcha de un proyecto de virtualización:",
+        "resp": [
+          {
+            "texto": "Establecer el gobierno y las políticas necesarias."
+          },
+          {
+            "texto": "Consolidación de servidores siempre."
+          },
+          {
+            "texto": "Contratar gente nueva."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Si bien es posible, nada asegura el éxito de un proyecto, aunque el que existan reglas claras desde el principio facilitara su éxito."
+      },
+      {
+        "pregunta": "Señala la opción que no se encuentra entre los casos de uso apropiados para virtualización: 2",
+        "resp": [
+          {
+            "texto": "Calidad del servicio."
+          },
+          {
+            "texto": "Alta disponibilidad."
+          },
+          {
+            "texto": "Aumentar la capacidad de almacenamiento sin inversión adicional."
+          },
+          {
+            "texto": "Recuperación de desastres."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Si bien es posible virtualizar el almacenamiento, ello no implica, en principio, mayor capacidad sino, la posibilidad de gestionarlo mejor."
+      },
+      {
+        "pregunta": "Señala la opción que se corresponde con un error común en proyectos de virtualización",
+        "resp": [
+          {
+            "texto": "Pensar que el hardware no importa y cualquier hardware es bueno para los proyectos de virtualización."
+          },
+          {
+            "texto": "Organizar sesiones de entrenamiento para todo el equipo."
+          },
+          {
+            "texto": "Contratar Expertos."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Si bien prácticamente cualquier hardware soporta hoy en día funciones de virtualización, es aconsejable usar hardware especifico y sobre todo dimensionado para las necesidades del proyecto a acometer."
+      },
+      {
+        "pregunta": "Señala la opción que mejor encaja con una estrategia de éxito para virtualización",
+        "resp": [
+          {
+            "texto": "Aumentar la calidad del servicio."
+          },
+          {
+            "texto": "Una nueva estrategia requiere gente nueva."
+          },
+          {
+            "texto": "Establecer un sistema de almacenamiento virtual compartido."
+          },
+          {
+            "texto": "Recuperación de desastres."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "El almacenamiento virtual compartido (NAS o SAN) es una de las inversiones que producen una mejora más evidente y de forma rápida."
+      },
+      {
+        "pregunta": "Señala la opción que se corresponde con un error común en proyectos de virtualización:",
+        "resp": [
+          {
+            "texto": "Organizar sesiones de entrenamiento que no incluyen a toda la empresa."
+          },
+          {
+            "texto": "Incurrir en problemas legales y/o de compliance."
+          },
+          {
+            "texto": "$0 y $1 son ciertas."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Al acometer proyectos de virtualización conviene revisar nuestros requisitos legales. Puede ser, por ejemplo, que estemos obligados a tener separación física entre los datos de nuestros clientes o que sus datos tengan que estar en una localización geográfica concreta por poner un ejemplo."
+      },
+      {
+        "pregunta": "Señala la opción que no se encuentra entre los casos de uso apropiados para virtualización: 3?",
+        "resp": [
+          {
+            "texto": "Clusterización."
+          },
+          {
+            "texto": "Entornos de desarrollo y pruebas."
+          },
+          {
+            "texto": "Recuperación de desastres."
+          },
+          {
+            "texto": "Incrementar capacidad computacional de la empresa."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Con la virtualización, seremos capaces de hacer un uso más eficiente de la capacidad computacional de nuestra infraestructura, pero no incrementarla, de hecho, los sistemas de virtualización inevitablemente generan una cierta carga extra (overhead)."
+      },
+      {
+        "pregunta": "Señala la opción que mejor encaja con una estrategia de éxito para virtualización:",
+        "resp": [
+          {
+            "texto": "Reducir el equipo de gestión."
+          },
+          {
+            "texto": "Invertir en hardware, pero no en formación."
+          },
+          {
+            "texto": "Realizar un análisis previo a iniciar el proyecto de virtualización."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Esa información nos ayudara a planificar y diseñar mejor el proyecto de virtualización, quizás algunos servidores no se puedan virtualizar, quizás hay otros que puedan decomisionarse, quizás hay hardware que se pueda reutilizar."
+      },
+      {
+        "pregunta": "Señala la opción que mejor encaja con «buena práctica de administración de TI»:",
+        "resp": [
+          {
+            "texto": "Realizar backups de los sistemas más críticos."
+          },
+          {
+            "texto": "Invertir en software de virtualización."
+          },
+          {
+            "texto": "Monitorizar las infraestructuras tanto virtuales como físicas."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "La monitorización es un elemento fundamental para garantizar la calidad del servicio y hay que darle la misma prioridad tanto en entornos virtuales como físicos."
+      },
+      {
+        "pregunta": "Señala la opción que se corresponde con el significado de POC:",
+        "resp": [
+          {
+            "texto": "POC significa proof of concept o prueba de concepto."
+          },
+          {
+            "texto": "Push to Talk over Celular."
+          },
+          {
+            "texto": "Power on connectivity y permite acceder a funciones de red sin tener el hardware encendido."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Las pruebas de concepto son siempre una buena forma de acometer nuevos proyectos, y la virtualización no es una excepción."
+      }
+    ]
+  },
+  {
+    "nombre": "test06",
+    "test": [
+      {
+        "pregunta": "¿A qué tipo de nube nos referimos si la aplicación y los datos tienen que ser gestionados por el usuario, pero lo demás está gestionado por el proveedor de nube?",
+        "resp": [
+          {
+            "texto": "PaaS."
+          },
+          {
+            "texto": "SaaS."
+          },
+          {
+            "texto": "IaaS."
+          },
+          {
+            "texto": "Híbrida."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Plataforma como servicio, porque la infraestructura y la plataforma son gestionadas por el proveedor de tal forma que el usuario solo tiene que gestionar su aplicación y sus datos."
+      },
+      {
+        "pregunta": "¿A qué tipo de nube nos referimos si la infraestructura es propiedad de un usuario, normalmente no está accesible desde internet y ofrece más control?",
+        "resp": [
+          {
+            "texto": "Privada."
+          },
+          {
+            "texto": "PaaS."
+          },
+          {
+            "texto": "IaaS."
+          },
+          {
+            "texto": "Híbrida."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "La nube privada es la evolución del concepto de datacenter privado."
+      },
+      {
+        "pregunta": "¿A qué tipo de nube nos referimos si todo el stack, incluida la aplicación y los datos son gestionados por el proveedor de nube?",
+        "resp": [
+          {
+            "texto": "PaaS."
+          },
+          {
+            "texto": "SaaS."
+          },
+          {
+            "texto": "IaaS."
+          },
+          {
+            "texto": "Pública."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Software como servicio, porque la infraestructura, la plataforma y la aplicación son gestionadas por el proveedor."
+      },
+      {
+        "pregunta": "La infraestructura como servicio:",
+        "resp": [
+          {
+            "texto": "Consiste en la entrega de aplicaciones completas como un servicio."
+          },
+          {
+            "texto": "Se proporciona un servicio de plataforma con todo lo necesario para dar soporte al ciclo de planteamiento, desarrollo y puesta en marcha de aplicaciones y servicios web a través de esta."
+          },
+          {
+            "texto": "Es hacer uso externo de servidores para espacio en disco, base de datos, ruteadores, switches, así como tiempo de cómputo, evitando de esta manera tener un servidor local y toda la infraestructura necesaria para la conectividad y mantenimiento dentro de una organizaron."
+          },
+          {
+            "texto": "Ninguna de las definiciones corresponden."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "En infraestructura como servicio solo estamos contratando la infraestructura, y no el resto de las capas."
+      },
+      {
+        "pregunta": "No es un proveedor de Infraestructura de nube pública:",
+        "resp": [
+          {
+            "texto": "IBM."
+          },
+          {
+            "texto": "AWS."
+          },
+          {
+            "texto": "Netflix."
+          },
+          {
+            "texto": "Google."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Netflix es un SaaS, provee streaming pero no infraestructura."
+      },
+      {
+        "pregunta": "Selecciona la respuesta correcta en referencia a Microsoft Azure:",
+        "resp": [
+          {
+            "texto": "Azure ofrece exclusivamente servicios de almacenamiento."
+          },
+          {
+            "texto": "Azure ofrece servicios de nube centrados exclusivamente en Windows."
+          },
+          {
+            "texto": "Azure ofrece servicios de Cloud Computing basados tanto en Windows como en Linux, además de almacenamiento y múltiples productos en un modelo de pago por uso."
+          },
+          {
+            "texto": "Todas las anteriores son falsas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Azure es uno de los proveedores principales de nube pública y ofrece toda clase de servicios."
+      },
+      {
+        "pregunta": "¿A qué tipo de nube nos referimos si no es propiedad de los usuarios que comparten infraestructura y su uso en principalmente desde Internet?",
+        "resp": [
+          {
+            "texto": "Pública."
+          },
+          {
+            "texto": "PaaS."
+          },
+          {
+            "texto": "IaaS."
+          },
+          {
+            "texto": "Privada."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "La nube pública se ofrece a otros usuarios o clientes mediante Internet para que puedan desplegar sus propios servicios."
+      },
+      {
+        "pregunta": "¿Cómo afecta la nube al desarrollo e implantación de DevOps?",
+        "resp": [
+          {
+            "texto": "Proveer entornos bajo demanda."
+          },
+          {
+            "texto": "Aumenta el marketing."
+          },
+          {
+            "texto": "Reduce la necesidad de DevOps."
+          },
+          {
+            "texto": "No hay relación."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Los entornos desechables y bajo demanda facilitan la creación de ciclos de integración y entrega continua, además de habilitar de los desarrolladores."
+      },
+      {
+        "pregunta": "¿Cómo es el consumo frente al aprovisionamiento de recursos cuando se utiliza la nube?",
+        "resp": [
+          {
+            "texto": "Aumenta de forma descontrolada."
+          },
+          {
+            "texto": "Los recursos aprovisionados crecen en paralelo con la demanda."
+          },
+          {
+            "texto": "No hay relación."
+          },
+          {
+            "texto": "Desciende de forma progresiva."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Esto ocurre gracias a la posibilidad de reservar recursos bajo demanda y se puede observar claramente en la Figura 2 de este tema."
+      },
+      {
+        "pregunta": "¿Qué tecnología facilita el aprovisionamiento y configuración de un entorno de producción?",
+        "resp": [
+          {
+            "texto": "La nube pública."
+          },
+          {
+            "texto": "La nube privada."
+          },
+          {
+            "texto": "La nube híbrida."
+          },
+          {
+            "texto": "Cualquiera de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "El aprovisionamiento y configuración de un entorno de producción se logra gracias a los despliegues bajo demanda, que pueden lograrse en cualquier tipo de nube."
+      }
+    ]
+  },
+  {
+    "nombre": "test07",
+    "test": [
+      {
+        "pregunta": "¿Cuáles son los modelos de servicios e implementación que proporciona AWS?",
+        "resp": [
+          {
+            "texto": "IaaS, VaaS, SaaS (nube y local)."
+          },
+          {
+            "texto": "Iaav, PaaS, SaaS (nube, híbrida y local)."
+          },
+          {
+            "texto": "IaaS, PaaS, MaaS (local e híbrida)."
+          },
+          {
+            "texto": "IaaS, PaaS, SaaS (local, híbrida y nube)."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "AWS proporciona infraestructura como servicio, plataforma como servicio y software como servicio que puede implementarse en la nube, hibrido o en local."
+      },
+      {
+        "pregunta": "¿Cuántos grupos de servicios dispone AWS en la actualidad?",
+        "resp": [
+          {
+            "texto": "175."
+          },
+          {
+            "texto": "25."
+          },
+          {
+            "texto": "300."
+          },
+          {
+            "texto": "17."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "AWS dispone en la actualidad de veinticinco grupos de productos que abarcan los 175 servicios de los que dispone AWS."
+      },
+      {
+        "pregunta": "Relaciona grupo y servicio de AWS",
+        "resp": [],
+        "options": [
+          "Amazon QM",
+          "AWSLamdba",
+          "Familia de productos AWSSnow",
+          "Amazon S3"
+        ],
+        "rels": [
+          "Integración Apps.",
+          "Informática",
+          "Migración y Transferencia",
+          "Almacenamiento"
+        ],
+        "feedback": ""
+      },
+      {
+        "pregunta": "¿En caso de superar el cómputo de la capa gratuita, es necesario pagar?",
+        "resp": [
+          {
+            "texto": "No, porque son gratuitos todos los servicios a utilizar."
+          },
+          {
+            "texto": "Si, porque es necesario pagar para crearte una cuenta de AWS."
+          },
+          {
+            "texto": "Solo hay que pagar en el caso de que superes el cómputo en algunos de los servicios."
+          },
+          {
+            "texto": "Todas son falsas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "En los servicios de doce meses o de pruebas, en caso de superar el cómputo permitido, AWS tarificará de forma estándar."
+      },
+      {
+        "pregunta": "Señala el beneficio o los beneficios de la utilización de AWS PipeLine:",
+        "resp": [
+          {
+            "texto": "Automatización de entregas."
+          },
+          {
+            "texto": "Fácil integración."
+          },
+          {
+            "texto": "Empobrece la calidad del producto."
+          },
+          {
+            "texto": "Solo compatible con productos de terceros."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "$0: servicio específico para la automatización de entrega continua. $1: compatible no solo con AWS sino con soluciones de terceros."
+      },
+      {
+        "pregunta": "¿En qué consiste el Despliegue Blue Green?",
+        "resp": [
+          {
+            "texto": "Despliegue de DevOps que utiliza los servicios de nombres de dominio (en siglas, DNS) para realizar el despliegue de aplicaciones."
+          },
+          {
+            "texto": "Despliegue de soluciones empresariales para desplegar en AWS."
+          },
+          {
+            "texto": "Es un código de colores que identifica el estado en el que se encuentra nuestra aplicación."
+          },
+          {
+            "texto": "Despliegue de un servicio directamente en producción."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Estrategia de despliegue en el que se tiene oculto un sistema de producción espejo donde se implementa la nueva versión antes de ponerla en producción."
+      },
+      {
+        "pregunta": "¿AWS OpsWorks permite la creación y administración de servidores Chef?",
+        "resp": [
+          {
+            "texto": "Sí."
+          },
+          {
+            "texto": "No."
+          },
+          {
+            "texto": "No porque es compatible."
+          },
+          {
+            "texto": "Sí, pero en la región de Estados Unidos únicamente."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Permite crear servidores Chef para ser administrados por AWS, incluyendo características premium de Chef Automate y a su vez utilizar el Chef DK y otras herramientas."
+      },
+      {
+        "pregunta": "¿Qué tipos de aplicaciones son compatibles con AWS Elastic BeanStalk?",
+        "resp": [
+          {
+            "texto": "ABAP, Hana, Python,.Net, PHP."
+          },
+          {
+            "texto": "Java."
+          },
+          {
+            "texto": ".Net, PHP, Python, Ruby, Docker, Java, Node.js, Go."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Las opciones incluyen IIS, Node.js, PHP, Python, Ruby, Tomcat, Java, Go,.Net y Docker.A. Net, PHP, Python, Ruby, Docker, Java, ABAP for Hana."
+      },
+      {
+        "pregunta": "¿El pago de AWS es mediante el método de subscripción, pagando un coste fijo todos los meses?",
+        "resp": [
+          {
+            "texto": "Sí, en AWS pagas una subscripción mensual."
+          },
+          {
+            "texto": "No, pagas una subscripción mensual fija más el computo utilizado."
+          },
+          {
+            "texto": "No, la modalidad de pago es un pago por uso."
+          },
+          {
+            "texto": "AWS es totalmente gratuita y el coste es el del proveedor de Internet."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "AWS proporciona un sistema de pago por uso y sin subscripciones, por lo que en el momento que dejemos de necesitar algún servicio dejaremos de pagar por él."
+      },
+      {
+        "pregunta": "¿Por qué es importante AWS IAM?",
+        "resp": [
+          {
+            "texto": "Porque nos muestra el cómputo que llevamos utilizado en el último mes."
+          },
+          {
+            "texto": "Porque sin AWS no tenemos acceso a la red."
+          },
+          {
+            "texto": "Porque con AWS IAM gestionamos usuarios, grupos, autorizaciones y accesos."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Con IAM, se puede administrar de forma centralizada a los usuarios y credenciales de seguridad tales como contraseñas, claves de acceso y políticas de seguridad y a qué recursos pueden acceder los usuarios."
+      }
+    ]
+  },
+  {
+    "nombre": "test08",
+    "test": [
+      {
+        "pregunta": "¿Cuál es el objetivo de la Infraestructura como Código o IaC?",
+        "resp": [
+          {
+            "texto": "Eliminar la necesidad configuración manual del hardware."
+          },
+          {
+            "texto": "La evolución natural de los sistemas."
+          },
+          {
+            "texto": "No tiene un objetivo claro."
+          },
+          {
+            "texto": "Ahorrar puestos de trabajo, ya que reduce la intervención humana."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Su objetivo es, a través de la programación, aumentar la calidad y la eficiencia de las infraestructuras."
+      },
+      {
+        "pregunta": "¿Es la IaC un software de programación?",
+        "resp": [
+          {
+            "texto": "Sí, porque es con la IaC con la que desarrollamos en la nube."
+          },
+          {
+            "texto": "No, se trata de una parte fundamental de la computación en la nube y esencial para DevOps."
+          },
+          {
+            "texto": "Sí, porque la programación es lo único que puedo hacer."
+          },
+          {
+            "texto": "Sí, en todos los casos."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "La IaC no es un software, es un concepto."
+      },
+      {
+        "pregunta": "¿Cuáles de estas opciones son ventajas en de la IaC?",
+        "resp": [
+          {
+            "texto": "Optimización."
+          },
+          {
+            "texto": "Inconsistencia de recursos."
+          },
+          {
+            "texto": "Bajo coste y esfuerzo."
+          },
+          {
+            "texto": "Alta dificultad."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "multi": [0,2],
+        "feedback": ""
+      },
+      {
+        "pregunta": "¿Cuáles de estas herramientas son de IaC?",
+        "resp": [
+          {
+            "texto": "Microsoft Azure."
+          },
+          {
+            "texto": "Terraform."
+          },
+          {
+            "texto": "Chef Infra."
+          },
+          {
+            "texto": "Json."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "multi": [1,2],
+        "feedback": "Azure es una plataforma y Json un lenguaje de programación."
+      },
+      {
+        "pregunta": "¿Es la IaC un enfoque declarativo?",
+        "resp": [
+          {
+            "texto": "Sí, porque se centra en la declaración del destino final y AWS CloudFormation se basa en este enfoque."
+          },
+          {
+            "texto": "No, es imperativo porque se centra en cómo la infraestructura se va a cambiar para cumplir este enfoque y, además, Azure se basa en este enfoque."
+          },
+          {
+            "texto": "No, es inteligente porque es esencialmente el «qué» frente al «cómo» y frente al «por qué»."
+          },
+          {
+            "texto": "Todas las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Todas las anteriores ya que puede tener cualquiera de los tres enfoques."
+      },
+      {
+        "pregunta": "Relaciona Best Practice de AWS Cloudformation con su detalle:",
+        "resp": [],
+        "options": [
+          "Planificación y organización",
+          "Creación de plantillas",
+          "Organizar las pilas por ciclode vida y titularidad"
+        ],
+        "rels": [
+          "Organizar las pilas por ciclo de vida y titularidad.",
+          "Utilizar los scripts más recientes y validar las plantillas antes de usarlas.",
+          "Administrar todos los recursos de las pilas, a través de AWS CloudFormation"
+        ],
+        "feedback": ""
+      },
+      {
+        "pregunta": "¿Cuáles son las partes principales de AWS CloudFormation?",
+        "resp": [
+          {
+            "texto": "AWS Identity y AWS S3."
+          },
+          {
+            "texto": "Plantillas y Stacks."
+          },
+          {
+            "texto": "AWS CodeCommit."
+          },
+          {
+            "texto": "Lambda."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "Son sus pilares fundamentales. Además, el resto son servicios de AWS."
+      },
+      {
+        "pregunta": "¿Qué pilares y fundamentos de IaC contempla AWS CloudFormation?",
+        "resp": [
+          {
+            "texto": "Replicación y escalabilidad."
+          },
+          {
+            "texto": "Automatización mediante las API."
+          },
+          {
+            "texto": "Actualizaciones controladas y rollbacks."
+          },
+          {
+            "texto": "Las tres anteriores son ciertas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Son tres de los fundamentos de la IaC en los que se basa AWS."
+      },
+      {
+        "pregunta": "¿En qué entorno podemos crear una plantilla?",
+        "resp": [
+          {
+            "texto": "En JSON o YAML"
+          },
+          {
+            "texto": "En AWS CloudFormation Designer. Es el entorno proporcionado por AWS."
+          },
+          {
+            "texto": "En el Notepad."
+          },
+          {
+            "texto": "No se pueden crear, solo se pueden utilizar las proporcionadas por AWS CloudFormation."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "multi": [1,3],
+        "feedback": "Es el editor, por defecto. Si no tuviéramos editor, pero hemos de ser muy precavidos a la hora de guardar nuestro código, ya que por defecto su extensión es .txt."
+      },
+      {
+        "pregunta": "¿Cuál es el flujo de trabajo de AWS CloudFormation?",
+        "resp": [
+          {
+            "texto": "Crear permisos, crear una cesta en S3 y crear una pila."
+          },
+          {
+            "texto": "Crear una pila, guardarla y crear la plantilla."
+          },
+          {
+            "texto": "Crear o utilizar una plantilla, guardarla en local (o en S3) y crear la pila basada en la plantilla."
+          },
+          {
+            "texto": "No se puede hacer flujos de trabajo en AWS."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Son tres los pasos a seguir para crear un trabajo en AWS CloudFormation."
+      }
+    ]
+  },
+  {
+    "nombre": "test09",
+    "test": [
+      {
+        "pregunta": "Selecciona la definición correcta de histograma:",
+        "resp": [
+          {
+            "texto": "Un histograma muestra los datos acumulados de tipos de datos."
+          },
+          {
+            "texto": "Es un tipo de gráficos."
+          },
+          {
+            "texto": "Facilidad de encontrar la información de forma rápida."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "La federación pretende permitir el acceso a la información en toda la organización, pero con más granularidad y control que si se decidieran exponer todos los datos."
+      },
+      {
+        "pregunta": "Selecciona la definición correcta de observabilidad:",
+        "resp": [
+          {
+            "texto": "Característica que permite estimar un estado particular de un sistema basado en una salida."
+          },
+          {
+            "texto": "Capacidad de facilitar la visión de los datos."
+          },
+          {
+            "texto": "Facilidad de encontrar la información en la herramienta."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la definición correcta de agregación de métricas:",
+        "resp": [
+          {
+            "texto": "Es una herramienta que generalmente se utiliza para analizar series de datos temporales."
+          },
+          {
+            "texto": "Capacidad de facilitar la visión de los datos agregados."
+          },
+          {
+            "texto": "Facilidad de encontrar la información en la herramienta."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que se mejor describa el rastreo distribuido:",
+        "resp": [
+          {
+            "texto": "El rastreo distribuido es similar al rastreo estándar pero la carga se reparte."
+          },
+          {
+            "texto": "El rastreo distribuido te permite seguir una sola transacción a través de una transacción que ocurre sobre el sistema completo."
+          },
+          {
+            "texto": "Las respuestas $0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe Prometheus.",
+        "resp": [
+          {
+            "texto": "Esta es la herramienta de monitorización de series temporales más reconocida."
+          },
+          {
+            "texto": "Una herramienta de monitorización."
+          },
+          {
+            "texto": "Las respuestas $0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "El nombre Open Source hace referencia explícita a la posibilidad de acceder al código fuente, pero aun así hay otras limitaciones en su uso, que habitualmente se definen en su acuerdo de licencia."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe la federación desde el punto de vista de la monitorización.",
+        "resp": [
+          {
+            "texto": "La federación permite tener control y datos globales, pero manteniendo el control local."
+          },
+          {
+            "texto": "El modelo de federación tiene que ver con la gobernanza de IT y, por lo tanto, no está relacionado con DevOps."
+          },
+          {
+            "texto": "Las respuestas $0 y $1 son correctas."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe las implicaciones del Open Source.",
+        "resp": [
+          {
+            "texto": "El software es gratis y puedes hacer lo que quieras."
+          },
+          {
+            "texto": "El desarrollador del software lo pone a disposiciones de los usuarios bajo una licencia concreta donde, entre otros derechos, existe el acceso al código fuente."
+          },
+          {
+            "texto": "El software está desarrollado siguiendo estándares que garantizan su compatibilidad."
+          },
+          {
+            "texto": "Ninguna es correcta."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe a la Open API.",
+        "resp": [
+          {
+            "texto": "Es un API que está abierto, es decir, sin securizar."
+          },
+          {
+            "texto": "Es un API que no contempla federación."
+          },
+          {
+            "texto": "OpenAPI es un estándar abierto para las API."
+          },
+          {
+            "texto": "$0 y $1 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "OpenAPI permite la interoperabilidad de diferentes herramientas tanto open source como comerciales y, al ser un estándar abierto, puede ser adoptado sin costes adicionales."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe la herramienta ELK.",
+        "resp": [
+          {
+            "texto": "Es una de las herramientas de monitorización más usadas."
+          },
+          {
+            "texto": "Es un protocolo de transmisión de logs."
+          },
+          {
+            "texto": "$0 y $3 son correctas."
+          },
+          {
+            "texto": "ELK es el stack conformado por ElasticSearch, LogStash y Kibana."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "ELK son las iniciales de ElasticSearch, LogStash y Kibana, que son herramientas que, en su conjunto, tienen una amplísima difusión."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe el término pull-push.",
+        "resp": [
+          {
+            "texto": "Es una de las herramientas de monitorización más usadas junto con ELK."
+          },
+          {
+            "texto": "Es un protocolo de recepción de logs."
+          },
+          {
+            "texto": "Se refiere al dilema sobre las ventajas e inconvenientes de construir sistemas que llaman a otro para solicitar información o por el contrario esperan a ser informados."
+          },
+          {
+            "texto": "Ninguna de las anteriores."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": "Mientras que el pedir la información (pull) tiene la ventaja de la inmediatez, el push suele ser menos costoso. La selección de uno u otro depende en realidad de muchos parámetros como la necesidad de actualización de la información, por ejemplo."
+      }
+    ]
+  },
+  {
+    "nombre": "test10",
+    "test": [
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe a AppDash.",
+        "resp": [
+          {
+            "texto": "Es una forma de visualizar de forma rápida cualquier métrica."
+          },
+          {
+            "texto": "AppDash es un sistema de rastreo distribuido escrito en Go."
+          },
+          {
+            "texto": "$0 y $3 son incorrectas."
+          },
+          {
+            "texto": "Es un tipo de dashboard."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": "El estándar OpenTracing facilita la integración de información proveniente de diferentes fuentes de rastreo."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe a Zipkin.",
+        "resp": [
+          {
+            "texto": "Es una forma de visualizar de forma rápida cualquier métrica."
+          },
+          {
+            "texto": "Fue uno de los primeros sistemas de rastreo distribuido y fue desarrollado por Twitter."
+          },
+          {
+            "texto": "$0 y $3 son incorrectas."
+          },
+          {
+            "texto": "Es una herramienta de compresión de logs."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe a los Flame Graphs.",
+        "resp": [
+          {
+            "texto": "Son una herramienta de visualización de múltiples métricas que recibe ese nombre por su aspecto gráfico."
+          },
+          {
+            "texto": "Son una forma de visualizar de forma rápida cualquier métrica."
+          },
+          {
+            "texto": "$0 y $3 son incorrectas."
+          },
+          {
+            "texto": "Son un tipo de mapa de calor."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": "Es una herramienta desarrollada por Netflix con el objetivo de poder analizar en detalle situaciones complejas dentro de los sistemas."
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe Cabot.",
+        "resp": [
+          {
+            "texto": "Es una herramienta de visualización de métricas."
+          },
+          {
+            "texto": "Es una forma de visualizar de forma rápida cualquier métrica."
+          },
+          {
+            "texto": "$0 y $3 son correctas."
+          },
+          {
+            "texto": "No es un concepto pertinente para este tema."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe Bosun.",
+        "resp": [
+          {
+            "texto": "Es una herramienta de agregación de métricas, muy similar a Prometheus."
+          },
+          {
+            "texto": "Es una forma de visualizar de forma rápida una métrica concreta."
+          },
+          {
+            "texto": "$0 y $3 son falsas."
+          },
+          {
+            "texto": "No es un concepto pertinente para este tema."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 0,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe el concepto de «medidor».",
+        "resp": [
+          {
+            "texto": "Es una herramienta."
+          },
+          {
+            "texto": "Es una forma de visualizar de forma rápida una métrica concreta."
+          },
+          {
+            "texto": "$0 y $3 son correctas."
+          },
+          {
+            "texto": "No es un concepto pertinente para este tema."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe un mapa de calor.",
+        "resp": [
+          {
+            "texto": "Es una herramienta que permite saber la temperatura de los servidores."
+          },
+          {
+            "texto": "Es extremadamente útil en el caso de querer representar información preveniente de histogramas."
+          },
+          {
+            "texto": "$0 y $3 son correctas."
+          },
+          {
+            "texto": "El mapa de calor está definido sobre OpenTracing."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe OpenTracing.",
+        "resp": [
+          {
+            "texto": "Es una herramienta."
+          },
+          {
+            "texto": "Es un estándar de las API."
+          },
+          {
+            "texto": "$0 y $3 son correctas."
+          },
+          {
+            "texto": "ELK definió OpenTracing."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 1,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe a la herramienta FlameGraf.",
+        "resp": [
+          {
+            "texto": "Es una de las herramientas de visualización desarrollada por Netflix."
+          },
+          {
+            "texto": "Se trata de la detección de situaciones críticas en los gráficos de visualización."
+          },
+          {
+            "texto": "$0 y $3 son correctas."
+          },
+          {
+            "texto": "Es un tipo de gráfico que permite exponer información muy detallada normalmente exponiendo información de CPU y memoria."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 2,
+        "feedback": ""
+      },
+      {
+        "pregunta": "Selecciona la afirmación que mejor describe Grafana.",
+        "resp": [
+          {
+            "texto": "Es una de las herramientas de visualización más usadas."
+          },
+          {
+            "texto": "Es una metodología para mostrar logs y alarmas."
+          },
+          {
+            "texto": "Es una herramienta que permite reunir y representar en un mismo lugar información de diferentes fuentes."
+          },
+          {
+            "texto": "$0 y $2 son correctas."
+          }
+        ],
+        "options": [],
+        "rels": [],
+        "correct": 3,
+        "feedback": "Grafana es el nombre de una herramienta muy usada para la construcción de pales de control, aunando diferentes fuentes de información."
+      }
+    ]
+  }
+]
