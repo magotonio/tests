@@ -443,14 +443,9 @@
         "feedback": "El controlador de red por defecto es bridge. Si no se especifica ninguna se creará una red de este tipo."
       },
       {
-        "pregunta": "Relaciona los siguientes\nconceptos:",
+        "pregunta": "Relaciona los siguientes conceptos:",
         "resp": [],
-        "options": [
-          "Overlay",
-          "Host",
-          "Bridge",
-          "None"
-        ],
+        "options": ["Overlay", "Host", "Bridge", "None"],
         "rels": [
           "Conecta servicios y contenedores en diferentes nodos.",
           "Elimina aislamiento de red entre host y contenedor.",
@@ -517,14 +512,9 @@
         "feedback": "El comando docker network connect permite conectar una red a un contenedor. Si quisiéramos conectar un contenedor a una red cuando lo ejecutamos con docker run utilizaríamos la opción --network. El comando docker network link no existe."
       },
       {
-        "pregunta": "Relaciona los siguientes\nconceptos:",
+        "pregunta": "Relaciona los siguientes conceptos:",
         "resp": [],
-        "options": [
-          "Volumes",
-          "Bind mounts",
-          "Tmpfs mounts",
-          "Bind mounts"
-        ],
+        "options": ["Volumes", "Bind mounts", "Tmpfs mounts", "Bind mounts"],
         "rels": [
           "Gestionado por Docker, solo accesible desde el host por comandos de Docker.",
           "Los procesos del sistema anfitrión pueden modificarlos.",
@@ -572,5 +562,606 @@
         "feedback": "El comando docker top nos muestra los procesos en ejecución en un contenedor.El comando docker stats nos muestra en vivo el uso de recursos de los contenedores, incluyendo el numero de procesos del contenedor.El comando docker exec podría utilizarse para ejecutar un comando que muestre información de los procesos, por ejemplo, docker exec  ps."
       }
     ]
+  },
+  {
+    "nombre": "test04",
+    "test": [
+      {
+        "pregunta": "¿Qué hace el comando docker export?:",
+        "resp": [
+          {
+            "texto": "Exporta la imagen base de un contenedor a un fichero TAR."
+          },
+          { "texto": "Exporta una imagen a un fichero TAR." },
+          {
+            "texto": "Exporta el sistema de ficheros de un contenedor a un fichero TAR."
+          },
+          { "texto": "Ninguna de las anteriores." }
+        ],
+        "correct": 2,
+        "feedback": "El comando docker export envía a un fichero TAR todo el sistema de ficheros de un contenedor."
+      },
+      {
+        "pregunta": "¿Qué opción de configuración de Compose permite publicar puertos del servicio al host?:",
+        "resp": [
+          { "texto": "expose" },
+          { "texto": "ports" },
+          { "texto": "publish" },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 1,
+        "feedback": "En Compose la opción ports permite publicar al host puertos del contenedor. Admite sintaxis corta especificando puerto_host:puerto_contenedor, y sintaxis larga soportando alguna opción adicional."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre Docker Hub es correcta?:",
+        "resp": [
+          {
+            "texto": "Permite construir imágenes automáticamente cada vez que actualicemos un repositorio Git configurado."
+          },
+          {
+            "texto": "Actualmente solo soporta repositorios de GitHub y BitBucket."
+          },
+          {
+            "texto": "Los webhooks disparan un servicio externo en respuesta a un evento en del repositorio Git configurado."
+          },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Podemos configurar Docker Hub para generar imágenes a partir de cambios en los repositorios Git en base a unas reglas predefinidas. Actualmente, los únicos repositorios de Git soportados por Docker Hub son GitHub y BitBucket. Los webhooks nos permiten configurar un servicio externo que será invocado, con una llamada POST, al producirse cambios en el repositorio Git."
+      },
+      {
+        "pregunta": "Relaciona los siguientes comandos de Docker con su acción:",
+        "resp": [],
+        "options": [
+          "docker export",
+          "docker import",
+          "docker save",
+          "docker load"
+        ],
+        "rels": [
+          "Genera un TAR a partir del sistema de ficheros de un contenedor.",
+          "Crea una imagen a partir de un TAR del sistema de ficheros de un contenedor.",
+          "Genera un TAR a partir de una imagen.",
+          "Crea una imagen a partir de un TAR de una imagen."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Qué acciones puede realizar el comando docker-compose build?:",
+        "resp": [
+          {
+            "texto": "Genera imágenes a partir de ficheros Dockerfile referenciados con build en Compose."
+          },
+          {
+            "texto": "Descarga de un registro las imágenes referenciadas con image en Compose."
+          },
+          {
+            "texto": "Crear los contenedores de los servicios sin ejecutarlos."
+          },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 0,
+        "feedback": "Para generar las imágenes de los servicios definidos en Compose, ejecutaremos el comando docker-compose build. Cada vez que hagamos algún cambio en el código podemos ejecutarlo de nuevo para reconstruir las imágenes. Para aquellos servicios que no necesita generar imágenes, simplemente las ignora, pero no las descarga."
+      },
+      {
+        "pregunta": "¿Qué sección a nivel raíz de Compose nos permite definir volúmenes con nombre para ser referenciados en los servicios?:",
+        "resp": [
+          { "texto": "storage." },
+          { "texto": "data." },
+          { "texto": "volumes." },
+          { "texto": "mount." }
+        ],
+        "correct": 2,
+        "feedback": "La sección volumes a nivel raíz del fichero de Compose permite la definición de volúmenes asignándoles un nombre para poder ser referenciado en los servicios definidos."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre Portainer es correcta?:",
+        "resp": [
+          { "texto": "Se despliega en contenedores." },
+          {
+            "texto": "Ofrece una interfaz web de administración de Docker."
+          },
+          {
+            "texto": "Permite conectarse a un demonio de Docker tanto local como remoto."
+          },
+          { "texto": "Todas las anteriores" }
+        ],
+        "correct": 3,
+        "feedback": "Portainer se despliega en contenedores de Docker utilizando la imagen publicada en Docker Hub portainer/portainer o portainer/portainer_ce. Ofrece una interfaz web para gestionar nuestros hosts de Docker, expuesta en el puerto 9000. Permite gestionar un demonio local montando el socket de Linux de Docker, o cualquier otro host remoto mediante autenticación."
+      },
+      {
+        "pregunta": "¿Qué hace el comando docker-compose down?:",
+        "resp": [
+          { "texto": "Detiene un servicio, parando sus contenedores." },
+          {
+            "texto": "Elimina un servicio, el cual debe haber sido parando previamente."
+          },
+          { "texto": "Pausa los contenedores asociados al servicio." },
+          {
+            "texto": "Detiene y elimina un servicio, parando y eliminando los recursos asociados."
+          }
+        ],
+        "correct": 3,
+        "feedback": "El comando docker-compose down detiene y elimina un servicio, parando y eliminando los recursos asociados (contenedores, redes, imágenes, volúmenes)."
+      },
+      {
+        "pregunta": "¿Para qué lenguajes de programación Docker ofrece de manera oficial un SDK?:",
+        "resp": [
+          { "texto": "Go y Java." },
+          { "texto": "Go y Python." },
+          { "texto": "Go y Ruby." },
+          { "texto": "Docker no ofrece oficialmente ningún SDK." }
+        ],
+        "correct": 1,
+        "feedback": "Docker ofrece SDKs para los lenguajes Go y Python, que permiten hacer en nuestras aplicaciones todo lo que podemos hacer con el comando docker. Además, existen multitud de librerías no oficiales para otros lenguajes."
+      },
+      {
+        "pregunta": "¿Qué opciones de configuración de Compose permiten pasar variables de entorno a los servicios?:",
+        "resp": [
+          { "texto": "environment y envfile" },
+          { "texto": "variable y varfile" },
+          { "texto": "argument y argfile" },
+          {
+            "texto": "Ninguna. Deben ser definidas en el Dockerfile de la imagen"
+          }
+        ],
+        "correct": 0,
+        "feedback": "En Compose la opción de configuración environment permite indicar una lista de variables de entornos que serán pasadas a los contenedores del servicio. Además, con la opción env_file podemos pasar múltiples variables de entorno definidas en un fichero externo."
+      }
+    ]
+  },
+  {
+    "nombre": "test05",
+    "test": [
+      {
+        "pregunta": "¿Qué nodos pueden ejecutar tareas en el modo Swarm?:",
+        "resp": [
+          { "texto": "Solo los nodos tipo worker." },
+          { "texto": "Solo los nodos tipo mánager." },
+          {
+            "texto": "Todos los nodos del clúster siempre podrán ejecutar tareas."
+          },
+          {
+            "texto": "Todos los nodos del clúster, siempre que no tengan disponibilidad drain."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Los nodos mánager, además de realizar funciones de administración, también actuarán como los nodos worker ejecutando tareas de los servicios. Sin embargo, cualquier nodo cuya disponibilidad sea drain no ejecutara ninguna tarea de los servicios del clúster."
+      },
+      {
+        "pregunta": "¿Qué ocurre con las tareas en ejecución de un nodo cuando ponemos su disponibilidad a drain?:",
+        "resp": [
+          {
+            "texto": "Las tareas en ejecución de servicios replicados se paran y se planifican en otros nodos. Las tareas de servicios globales siguen ejecutándose."
+          },
+          {
+            "texto": "Todas las tareas continúan su ejecución, pero el nodo no admitirá más tareas del planificador."
+          },
+          {
+            "texto": "Las tareas son pausadas, pero no se planifican en otros nodos. Se reanudarán cuando el nodo vuelva a estar activo."
+          },
+          {
+            "texto": "Las tareas en ejecución de servicios replicados se paran y se planifican en otros nodos. Las tareas de servicios globales simplemente se paran."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Cuando se cambia la disponibilidad a drenaje, el administrador detendrá las tareas ejecutándose en el nodo y ejecutará nuevas réplicas en los nodos que estén activos. Las tareas de los servicios globales también se pararán en el nodo."
+      },
+      {
+        "pregunta": "¿Cómo se transmiten entre los nodos de un clúster en modo Swarm los objetos config y secret?:",
+        "resp": [
+          {
+            "texto": "Los objetos config se transmiten en claro, los secret encriptados."
+          },
+          {
+            "texto": "Los objetos config se transmiten encriptados, pero los secret solo existen en el nodo donde se crearon y no pueden enviarse."
+          },
+          {
+            "texto": "Tanto los objetos config como los secret se transmiten encriptados."
+          },
+          { "texto": "Ninguno de ellos pueden enviarse entre los nodos." }
+        ],
+        "correct": 2,
+        "feedback": "Los clústeres Swarm utilizan TLS para autenticar, autorizar y encriptar las comunicaciones entre los nodos."
+      },
+      {
+        "pregunta": "¿Qué ocurre si definimos opciones de configuración build para un servicio en un fichero docker-compose.yaml y lo desplegamos con el comando docker stack deploy?:",
+        "resp": [
+          {
+            "texto": "Se construirán las imágenes y se publicarán automáticamente en el registro antes de hacer el despliegue."
+          },
+          {
+            "texto": "Las imágenes no se construirán, pero si existen se publicarán automáticamente en el registro antes de hacer el despliegue."
+          },
+          {
+            "texto": "Dara un error porque la configuración build no está soportada por docker stack."
+          },
+          {
+            "texto": "Mostrará un mensaje avisando que al no estar soportada la configuración build será ignorada, y continuará con el despliegue."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Tanto docker-compose como docker stack ignoran las opciones no soportadas, pero no darán error. Esto quiere decir que podríamos preparar nuestros ficheros YAML para funcionar con ambos."
+      },
+      {
+        "pregunta": "¿Cómo podemos convertir un nodo worker de un clúster en modo Swarm a nodo mánager?",
+        "resp": [
+          { "texto": "Con el comando docker node upgrade." },
+          { "texto": "Con el comando docker node promote." },
+          { "texto": "Con el comando docker swarm update." },
+          {
+            "texto": "No es posible convertirlo, habría que eliminarlo del clúster y volver a añadirlo."
+          }
+        ],
+        "correct": 1,
+        "feedback": "El comando docker node promote promueve un nodo a mánager. De igual manera, docker node demote degrada un nodo a worker. Ambos comandos deben ser ejecutados desde un nodo mánager."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones no es correcta?:",
+        "resp": [
+          {
+            "texto": "Podríamos tener un clúster en modo Swarm sin nodos worker."
+          },
+          {
+            "texto": "El modo Swarm está integrado en Docker Engine a partir de la versión 1.12."
+          },
+          {
+            "texto": "Se ejecutará una tarea de los servicios globales en cada nodo activo del clúster, ya sea mánager o worker."
+          },
+          {
+            "texto": "Todos los nodos del clúster pueden atender llamadas al API de Swarm."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Solamente los nodos mánager atenderán llamadas al API de Swarm. Igualmente, los comandos para gestionar el clúster deberán ser ejecutados desde un nodo mánager."
+      },
+      {
+        "pregunta": "¿Qué comando debemos ejecutar en una maquina con Docker instalado para añadirlo como nodo worker a un clúster de Swarm?:",
+        "resp": [
+          { "texto": "docker swarm join --manager  worker" },
+          { "texto": "docker swarm join-worker " },
+          {
+            "texto": "El comando los obtendremos al ejecutar docker swarm join worker en un cualquier nodo del clúster."
+          },
+          {
+            "texto": "El comando los obtendremos al ejecutar docker swarm join-token worker en un nodo mánager."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Ejecutando swarm join-token worker en un nodo mánager obtendremos el comando necesario para añadir nuevos nodos worker. La salida será similar a la siguiente:To add a worker to this swarm, run the following command:    docker swarm join --token SWMTKN-1-0f…6d 192.168.65.3:2377"
+      },
+      {
+        "pregunta": "¿Qué comando nos permite desplegar en un clúster en modo swarm un aplicación definida en un fichero docker-compose.yaml?:",
+        "resp": [
+          { "texto": "docker-compose up --stack-file docker-compose.yml " },
+          {
+            "texto": "docker-compose deploy --stack-file docker-compose.yml "
+          },
+          { "texto": "docker stack up --compose-file docker-compose.yml " },
+          {
+            "texto": "docker stack deploy --compose-file docker-compose.yml "
+          }
+        ],
+        "correct": 3,
+        "feedback": "El comando docker stack deploy despliega una stack en una clúster en modo Swarm a partir de un fichero en formato Compose."
+      },
+      {
+        "pregunta": "¿Cómo podemos añadir un objeto secret a un servicio existente en un clúster en modo swarm?:",
+        "resp": [
+          { "texto": "docker secret add --secret my-secret my-service" },
+          {
+            "texto": "docker service update --secret-add my-secret my-service"
+          },
+          {
+            "texto": "docker stack update --secret-add my-secret my-service"
+          },
+          { "texto": "No es posible añadir secrets a un servicio ya creado" }
+        ],
+        "correct": 1,
+        "feedback": "Para añadir un objeto secret de Docker a un servicio existente, lo actualizaremos de la siguiente manera: docker service update --secret-add my-secret my-service"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones no es correcta?:",
+        "resp": [
+          {
+            "texto": "Un clúster con N nodos mánager tolera fallos de (N-1)/2 managers como máximo."
+          },
+          {
+            "texto": "Los servicios globales se ejecutan en todos los nodos del clúster, ya sean mánager o worker."
+          },
+          {
+            "texto": "Los clústeres Swarm utilizan TLS para las comunicaciones entre los nodos."
+          },
+          {
+            "texto": "Un nodo que pertenece a un clúster no puede ejecutar contenedores independientes fuera del clúster."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Un nodo, ya sea mánager o worker, que forma parte de clúster en modo Swarm, aún puede ejecutar contenedores independientes. Sin embargo, estos contenedores no serán administrados en ningún momento por los managers, sino que seguirán su ciclo de vida normal."
+      }
+    ]
+  },
+  {
+    "nombre": "test06",
+    "test": [
+      {
+        "pregunta": "¿Cuál de los siguientes componentes de Kubernetes pertenecen a un nodo máster?:",
+        "resp": [
+          { "texto": "Kubelet." },
+          { "texto": "Kube-proxy." },
+          { "texto": "Container Runtime." },
+          { "texto": "Controller Manager." }
+        ],
+        "correct": 3,
+        "feedback": "El proceso Controller Manager incluye varios servicios de gestión, entre ellos los siguientes controladores: Replicacion controller, Endpoint controller, Node controller, Service controller."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes componentes de Kubernetes pertenecen a un nodo worker?:",
+        "resp": [
+          { "texto": "Kubelet." },
+          { "texto": "Controller Manager." },
+          { "texto": "Scheduler." },
+          { "texto": "API server." }
+        ],
+        "correct": 0,
+        "feedback": "En cada uno de los nodos worker tendremos un servicio llamado Kubelet que será el encargado de comunicarse con el nodo máster, obteniendo la configuración de los Pods y garantizando su correcta ejecución."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones no es cierta?:",
+        "resp": [
+          {
+            "texto": "Los Namespaces permiten crear diferentes entornos de ejecución en el clúster."
+          },
+          {
+            "texto": "Los servicios permiten la comunicación con los Pods desde fuera del clúster."
+          },
+          { "texto": "Cada Pod ejecutará un único contenedor." },
+          {
+            "texto": "El algoritmo de consenso necesita que el número de nodos máster sea impar."
+          }
+        ],
+        "correct": 2,
+        "feedback": "En un clúster de Kubernetes, los Pods serán la unidad más básica de ejecución, el cual estará compuesto por uno o varios contenedores."
+      },
+      {
+        "pregunta": "Relaciona los siguientes conceptos de Kubernetes:",
+        "resp": [],
+        "options": ["Servicio", "Pod", "etcd", "Scheduler"],
+        "rels": [
+          "Define un único punto de acceso para un conjunto de Pods.",
+          "Unidad básica de ejecución compuesta por uno o varios contenedores.",
+          "Almacén de datos clave-valor distribuido que guarda la configuración del clúster.",
+          "Atiende las peticiones del API server y las asigna a los nodos worker."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "Relacione los siguientes conceptos de Kubernetes:",
+        "resp": [],
+        "options": ["DaemonSets", "StatefulSets", "Deployments", "CronJobs"],
+        "rels": [
+          "Permite ejecutar un Pod en cada uno de los nodos del clúster.",
+          "Gestionan el despliegue y escalado de aplicaciones con estado.",
+          "Gestionan el despliegue y escalado de aplicaciones con estado.",
+          "Programan el despliegue de Pods para realizar de tareas periódicas o planificadas."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Qué controlador de Kubernetes está pensado para aplicaciones con estado?:",
+        "resp": [
+          { "texto": "Deployments" },
+          { "texto": "StatefulSets" },
+          { "texto": "DaemonSet" },
+          { "texto": "CronJob" }
+        ],
+        "correct": 1,
+        "feedback": "Los StatefulSets se utilizan para aplicaciones con estado, como puede ser una base de datos. Toda la información asociada al estado de los Pods gestionados por los StatefulSets será almacenada en un volumen asociado."
+      },
+      {
+        "pregunta": "¿Qué sistema operativo soporta Minikube?:",
+        "resp": [
+          { "texto": "Windows." },
+          { "texto": "Linux." },
+          { "texto": "OSX." },
+          { "texto": "Todos los anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Minikube permite desplegar un clúster de Kubernetes de un solo nodo de forma local o en una máquina virtual. Soportado en diferentes sistemas operativos (Linux, Windows, OSX) e hypervisores (VitualBox, VMware Fusion, Hyper-V, etc)."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es falsa?:",
+        "resp": [
+          {
+            "texto": "Los Namespaces permiten crear diferentes entornos de ejecución en el clúster."
+          },
+          {
+            "texto": "Los servicios permiten la comunicación con los Pods desde fuera del clúster."
+          },
+          { "texto": "Cada Pod ejecutará un único contenedor." },
+          {
+            "texto": "El algoritmo de consenso necesita que el número de nodos máster sea impar."
+          }
+        ],
+        "correct": 2,
+        "feedback": "En un clúster de Kubernetes, los Pods serán la unidad más básica de ejecución, el cual estará compuesto por uno o varios contenedores."
+      },
+      {
+        "pregunta": "¿Cuál es la herramienta de línea de comandos de Kubernetes?:",
+        "resp": [
+          { "texto": "Kubeadm" },
+          { "texto": "Kops" },
+          { "texto": "Kubectl" },
+          { "texto": "Kubespray" }
+        ],
+        "correct": 2,
+        "feedback": "Kubectl es la herramienta de línea de comandos de Kubernetes. Ejecuta los comandos realizando peticionas al API Server, permitiendo así el despliegue y gestión de aplicaciones en el clúster."
+      },
+      {
+        "pregunta": "¿Cuál la principal función de un ReplicaSet?:",
+        "resp": [
+          {
+            "texto": "Garantizar que nuestra aplicación tiene el numero deseado de Pods."
+          },
+          { "texto": "Permitir la ejecución periódica de Pods." },
+          {
+            "texto": "Ejecutar un determinado Pod en todos los nodos del clúster."
+          },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 0,
+        "feedback": "Los ReplicaSets garantizan que nuestra aplicación tiene el numero deseado de Pods, creándolos y escalando según los disparadores configurados. Además, creará un nuevo Pod en caso de que uno de los Pods en ejecución muera o se detenga por algún motivo."
+      }
+    ]
+  },
+  {
+    "nombre": "test07",
+    "test": [
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones no es correcta?:",
+        "resp": [
+          {
+            "texto": "Los contenedores de un Pod deben estar en el mismo nodo."
+          },
+          { "texto": "Un Pod puede alojar uno o más contenedores." },
+          {
+            "texto": "Por defecto, todos los Pods pueden comunicarse a través de su dirección IP interna."
+          },
+          {
+            "texto": "Cada contenedor de un mismo Pod tendrá su propia dirección IP."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Un Pod se desplegará por completo en un mismo nodo y todos sus contenedores compartirán la misma dirección IP y puertos, estando asociados al mismo hostname."
+      },
+      {
+        "pregunta": "Relacione los siguientes conceptos:",
+        "resp": [],
+        "options": ["Pod", "Label", "Annotation", "Namespace"],
+        "rels": [
+          "Unidad mínima de despliegue formada por una colección de contenedores mas sus volúmenes.",
+          "Pares clave/valor asociadas a un recurso. Se utilizarán para seleccionar colecciones de objetos.",
+          "Añaden información adicional a los recursos del clúster, no necesariamente estructurada.",
+          "Abstracción que permite dividir un clúster de Kubernetes en múltiples clústeres virtuales."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Para qué sirven los selectores en Kubernetes?:",
+        "resp": [
+          {
+            "texto": "Abstracción que permite dividir un clúster de Kubernetes en múltiples clústeres virtuales."
+          },
+          {
+            "texto": "Permitir filtrar objetos del clúster en base a un conjunto de etiquetas."
+          },
+          { "texto": "Permiten seleccionar el Namespace por defecto." },
+          { "texto": "Ninguna de las anteriores" }
+        ],
+        "correct": 1,
+        "feedback": "Los selectores, formados por una serie de condiciones booleanas basadas en las etiquetas o labels, nos van a permitir filtrar objetos del clúster."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes Namespaces se crean por defecto en un clúster de Kubernetes?:",
+        "resp": [
+          { "texto": "default" },
+          { "texto": "kube-system" },
+          { "texto": "kube-public" },
+          { "texto": "Todos los anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Cuando creamos un clúster de Kubernetes este comienza con tres Namespaces: default, kube-system y kube-public. Aunque dependiendo de la instalación podría tener inicialmente alguno más."
+      },
+      {
+        "pregunta": "¿En que Namespace se crear los objetos del propio sistema de Kubernetes?:",
+        "resp": [
+          { "texto": "default" },
+          { "texto": "kube-service" },
+          { "texto": "kube-context" },
+          { "texto": "kube-system" }
+        ],
+        "correct": 3,
+        "feedback": "kube-system es el Namespace para los objetos que han sido creados por el propio sistema de Kubernetes. Los usuarios no deberían desplegar aplicaciones en él."
+      },
+      {
+        "pregunta": "En la definición YAML de un Pod, relacione las siguientes propiedades de la configuración de los contenedores (spec.containers):",
+        "resp": [],
+        "options": [
+          "livenessProbe.exec",
+          "resources.limits",
+          "resources.requests",
+          "ports.containerPort"
+        ],
+        "rels": [
+          "Comando utilizado para la prueba de vida del contenedor.",
+          "Limita el uso de recursos por parte del contenedor.",
+          "Establece los recursos mínimos requeridos por el contenedor.",
+          "Puertos expuestos en el contenedor."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "En Kubernetes podemos comprobar que los contenedores de un Pod están funcionando correctamente definiendo una prueba de vida o liveness probe. ¿Cuál de los siguientes no es un método válido?:",
+        "resp": [
+          { "texto": "Mediante la ejecución de un comando (exec)." },
+          { "texto": "Realizando una llamada HTTP (httpGet)." },
+          { "texto": "Conectándose por SSH (sshConnect)." },
+          { "texto": "Conectándose a un socket TCP (tcpSocket)." }
+        ],
+        "correct": 2,
+        "feedback": "Los métodos validos son solamente mediante ejecución de comando (exec), con una llamada HTTP (httpGet) y con la conexión a un socket TCP (tcpConnect)."
+      },
+      {
+        "pregunta": "Relacione los siguientes comandos de interacción con los Pods:",
+        "resp": [],
+        "options": [
+          "kubectl cp",
+          "kubectl exec",
+          "kubectl logs",
+          "kubectl port-forward"
+        ],
+        "rels": [
+          "Copia ficheros y directorios desde y hacia los contenedores del Pod.",
+          "Ejecuta un comando en uno de los contenedores del Pod.",
+          "Recupera los logs de un contenedor del Pod.",
+          "Redirige uno o varios puertos locales a un Pod."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "En Kubernetes, ¿cuál de la siguiente información no define un contexto?:",
+        "resp": [
+          { "texto": "URL del API del clúster." },
+          { "texto": "Selector de etiquetas." },
+          { "texto": "Credenciales del usuario del clúster." },
+          { "texto": "Namespace." }
+        ],
+        "correct": 1,
+        "feedback": "En Kubernetes los contextos están formados por tres elementos: el clúster, especificado por la URL al API de Kubernetes; un usuario, incluyendo las credenciales en el clúster; finalmente, el Namespace a utilizar cuando usamos el contexto."
+      },
+      {
+        "pregunta": "En Kubernetes, ¿qué comando nos permite crear un contexto?:",
+        "resp": [
+          { "texto": "kubectl create context" },
+          { "texto": "kubectl config set-context" },
+          { "texto": "kubectl init context" },
+          { "texto": "kubectl apply context" }
+        ],
+        "correct": 1,
+        "feedback": "Podemos definir nuevos contextos con el comando kubectl config set-context, indicando el clúster, el usuario y el Namespace."
+      }
+    ]
+  },
+  {
+    "nombre": "test08",
+    "test": []
+  },
+  {
+    "nombre": "test09",
+    "test": []
+  },
+  {
+    "nombre": "test10",
+    "test": []
   }
 ]
