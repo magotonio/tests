@@ -1154,14 +1154,463 @@
   },
   {
     "nombre": "test08",
-    "test": []
+    "test": [
+      {
+        "pregunta": "Al eliminar un ReplicaSet de Kubernetes, ¿cómo podemos evitar que los Pods gestionados por él sean borrados?:",
+        "resp": [
+          {
+            "texto": "Por defecto no se eliminan los Pods al eliminar el ReplicaSet."
+          },
+          {
+            "texto": "No es posible, la vida de los Pods está ligada a la del ReplicaSet."
+          },
+          { "texto": "Con la opción --cascade=false del Cliente kubectl." },
+          { "texto": "Escalando el ReplicaSet a cero replicas." }
+        ],
+        "correct": 2,
+        "feedback": "Al eliminar un ReplicaSet por defecto también serán eliminados los Pods gestionados por él. En caso de que no queramos que se eliminen sus Pods deberemos utilizar la opción --cascade=false."
+      },
+      {
+        "pregunta": "Relacione los siguientes conceptos de Kubernetes:",
+        "resp": [],
+        "options": ["ReplicaSet", "DaemonSet", "Service", "Ingress"],
+        "rels": [
+          "Garantiza que un numero especificado de réplicas de Pods está ejecutándose.",
+          "Asegura que en todos los nodos se ejecuta un Pod especificado.",
+          "Define un conjunto lógico de Pods y una política para acceder a ellos.",
+          "Utiliza reglas de enrutamiento para gestionar el acceso externo a múltiples servicios."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Qué tipo de recurso de Kubernetes se encarga de que un número especificado de réplicas de Pods está ejecutándose en el clúster?:",
+        "resp": [
+          { "texto": "ReplicaSet." },
+          { "texto": "DaemonSet." },
+          { "texto": "Service." },
+          { "texto": "Ingress." }
+        ],
+        "correct": 0,
+        "feedback": "El ReplicaSet se encarga que el número especificado de réplicas de Pods está ejecutándose en el clúster."
+      },
+      {
+        "pregunta": "¿Qué tipo de recurso de Kubernetes utiliza reglas de enrutamiento para gestionar el acceso externo a múltiples servicios?:",
+        "resp": [
+          { "texto": "ReplicaSet." },
+          { "texto": "DaemonSet." },
+          { "texto": "Service." },
+          { "texto": "Ingress." }
+        ],
+        "correct": 3,
+        "feedback": "Ingress funciona como punto de entrada al clúster, permitiéndonos utilizar la misma dirección IP para exponer múltiples servicios, mediante HTTP(S), utilizando reglas de enrutamiento."
+      },
+      {
+        "pregunta": "Relaciona los siguientes tipos de servicio de Kubernetes con su función:",
+        "resp": [],
+        "options": ["ExternalName", "NodePort", "ClusterIP", "LoadBalancer"],
+        "rels": [
+          "Expone el servicio a través de un nombre especificado en la definición, asociándolo con un nombre de dominio mediante un registro CNAME.",
+          "Expone el servicio fuera del clúster a través de la dirección IP de cada nodo utilizando el mismo puerto en cada uno de ellos.",
+          "Expone el servicio en una dirección IP interna del clúster, por lo que solamente será accesible desde dentro del clúster.",
+          "Crea un balanceador de carga externo y se asignará una dirección IP fija al servicio."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Qué tipo de servicio de Kubernetes expone el servicio fuera del clúster a través de la dirección IP de cada nodo, utilizando el mismo puerto en cada uno de ellos?:",
+        "resp": [
+          { "texto": "ClusterIP." },
+          { "texto": "NodePort." },
+          { "texto": "ExternalName." },
+          { "texto": "Todos los anteriores." }
+        ],
+        "correct": 1,
+        "feedback": "Un servicio de tipo NodePort Expone el servicio fuera del clúster a través de la dirección IP de cada nodo, utilizando el mismo puerto en cada uno de ellos."
+      },
+      {
+        "pregunta": "¿Cómo podemos seleccionar en que nodos se despliegas los Pods de un DaemonSet?:",
+        "resp": [
+          {
+            "texto": "No es posible, los Pods de un DaemonSet siempre se desplegarán en todos los nodos."
+          },
+          {
+            "texto": "Definiendo la lista de nodos a ignorar en la propiedad ignoreNodes del fichero YAML."
+          },
+          {
+            "texto": "Definiendo un selector de nodo basado en etiquetas en la definición del Pod en la propiedad nodeSelector del fichero YAML."
+          },
+          { "texto": "Cambiando al nodo de Namespace." }
+        ],
+        "correct": 2,
+        "feedback": "Los selectores de nodos se utilizan para limitar en qué nodos se puede ejecutar un Pod. Se pueden configurar en el fichero YAML en la definición del Pod al crear un DaemonSet, utilizando la propiedad nodeSelector."
+      },
+      {
+        "pregunta": "¿Qué ocurre con los Pods de un ReplicaSet desplegados en un nodo cuando dicho nodo deja de estar operativo?:",
+        "resp": [
+          {
+            "texto": "Los Pods quedan en estado «no disponible» hasta que el nodo vuelve a estar operativo."
+          },
+          {
+            "texto": "Los Pods son automáticamente replanificados en otros nodos disponibles."
+          },
+          {
+            "texto": "El número de replicas configurado en el ReplicaSet es decrementado en el número de Pods."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Los ReplicaSets se encargan de que en todo momento se están ejecutando el número y tipo de Pods deseados. En caso de fallo en un nodo, todos aquellos Pods gestionados por un ReplicaSets serán replanificados a otros nodos disponibles."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones acerca de los tipos de servicio de Kubernetes es falsa?:",
+        "resp": [
+          {
+            "texto": "NodePort expone el servicio fuera del clúster a través de la dirección IP de cada nodo al utilizar el mismo puerto en cada uno de ellos."
+          },
+          {
+            "texto": "LoadBalancer crea un balanceador de carga externo y se asignará una dirección IP fija al servicio."
+          },
+          {
+            "texto": "ClusterIP expone el servicio en una dirección IP única externa del clúster, siendo accesible dentro y fuera del clúster."
+          },
+          {
+            "texto": "ExternalName expone el servicio a través de un nombre especificado en la definición, asociándolo con un nombre de dominio mediante un registro CNAME."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Un servicio de Kubernetes de tipo ClusterIP expone el servicio en una dirección IP interna del clúster, por lo que solamente será accesible desde dentro del clúster."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones acerca de los recursos Horizontal Pod Autoscaler (HPA) de Kubernetes es falsa?:",
+        "resp": [
+          {
+            "texto": "Permite modificar automáticamente el número de réplicas de Pods de un ReplicaSet en base a ciertas métricas."
+          },
+          {
+            "texto": "Kubernetes nos permite utilizar por defecto el uso de CPU y el consumo de memoria como métricas para el auto escalado de un HPA."
+          },
+          {
+            "texto": "El comando kubectl autoscale permite crear de manera imperativa un Horizontal Pod Autoscaler (HPA)."
+          },
+          {
+            "texto": "No es posible definir métricas personalizadas diferentes a las ofrecidas por Kubernetes."
+          }
+        ],
+        "correct": 3,
+        "feedback": "Por defecto Kubernetes nos permite utilizar el uso de CPU y el consumo de memoria como métricas para el auto escalado. Sin embargo, también sería posible definir métricas personalizadas e incluso externas."
+      }
+    ]
   },
   {
     "nombre": "test09",
-    "test": []
+    "test": [
+      {
+        "pregunta": "Relacione los siguientes conceptos:",
+        "resp": [],
+        "options": [
+          "emptyDir",
+          "hostPath",
+          "awsElasticBlockStore",
+          "PersistentVolumes "
+        ],
+        "rels": [
+          "Montan volúmenes vacíos y están ligados a la vida útil del Pod.",
+          "Permiten montar un directorio o archivo específico del sistema de ficheros de nodo.",
+          "Permiten montar un volumen EBS de Amazon en los Pods.",
+          "Permiten desacoplar la infraestructura de almacenamiento de la definición del Pod."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre los ConfigMaps es falsa?:",
+        "resp": [
+          {
+            "texto": "Permiten desacoplar de los Pods sus opciones de configuración"
+          },
+          { "texto": "Están compuestos por pares clave/valor" },
+          { "texto": "Se asocian a un Namespace" },
+          { "texto": "Son globales al clúster." }
+        ],
+        "correct": 3,
+        "feedback": "Los ConfigMaps se crean asociados a un Namespace especifico y no será accesible desde otros Namespaces del clúster."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre los ConfigMaps es falsa?:",
+        "resp": [
+          {
+            "texto": "Podemos montar el contenido de los ConfigMaps en un volumen de los Pods."
+          },
+          {
+            "texto": "El volumen montado a partir de un ConfigMap se actualizará automáticamente cuando se hagan cambios en este último."
+          },
+          {
+            "texto": "Es posible establecer dinámicamente variables de entorno y argumentos del comando de inicio con los valores almacenados en el ConfigMap."
+          },
+          {
+            "texto": "Las variables de entorno establecidas a partir de un ConfigMap se actualizarán automáticamente cuando se hagan cambios en este último."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Si al configurar un Pod con un ConfigMap lo hicimos estableciendo variables de entorno o argumentos de la línea de comandos, no podremos actualizar el contenedor en ejecución cuando los valores del ConfigMap sean modificados. Sería necesario recrear el Pod para hacer efectiva la nueva configuración."
+      },
+      {
+        "pregunta": "Los volúmenes hostPath:",
+        "resp": [
+          {
+            "texto": "Permiten montar en el Pod un directorio o archivo específico del sistema de ficheros del nodo."
+          },
+          {
+            "texto": "Se crean inicialmente vacíos, y serán eliminados cuando el Pod finalice su ejecución."
+          },
+          {
+            "texto": "Permiten desacoplar la infraestructura de almacenamiento de la definición del Pod."
+          },
+          {
+            "texto": "Están diseñados para inyectar datos de configuración en los Pods."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los volúmenes de tipo hostPath referenciarán un directorio o archivo específico del sistema de ficheros del nodo, permitiendo a los Pods que lo monten acceder a su contenido en la ruta local especificada."
+      },
+      {
+        "pregunta": "Los volúmenes emptyDir:",
+        "resp": [
+          {
+            "texto": "Permiten desacoplar la infraestructura de almacenamiento de la definición del Pod."
+          },
+          {
+            "texto": "Permiten montar en el Pod un directorio o archivo específico del sistema de ficheros del nodo."
+          },
+          {
+            "texto": "Se crean inicialmente vacíos, y serán eliminados cuando el Pod finalice su ejecución."
+          },
+          {
+            "texto": "Están diseñados para inyectar datos de configuración en los Pods."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los volúmenes de tipo emptyDir nos permitirán compartir ficheros entre los contenedores de un Pod. Como su nombre indica, se crean vacíos."
+      },
+      {
+        "pregunta": "Los PersistentVolumes:",
+        "resp": [
+          {
+            "texto": "Permiten desacoplar la infraestructura de almacenamiento de la definición del Pod."
+          },
+          {
+            "texto": "Son recursos globales del clúster. No están asociados a un Namespace específico."
+          },
+          { "texto": "Tendrán definidos los modos de acceso permitidos." },
+          { "texto": "Todas la anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Los PersistenVolumes nos permitirán desacoplar la infraestructura de almacenamiento de la definición del Pod. Los modos de acceso permitidos son ReadWriteOnce, ReadOnlyMany y ReadWriteMany. Ademas, son recursos globales del clúster, por lo que podrán ser enlazados con Pods de cualquier Namespace."
+      },
+      {
+        "pregunta": "Los PersistentVolumeClaims:",
+        "resp": [
+          { "texto": "Se utilizan para solicitar almacenamiento." },
+          {
+            "texto": "Permiten especificar el modo de acceso requerido al almacenamiento."
+          },
+          {
+            "texto": "Pueden definirse referenciando a un StorageClass para permitir el aprovisionamiento dinámico de almacenamiento."
+          },
+          { "texto": "Todas la anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Los PersistenVolumeClaims permiten solicitar almacenamiento para los Pods, especificando modo de acceso requerido. Si son definidos con un StorageClass, entonces habrá aprovisionamiento dinámico en el proveedor definido en el StorageClass y se creará un nuevo PersistenVolume."
+      },
+      {
+        "pregunta": "Las StorageClass:",
+        "resp": [
+          {
+            "texto": "Definen un tipo de almacenamiento en un proveedor específico."
+          },
+          {
+            "texto": "Se utilizan para el aprovisionamiento dinámico de almacenamiento."
+          },
+          {
+            "texto": "Se creará un nuevo PersistentVolume cada vez que se solicite almacenamiento referenciando a un objeto StorageClass."
+          },
+          { "texto": "Todas la anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Describen un tipo de almacenamiento, normalmente en un proveedor de nube, y será utilizado por Kubernetes para el aprovisionamiento dinámico de almacenamiento en recursos PersistentVolumes. El StorageClass debe ser referenciado en la definición del PersistentVolumenClaim utilizado para reclamar el almacenamiento."
+      },
+      {
+        "pregunta": "Los ConfigMaps:",
+        "resp": [
+          { "texto": "Se almacenan codificados en base64, pero no cifrados." },
+          { "texto": "Son recursos globales a todo el clúster." },
+          {
+            "texto": "Se crean en un determinado Namespace, pudiendo ser utilizado solo por recursos de este."
+          },
+          {
+            "texto": "Solo existen a nivel del Pod, una vez finalice su ejecución, el ConfigMap será eliminado."
+          }
+        ],
+        "correct": 2,
+        "feedback": "Los ConfigMaps se definen a nivel de Namespace y pueden ser utilizados en múltiples recursos del Namespace al que pertenecen. Su información esta almacenada en claro."
+      },
+      {
+        "pregunta": "Los objetos Secrets de Kubernetes:",
+        "resp": [
+          { "texto": "Se almacenan en etcd y su información estará cifrada." },
+          { "texto": "Se almacenan codificados en base64, pero no cifrados." },
+          { "texto": "Son recursos globales a todo el clúster." },
+          {
+            "texto": "Solo existen a nivel del Pod, una vez finalice su ejecución, el Secret será eliminado."
+          }
+        ],
+        "correct": 1,
+        "feedback": "La información de los objetos Secrets no se guarda en claro, sino que estará codificada en base64. Sin embargo, dicha información no estará cifrada. Además, se definen a nivel de Namespace y pueden ser utilizados en múltiples recursos del Namespace al que pertenecen."
+      }
+    ]
   },
   {
     "nombre": "test10",
-    "test": []
+    "test": [
+      {
+        "pregunta": "Relaciona los siguientes\nconceptos:",
+        "resp": [],
+        "options": ["Deployments", "StatefulSets", "Jobs", "CronJobs"],
+        "rels": [
+          "Permiten desplegar aplicaciones sin sentido.",
+          "Permiten desplegar aplicaciones con estado.",
+          "Tareas de corta duración bajo demanda.",
+          "Tareas de corta duración planificadas."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "Los recursos Job de Kubernetes:",
+        "resp": [
+          {
+            "texto": "Permiten la planificación de los Jobs para su ejecución a una hora concreta o de forma periódica."
+          },
+          {
+            "texto": "Soportan estrategias de despliegue progresivo que permiten actualizar la aplicación sin pérdida de servicio."
+          },
+          {
+            "texto": "Soportan políticas de reinicio para la gestión de errores en la ejecución."
+          },
+          {
+            "texto": "Están diseñados para el despliegue de aplicaciones con estado."
+          }
+        ],
+        "correct": 2,
+        "feedback": "En los Jobs es posible establecer una política de reinicio en caso de fallo en la ejecución de la tarea. Los valores admitidos son Always, OnFailure y Never, siendo el primero el valor por defecto."
+      },
+      {
+        "pregunta": "Los recursos CronJob de Kubernetes:",
+        "resp": [
+          {
+            "texto": "Permiten la planificación de los Jobs para su ejecución a una hora concreta o de forma periódica."
+          },
+          {
+            "texto": "Soportan estrategias de despliegue progresivo que permiten actualizar la aplicación sin pérdida de servicio."
+          },
+          { "texto": "Crean un Replicaset para la gestión de las réplicas." },
+          {
+            "texto": "Están diseñados para el despliegue de aplicaciones con estado."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los CronJobs de Kubernetes permiten planificar tareas para que sean ejecutadas a una hora específica o, incluso, que se repitan de manera periódica."
+      },
+      {
+        "pregunta": "Los recursos Deployment de Kubernetes:",
+        "resp": [
+          {
+            "texto": "Permiten el despliegue progresivo de actualizaciones, realizando el proceso sin pérdida de servicio."
+          },
+          {
+            "texto": "Soportan revertir un despliegue de actualizaciones a un estado anterior."
+          },
+          {
+            "texto": "Están diseñados para el despliegue de aplicaciones sin estado."
+          },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Los Deployment de Kubnernetes están pensados para el despliegue de aplicaciones sin estado. Cuando realicemos cambios en la definición del Pod, será Kubernetes el encargado de desplegar los cambios progresivamente sin pérdida de servicio y permitiendo volver a un estado anterior si fuera necesario."
+      },
+      {
+        "pregunta": "Los recursos StatefulSets de Kubernetes:",
+        "resp": [
+          {
+            "texto": "Los Pods de las réplicas tendrán hostname e IP únicos."
+          },
+          { "texto": "Las réplicas se crean y destruyen ordenadamente." },
+          {
+            "texto": "Están diseñados para el despliegue de aplicaciones con estado."
+          },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Los StatefulSets se utilizarán para gestionar aplicaciones con estado. A cada una de las réplicas de los Pods se le asignará un hostname e IP persistente, además de nombrar los Pods con un índice único. Las réplicas se crean en orden, comenzando por el índice más bajo."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes objetos de Kubernetes crea un Replicaset para gestionar las réplicas?:",
+        "resp": [
+          { "texto": "Deployments." },
+          { "texto": "StatefulSets." },
+          { "texto": "Jobs." },
+          { "texto": "CronJobs." }
+        ],
+        "correct": 0,
+        "feedback": "Los Deployments son objetos de Kubernetes de alto nivel que nos permitirán desplegar y actualizar nuestras aplicaciones de forma declarativa. Estos harán uso de objetos Replicasets para la creación y gestión de los Pods."
+      },
+      {
+        "pregunta": "Relacione los siguientes\ncomandos aplicados a un Deployment de Kubernetes:",
+        "resp": [],
+        "options": [
+          "kubectl rollout status",
+          "kubectil rollout undo",
+          "kubectl rollout pause",
+          "kubectl scale"
+        ],
+        "rels": [
+          "Permite consultar el estado en que se encuentra el despliegue de los Pods al crear o actualizar un Deployment.",
+          "Tras una actualización, permite volver a un estado anterior.",
+          "Pause las actualizaciones de un Deployment, permitiendo aplicar varias modificaciones a la vez al reanudarlo.",
+          "Permite modificar el número de réplicas."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes propiedades de un manifiesto YAML permiten establecer un tiempo límite de ejecución de un Job en Kubernetes?:",
+        "resp": [
+          { "texto": "A. spec.backoffLimit" },
+          { "texto": "B. spec.completions" },
+          { "texto": "C. spec.activeDeadlineSeconds" },
+          { "texto": "D. spec.schedule" }
+        ],
+        "correct": 2,
+        "feedback": "Para establecer un tiempo límite de ejecución del Job utilizaremos la propiedad spec.activeDeadlineSeconds, indicando el número de segundos desde el inicio de la ejecución del Job, independientemente del número de Pods que se hayan creado."
+      },
+      {
+        "pregunta": "En Kubernetes los objetos Service de tipo headless:",
+        "resp": [
+          { "texto": "No realizan balanceo de carga entre los Pods." },
+          { "texto": "Devuelven la lista de IPs de los Pods." },
+          { "texto": "No tendrán una Cluster IP asociado." },
+          { "texto": "Todas las anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Proporcionan a los Pods del StatefulSet de una entrada propia en el DNS. No tendrán una clusterIP asociada, por lo que no realizarán balanceo de carga. En su lugar devolverán la lista de IPs y hostnames asociadas a los Pods."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes objetos de Kubernetes permite la ejecución de un Pod periódicamente?:",
+        "resp": [
+          { "texto": "Deployments." },
+          { "texto": "StatefulSets." },
+          { "texto": "Jobs." },
+          { "texto": "CronJobs." }
+        ],
+        "correct": 3,
+        "feedback": "Los CronJobs nos permiten planificar tareas para que sean ejecutadas a una hora específica o, incluso, que se repitan de manera periódica. La ejecución de las tareas se realizará creando un Job, el cual ejecutará uno o varios Pods."
+      }
+    ]
   }
 ]
