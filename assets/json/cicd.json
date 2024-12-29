@@ -38,7 +38,7 @@
           }
         ],
         "correct": 3,
-        "feedback": "Las respuestas A y B son ciertas en parte, pero no son suficientes de manera individual para desplegar automáticamente."
+        "feedback": "Las respuestas $0 y $1 son ciertas en parte, pero no son suficientes de manera individual para desplegar automáticamente."
       },
       {
         "pregunta": "¿Por qué es útil desplegar un entorno de producción antes de que acabe el desarrollo?",
@@ -246,9 +246,15 @@
           "feedback": "En algunos casos es necesario corregir conflictos manualmente."
         },
         {
-          "pregunta": "Relaciona el concepto con su\ndefinición.",
+          "pregunta": "Relaciona el concepto con su definición.",
           "resp": [],
-          "correct": null,
+          "options": ["Commit.", "Rama.", "Repositorio.", "Fusión."],
+          "rels": [
+            "Conjunto de cambios registrados en la historia.",
+            "Puntero a un conjunto de cambios consecutivos.",
+            "Almacén de los cambios de un sistema o aplicación.",
+            "Unión de dos ramas."
+          ],
           "feedback": "Respuesta correctaRespuesta correcta"
         },
         {
@@ -294,7 +300,7 @@
             { "texto": "Todas los anteriores son estrategias válidas." }
           ],
           "correct": 2,
-          "feedback": "Técnicamente, todas las opciones son posible, pero la A no permite actualizar la versión de la dependencia fácilmente y la B no tiene en cuenta una instalación automatizada."
+          "feedback": "Técnicamente, todas las opciones son posible, pero la $0 no permite actualizar la versión de la dependencia fácilmente y la $1 no tiene en cuenta una instalación automatizada."
         },
         {
           "pregunta": "¿Cómo se crea una nueva rama llamada feature en Git?",
@@ -305,9 +311,204 @@
             { "texto": "$0 y $1." }
           ],
           "correct": 3,
-          "feedback": "«$0» crea la rama y la activa en la copia de trabajo, mientras que «B» la crea, pero no cambia la rama activa."
+          "feedback": "«$0» crea la rama y la activa en la copia de trabajo, mientras que «$1» la crea, pero no cambia la rama activa."
         }
       ]
     ]
+  },
+  {
+    "nombre": "test03",
+    "test": [
+      {
+        "pregunta": "¿Por qué un sistema de control de versiones distribuido no necesita bloqueo de archivos?",
+        "resp": [
+          { "texto": "Sí que lo necesita." },
+          {
+            "texto": "Porque cada usuario trabaja con una copia completa del repositorio."
+          },
+          { "texto": "Porque son sistemas más antiguos y limitados." },
+          {
+            "texto": "Porque cada usuario es propietario de un fichero y solo ese usuario puede modificarlo."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Cada usuario puede, por tanto, trabajar en todos los ficheros que necesite; el sistema se encargará de fusionar los cambios automática o de avisar al usuario si hay conflictos que se deben resolver manualmente."
+      },
+      {
+        "pregunta": "¿Por qué no se puede aplicar el flujo de GitHub en un sistema de control de versiones centralizado?",
+        "resp": [
+          { "texto": "Técnicamente se puede, aunque no es habitual." },
+          {
+            "texto": "Porque solo funciona con GitHub, que se basa en Git, que es un sistema de control de versiones distribuido."
+          },
+          {
+            "texto": "Porque se basa en los conceptos de fork y pull requests, que solo ofrecen los sistemas distribuidos."
+          },
+          { "texto": "Ninguna de las anteriores." }
+        ],
+        "correct": 2,
+        "feedback": "El flujo de GitHub se puede aplicar en otras plataformas, como BitBucket y GitLab."
+      },
+      {
+        "pregunta": "¿Cuántas ramas soporta el flujo centralizado?",
+        "resp": [
+          { "texto": "Solo una, master o trunk." },
+          {
+            "texto": "Solo una en el repositorio principal y tantas como sean necesarias en los forks."
+          },
+          { "texto": "Una principal y una de desarrollo." },
+          {
+            "texto": "Una principal, una de desarrollo y tantas como sean necesarias para las funcionalidades nuevas."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Es el flujo más cercano al concepto de integración continua extrema, ya que todos los cambios se añaden a la rama principal directamente."
+      },
+      {
+        "pregunta": "¿Por qué una rama de hotfix se fusiona tanto a master como a develop en el Gitflow?",
+        "resp": [
+          { "texto": "Solo se fusiona a master, no a develop." },
+          {
+            "texto": "En Gitflow las modificaciones se fusionan en develop y este se fusiona sobre master, siempre."
+          },
+          { "texto": "Por convenio. Técnicamente no hace falta." },
+          {
+            "texto": "Porque el cambio es necesario en producción y debe estar disponible en master, pero; además, hay que incorporarlo en cualquier prueba que se esté realizando en el desarrollo de la siguiente versión."
+          }
+        ],
+        "correct": 3,
+        "feedback": "De lo contrario, los entornos de pruebas pueden no comportarse igual que producción."
+      },
+      {
+        "pregunta": "¿Se puede implementar feature branching con GitHub sin usar pull requests?",
+        "resp": [
+          { "texto": "No, en GitHub es obligatorio usar pull requests." },
+          {
+            "texto": "Sí, porque GitHub ofrece la funcionalidad de abrir pull requests dentro de un mismo repositorio, que son otro tipo de pull requests."
+          },
+          {
+            "texto": "Sí, feature branching puede implementarse en cualquier tipo de sistema de control de versiones centralizado o distribuido."
+          },
+          { "texto": "B y C." }
+        ],
+        "correct": 2,
+        "feedback": "GitHub ofrece todas las funcionalidades de un servidor de Git y, por tanto, soporta un flujo que funcione sobre Git."
+      },
+      {
+        "pregunta": "¿Cómo se crea un fork en GitHub?",
+        "resp": [
+          {
+            "texto": "En la interfaz de GitHub, haciendo clic sobre el botón Fork."
+          },
+          { "texto": "Con git fork new." },
+          { "texto": "Con git clone --fork ." },
+          {
+            "texto": "En la interfaz de GitHub, en el asistente de New repository, hay que seleccionar que se trata de un fork e indicar el repositorio principal."
+          }
+        ],
+        "correct": 0,
+        "feedback": "Los forks no son más que clones, pero GitHub ofrece una funcionalidad adicional para identificar que un repositorio es un fork de otro."
+      },
+      {
+        "pregunta": "Relaciona cada flujo con su característica.",
+        "resp": [],
+        "options": [
+          "Flujo centralizado.",
+          "Feature branching workflow.",
+          "Flujo de GitLab.",
+          "Forking workflow."
+        ],
+        "rels": [
+          "Hay una única rama.",
+          "Hay una rama principal y una rama nueva para cada cambio que haya que implementar.",
+          "Cada rama corresponde con un entorno de despliegue.",
+          "Requiere una plataforma que soporte el concepto de pull request."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "Un desarrollador no tiene acceso de escritura al repositorio principal repo y ha trabajado en una rama new-feature en su fork. Al abrir la pull request, ¿cuál es la rama de origen y cuál es la de destino?",
+        "resp": [
+          {
+            "texto": "El origen es repo:new-feature y el destino es repo:master."
+          },
+          {
+            "texto": "El origen es fork/repo:new-feature y el destino es repo:master."
+          },
+          {
+            "texto": "El origen es fork/repo:new-feature y el destino es repo:new-feature."
+          },
+          {
+            "texto": "El origen es repo:new-feature y el destino es fork/repo:master."
+          }
+        ],
+        "correct": 2,
+        "feedback": "La rama de trabajo existe en el fork, no en el repositorio principal. El destino es la rama principal del repositorio original."
+      },
+      {
+        "pregunta": "¿Qué significa que un repositorio local pueda tener varios repositorios remotos?",
+        "resp": [
+          {
+            "texto": "En un sistema distribuido un repositorio puede intercambiar ramas y commits con cualquier otro repositorio. Estos otros repositorios se consideran remotos, y puede definirse más de uno."
+          },
+          {
+            "texto": "Lo normal es que haya un único repositorio remoto: el fork del usuario."
+          },
+          {
+            "texto": "Git solo permite un repositorio remoto, pero Subversion permite varios."
+          },
+          { "texto": "Ninguna de las anteriores." }
+        ],
+        "correct": 0,
+        "feedback": "Además, el usuario puede tener acceso de lectura sobre unos y de lectura y escritura sobre otros."
+      },
+      {
+        "pregunta": "En Gitflow, ¿por qué se dice que cada fusión sobre master es una nueva versión?",
+        "resp": [
+          {
+            "texto": "No es cierto; en Gitflow se trabaja únicamente con master."
+          },
+          {
+            "texto": "Porque se añade una etiqueta con el número de la versión a esos commits."
+          },
+          {
+            "texto": "Por convenio, en master no se añaden commits que no se hayan planificado para una versión concreta."
+          },
+          {
+            "texto": "Por convenio, las ramas de características nuevas se fusionan sobre master justo antes de preparar la nueva versión. Se fusionan todas juntas, por lo que master está listo para producción."
+          }
+        ],
+        "correct": 2,
+        "feedback": "El trabajo de preparación de la versión se ha llevado a cabo en las ramas release-* o hotfix-*. Una rama release-* puede tener commits que no estén listos para producción, pero cuando su HEAD está lista, se fusiona sobre master, por lo que esta también estará lista para producción."
+      }
+    ]
+  },
+  {
+    "nombre": "test04",
+    "test": []
+  },
+  {
+    "nombre": "test05",
+    "test": []
+  },
+  {
+    "nombre": "test06",
+    "test": []
+  },
+  {
+    "nombre": "test07",
+    "test": []
+  },
+  {
+    "nombre": "test08",
+    "test": []
+  },
+  {
+    "nombre": "test09",
+    "test": []
+  },
+  {
+    "nombre": "test10",
+    "test": []
   }
 ]
