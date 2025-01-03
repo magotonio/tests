@@ -369,7 +369,7 @@
         "resp": [
           { "texto": "Solo se fusiona a master, no a develop." },
           {
-            "texto": "En Gitflow las modificaciones se fusionan en develop y este se fusiona sobre master, siempre."
+            "texto": "En Gitflow las modificaciones se fusionan en develop y este se fusiona sobre master, siempre."
           },
           { "texto": "Por convenio. Técnicamente no hace falta." },
           {
@@ -389,7 +389,7 @@
           {
             "texto": "Sí, feature branching puede implementarse en cualquier tipo de sistema de control de versiones centralizado o distribuido."
           },
-          { "texto": "B y C." }
+          { "texto": "$1 y $2." }
         ],
         "correct": 2,
         "feedback": "GitHub ofrece todas las funcionalidades de un servidor de Git y, por tanto, soporta un flujo que funcione sobre Git."
@@ -858,7 +858,7 @@
           {
             "texto": "Para facilitar el mantenimiento por desarrolladores diferentes al autor."
           },
-          { "texto": "La A y la B." },
+          { "texto": "La $0 y la $1." },
           { "texto": "Para poder pasar el umbral de aceptación de Sonar." }
         ],
         "correct": 2,
@@ -1335,16 +1335,16 @@
         "pregunta": "Qué significa que un despliegue no tenga pérdida de servicio?",
         "resp": [
           {
-            "texto": "A. Que ofrece todas las funcionalidades durante todo el proceso de despliegue."
+            "texto": "Que ofrece todas las funcionalidades durante todo el proceso de despliegue."
           },
           {
-            "texto": "B. Que puede no prestar servicio durante un período de tiempo anunciado previamente como «mantenimiento»."
+            "texto": "Que puede no prestar servicio durante un período de tiempo anunciado previamente como «mantenimiento»."
           },
           {
-            "texto": "C. Que, en la mayoría de los casos, los usuarios pueden seguir accediendo, pero las respuestas del sistema pueden ser inconsistentes."
+            "texto": "Que, en la mayoría de los casos, los usuarios pueden seguir accediendo, pero las respuestas del sistema pueden ser inconsistentes."
           },
           {
-            "texto": "D. Que el despliegue siempre es exitoso y nunca hay vuelta atrás."
+            "texto": "Que el despliegue siempre es exitoso y nunca hay vuelta atrás."
           }
         ],
         "correct": 0,
@@ -1371,16 +1371,16 @@
         "pregunta": "¿Por qué el esquema de datos se puede convertir en un problema si dos versiones conviven en el tiempo?",
         "resp": [
           {
-            "texto": "A. En general, no suele ser un problema. Las bases de datos se encargan de mantener el esquema."
+            "texto": "En general, no suele ser un problema. Las bases de datos se encargan de mantener el esquema."
           },
           {
-            "texto": "B. Porque dos servidores con versiones diferentes pueden escribir el mismo registro a la vez provocando un bloqueo."
+            "texto": "Porque dos servidores con versiones diferentes pueden escribir el mismo registro a la vez provocando un bloqueo."
           },
           {
-            "texto": "C. Porque el código nuevo puede escribir un dato con un esquema incompatible con el código antiguo."
+            "texto": "Porque el código nuevo puede escribir un dato con un esquema incompatible con el código antiguo."
           },
           {
-            "texto": "D. Porque habría que aplicar una subida de esquema si accede la versión nueva, y una bajada de esquema si accede la versión antigua."
+            "texto": "Porque habría que aplicar una subida de esquema si accede la versión nueva, y una bajada de esquema si accede la versión antigua."
           }
         ],
         "correct": 2,
@@ -1390,13 +1390,13 @@
         "pregunta": "¿Cómo se pueden actualizar sistemas dependientes sin que haya problemas de compatibilidad?",
         "resp": [
           {
-            "texto": "A. Ofreciendo una API que siempre sea compatible hacia atrás."
+            "texto": "Ofreciendo una API que siempre sea compatible hacia atrás."
           },
           {
-            "texto": "B. Versionando la API, de forma que se pueda actualizar un sistema dependiente a la siguiente versión en cualquier momento."
+            "texto": "Versionando la API, de forma que se pueda actualizar un sistema dependiente a la siguiente versión en cualquier momento."
           },
-          { "texto": "C. Actualizándolos siempre en conjunto." },
-          { "texto": "D. Todas las anteriores." }
+          { "texto": "Actualizándolos siempre en conjunto." },
+          { "texto": "Todas las anteriores." }
         ],
         "correct": 3,
         "feedback": "La situación ideal es ofrecer API con compatibilidad hacia atrás siempre que sea posible y exponer una nueva versión cuando hay cambios incompatibles sin dejar de ofrecer la versión antigua."
@@ -1405,15 +1405,15 @@
         "pregunta": "¿Por qué se ha dicho que el modelo de despliegue blue/green ofrece todo o nada?",
         "resp": [
           {
-            "texto": "A. Porque actualiza los servidores in situ, sin desplegar ninguno nuevo."
+            "texto": "Porque actualiza los servidores in situ, sin desplegar ninguno nuevo."
           },
           {
-            "texto": "B. Porque en un momento dado, todos los servidores que dan servicio tienen la misma versión del código."
+            "texto": "Porque en un momento dado, todos los servidores que dan servicio tienen la misma versión del código."
           },
           {
-            "texto": "C. Porque solo sirve para todos los sistemas de una aplicación."
+            "texto": "Porque solo sirve para todos los sistemas de una aplicación."
           },
-          { "texto": "D. Ninguna de las anteriores." }
+          { "texto": "Ninguna de las anteriores." }
         ],
         "correct": 1,
         "feedback": "Este modelo se basa en dirigir todo el tráfico a uno de los dos entornos, o bien al azul, o bien al verde."
@@ -1422,13 +1422,13 @@
         "pregunta": "¿Qué ventajas ofrece el Canary releasing frente a un despliegue blue/green?",
         "resp": [
           {
-            "texto": "A. Si se introduce un error en la nueva versión, solo afecta a los usuarios del servidor canario."
+            "texto": "Si se introduce un error en la nueva versión, solo afecta a los usuarios del servidor canario."
           },
           {
-            "texto": "B. Si se detecta un error, se puede detener el servidor canario o dejar de dirigirle tráfico, sin necesidad de modificar los otros servidores en funcionamiento."
+            "texto": "Si se detecta un error, se puede detener el servidor canario o dejar de dirigirle tráfico, sin necesidad de modificar los otros servidores en funcionamiento."
           },
-          { "texto": "C. Puede usarse para pruebas A/B." },
-          { "texto": "D. A y B son correctas." }
+          { "texto": "Puede usarse para pruebas A/B." },
+          { "texto": "$0 y $1 son correctas." }
         ],
         "correct": 3,
         "feedback": "En general, los servidores canario reducen el riesgo de los despliegues, ya que el volumen de usuarios afectados ante un error es menor. Técnicamente se pueden usar para pruebas A/B, pero en la práctica no aportan suficiente valor debido a que es difícil asociar la funcionalidad ofrecida en el código del servidor canario con una mejor respuesta de los usuarios."
@@ -1437,15 +1437,15 @@
         "pregunta": "¿Cuánto tiempo conviven dos versiones en un despliegue incremental?",
         "resp": [
           {
-            "texto": "A. Desde que se despliega el primer servidor con la nueva versión hasta que se apaga el último de la versión antigua."
+            "texto": "Desde que se despliega el primer servidor con la nueva versión hasta que se apaga el último de la versión antigua."
           },
           {
-            "texto": "B. No conviven ambas versiones, ya que se modifica el enrutador de tráfico instantáneamente para que apunte a la versión nueva o a la antigua."
+            "texto": "No conviven ambas versiones, ya que se modifica el enrutador de tráfico instantáneamente para que apunte a la versión nueva o a la antigua."
           },
           {
-            "texto": "C. Desde que se despliega el servidor canario hasta que se sustituyen todos los demás servidores."
+            "texto": "Desde que se despliega el servidor canario hasta que se sustituyen todos los demás servidores."
           },
-          { "texto": "D. Ninguna de las anteriores." }
+          { "texto": "Ninguna de las anteriores." }
         ],
         "correct": 0,
         "feedback": "La convivencia de ambas versiones es fundamental en este tipo de despliegues."
@@ -1454,16 +1454,16 @@
         "pregunta": "¿Qué significa que los despliegues y la oferta de funcionalidades deba desacoplarse?",
         "resp": [
           {
-            "texto": "A. Que hay que desplegar las versiones cuando se decida ofrecer una funcionalidad concreta."
+            "texto": "Que hay que desplegar las versiones cuando se decida ofrecer una funcionalidad concreta."
           },
           {
-            "texto": "B. Que la fecha de un despliegue no tiene por qué coincidir con la exposición de una nueva funcionalidad a los usuarios."
+            "texto": "Que la fecha de un despliegue no tiene por qué coincidir con la exposición de una nueva funcionalidad a los usuarios."
           },
           {
-            "texto": "C. Que un despliegue debe estar disponible para todos los usuarios exactamente al mismo tiempo."
+            "texto": "Que un despliegue debe estar disponible para todos los usuarios exactamente al mismo tiempo."
           },
           {
-            "texto": "D. Que los despliegues deben estar controlados por configuraciones definidas en una feature flag."
+            "texto": "Que los despliegues deben estar controlados por configuraciones definidas en una feature flag."
           }
         ],
         "correct": 1,
@@ -1473,13 +1473,13 @@
         "pregunta": "¿Qué usos se le puede dar a una feature flag?",
         "resp": [
           {
-            "texto": "A. Desplegar funcionalidades de manera incremental a nivel de usuario."
+            "texto": "Desplegar funcionalidades de manera incremental a nivel de usuario."
           },
           {
-            "texto": "B. Bloquear funcionalidades secundarias de manera global."
+            "texto": "Bloquear funcionalidades secundarias de manera global."
           },
-          { "texto": "C. Experimentar con usuarios reales en producción." },
-          { "texto": "D. Todas las anteriores." }
+          { "texto": "Experimentar con usuarios reales en producción." },
+          { "texto": "Todas las anteriores." }
         ],
         "correct": 3,
         "feedback": "Las feature flags tienen el significado que le quieran dar los desarrolladores, por lo que se pueden usar para aquello que consideren necesario."
@@ -1488,15 +1488,15 @@
         "pregunta": "¿Cómo detecta Kubernetes si un pod ha arrancado correctamente?",
         "resp": [
           {
-            "texto": "A. Si hay suficientes ejecuciones exitosas consecutivas de la sonda readinessProbe."
+            "texto": "Si hay suficientes ejecuciones exitosas consecutivas de la sonda readinessProbe."
           },
           {
-            "texto": "B. Una vez desplegado un contenedor, Kubernetes lo considera disponible automáticamente."
+            "texto": "Una vez desplegado un contenedor, Kubernetes lo considera disponible automáticamente."
           },
           {
-            "texto": "C. Si el proceso no termina automáticamente tras initialDelaySeconds segundos."
+            "texto": "Si el proceso no termina automáticamente tras initialDelaySeconds segundos."
           },
-          { "texto": "D. Ninguna de las anteriores." }
+          { "texto": "Ninguna de las anteriores." }
         ],
         "correct": 0,
         "feedback": "En caso contrario, Kubernetes no sigue con el despliegue."

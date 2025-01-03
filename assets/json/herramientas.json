@@ -600,7 +600,7 @@
             "texto": "Una metodología de componentes inmutables."
           },
           {
-            "texto": "Una herramienta de creación de imágenes. "
+            "texto": "Una herramienta de creación de imágenes. "
           }
         ],
         "correct": 3,
@@ -619,7 +619,7 @@
             "texto": "Sí, usando los provisioner."
           },
           {
-            "texto": "Sí, usando los builders. "
+            "texto": "Sí, usando los builders. "
           }
         ],
         "correct": 3,
@@ -629,7 +629,7 @@
         "pregunta": "¿Soporta Packer las variables?",
         "resp": [
           {
-            "texto": "Sí, existe una sección de variables en el fichero de template. "
+            "texto": "Sí, existe una sección de variables en el fichero de template. "
           },
           {
             "texto": "No, Packer no puede parametrizarse."
@@ -648,7 +648,7 @@
         "pregunta": "¿Qué son los communicators?",
         "resp": [
           {
-            "texto": "$2 y $3 son correctas. "
+            "texto": "$2 y $3 son correctas. "
           },
           {
             "texto": "Depende del contexto, pero no son un concepto de Packer."
@@ -667,7 +667,7 @@
         "pregunta": "¿Qué hace el flag-parallel?",
         "resp": [
           {
-            "texto": "Permite que cada builder se ejecute en paralelo, pero los provisioners se ejecutarán en orden. "
+            "texto": "Permite que cada builder se ejecute en paralelo, pero los provisioners se ejecutarán en orden. "
           },
           {
             "texto": "Permite que los provisioners se ejecuten en paralelo."
@@ -692,7 +692,7 @@
             "texto": "Hace que solo se ejecute uno de los post-processors."
           },
           {
-            "texto": "Hace que solo se ejecute uno de los builders. "
+            "texto": "Hace que solo se ejecute uno de los builders. "
           },
           {
             "texto": "Solo puede recibir un único valor."
@@ -714,7 +714,7 @@
             "texto": "Con el valor cleanup limpia todos los datos temporales."
           },
           {
-            "texto": "Todas las otras respuestas son correctas. "
+            "texto": "Todas las otras respuestas son correctas. "
           }
         ],
         "correct": 3,
@@ -724,7 +724,7 @@
         "pregunta": "Las variables en Packer se pasan mediante:",
         "resp": [
           {
-            "texto": "La $1 y la $2. "
+            "texto": "La $1 y la $2. "
           },
           {
             "texto": "El parámetro -var."
@@ -752,7 +752,7 @@
             "texto": "Ejecutar un sistema de configuración tipo Ansible, Chef o Puppet."
           },
           {
-            "texto": "Todas las otras respuestas son correctas. "
+            "texto": "Todas las otras respuestas son correctas. "
           }
         ],
         "correct": 3,
@@ -771,7 +771,7 @@
             "texto": "Los providers no pueden proveer variables adicionales."
           },
           {
-            "texto": "Ninguna de las otras respuestas es correcta. "
+            "texto": "Ninguna de las otras respuestas es correcta. "
           }
         ],
         "correct": 3,

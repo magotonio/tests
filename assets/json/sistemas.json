@@ -45,13 +45,13 @@
         "feedback": "Feedback: Los proveedores de red ofrecen múltiples herramientas de seguridad y es su responsabilidad que estas funcionen correctamente, pero es responsabilidad de la compañía y sus DevOps configurar dichas herramientas correctamente."
       },
       {
-        "pregunta": "Relaciona: ",
+        "pregunta": "Relaciona: ",
         "resp": [],
         "options": [
-          "Migración ",
-          "Disponibilidad ",
-          "Entorno híbrido ",
-          "Servidor "
+          "Migración ",
+          "Disponibilidad ",
+          "Entorno híbrido ",
+          "Servidor "
         ],
         "rels": [
           "Trasladar aplicaciones de un entorno tradicional a un entorno de nube",
@@ -164,7 +164,7 @@
         "options": [],
         "rels": [],
         "correct": 3,
-        "feedback": "Feedback: Cada una de las opciones anteriores son alternativas viables. La opción $0 requiere una gran inversión, pero el resultado está perfectamente adaptado al modelo de nube. La opción $1 requiere un downtime importante, pero es muy barata y puede ser la mejor alternativa para una aplicación pequeña con poco soporte, por parte del desarrollador. La opción $2 puede ser cara por el coste del software de replicación, pero reduce el downtime respecto a la opción $1."
+        "feedback": "Feedback: Cada una de las opciones anteriores son alternativas viables. La opción $0 requiere una gran inversión, pero el resultado está perfectamente adaptado al modelo de nube. La opción $1 requiere un downtime importante, pero es muy barata y puede ser la mejor alternativa para una aplicación pequeña con poco soporte, por parte del desarrollador. La opción $2 puede ser cara por el coste del software de replicación, pero reduce el downtime respecto a la opción $1."
       },
       {
         "pregunta": "En el modelo mascotas vs. ganado (pets vs. cattle), ¿qué es cada concepto?",
@@ -253,7 +253,7 @@
         "options": [],
         "rels": [],
         "correct": 3,
-        "feedback": "Feedback: El script será más fácil de distribuir si el lenguaje está soportado directamente por el sistema, sin necesidad de dependencias adicionales. En general, los scripts no usan lenguajes compilados, para facilitar su distribución y edición."
+        "feedback": "Feedback: El script será más fácil de distribuir si el lenguaje está soportado directamente por el sistema, sin necesidad de dependencias adicionales. En general, los scripts no usan lenguajes compilados, para facilitar su distribución y edición."
       },
       {
         "pregunta": "¿Por qué es recomendable usar SSH en vez de Telnet?",
@@ -337,7 +337,7 @@
         "options": [],
         "rels": [],
         "correct": 0,
-        "feedback": "Feedback: Tras ejecutar Putty, será necesario marcar connection type a SSH e introducir la IP en el campo Host Name (o IP address). Tras presionar el botón Open, se abrirá una ventana de terminal donde se solicitará el usuario y la contraseña para intentar el inicio de sesión. También es posible generar y usar claves públicas y privadas en Windows con Puttygen, una utilidad disponible en la misma web que Putty."
+        "feedback": "Feedback: Tras ejecutar Putty, será necesario marcar connection type a SSH e introducir la IP en el campo Host Name (o IP address). Tras presionar el botón Open, se abrirá una ventana de terminal donde se solicitará el usuario y la contraseña para intentar el inicio de sesión. También es posible generar y usar claves públicas y privadas en Windows con Puttygen, una utilidad disponible en la misma web que Putty."
       },
       {
         "pregunta": "¿Cuál de las siguientes distribuciones Linux se puede descargar sin coste alguno?",
@@ -489,7 +489,7 @@
         "options": [],
         "rels": [],
         "correct": 3,
-        "feedback": "Feedback: Con Feedback: Con ~ se referencia la home del usuario, la ruta /home/user1 es la carpeta home del usuario y con cd ~ el usuario se coloca en su home antes de crear la carpeta. se referencia la home del usuario, la ruta /home/user1 es la carpeta home del usuario y con cd ~ el usuario se coloca en su home antes de crear la carpeta."
+        "feedback": "Feedback: Con Feedback: Con ~ se referencia la home del usuario, la ruta /home/user1 es la carpeta home del usuario y con cd ~ el usuario se coloca en su home antes de crear la carpeta. se referencia la home del usuario, la ruta /home/user1 es la carpeta home del usuario y con cd ~ el usuario se coloca en su home antes de crear la carpeta."
       },
       {
         "pregunta": "¿Es necesaria la línea #!/bin/bash en cualquier script?",
@@ -519,7 +519,7 @@
             "texto": " echo $CONFIGFILE."
           },
           {
-            "texto": " cat $CONFIGFILE."
+            "texto": " cat $CONFIGFILE."
           },
           {
             "texto": " head $CONFIGFILE."
@@ -683,7 +683,7 @@
         "options": [],
         "rels": [],
         "correct": 1,
-        "feedback": "Feedback: El script incluye un heredoc, es decir, el contenido del fichero de configuración, que puede contener un número arbitrario de líneas, está embebido en el propio script. El identificador MONGODCONFdelimita el contenido del fichero y el comando catse encarga de escribirlo en la ruta de destino."
+        "feedback": "Feedback: El script incluye un heredoc, es decir, el contenido del fichero de configuración, que puede contener un número arbitrario de líneas, está embebido en el propio script. El identificador MONGODCONFdelimita el contenido del fichero y el comando catse encarga de escribirlo en la ruta de destino."
       },
       {
         "pregunta": "¿Qué significa el flag -p en el comando mkdir?",
@@ -746,7 +746,7 @@
         "options": [],
         "rels": [],
         "correct": 0,
-        "feedback": "Feedback: -z comprueba si una string tiene longitud cero; -E no es un modificador válido; -h comprueba si el fichero existe y es un enlace simbólico."
+        "feedback": "Feedback: -z comprueba si una string tiene longitud cero; -E no es un modificador válido; -h comprueba si el fichero existe y es un enlace simbólico."
       },
       {
         "pregunta": "¿Qué comando de gestión de parámetros usa los scripts expuestos en el tema?",
@@ -767,7 +767,7 @@
         "options": [],
         "rels": [],
         "correct": 1,
-        "feedback": "Feedback: Este script usa el comando getoptsde Bash: para cada elemento de \":u:p:n:h\", getoptsguarda el valor del parámetro en la variable OPCION. Entonces, la expresión casefacilita la ejecución de unas líneas de código para cada valor de OPCION."
+        "feedback": "Feedback: Este script usa el comando getoptsde Bash: para cada elemento de \":u:p:n:h\", getoptsguarda el valor del parámetro en la variable OPCION. Entonces, la expresión casefacilita la ejecución de unas líneas de código para cada valor de OPCION."
       },
       {
         "pregunta": "¿Qué hace el comando mv /etc/mongod.conf /etc/mongod.conf.orig?",
@@ -809,7 +809,7 @@
         "options": [],
         "rels": [],
         "correct": 0,
-        "feedback": "Feedback: AWS identifica que el tipo de contenido del user data es Cloud-init cuando la primera línea es #cloud-config."
+        "feedback": "Feedback: AWS identifica que el tipo de contenido del user data es Cloud-init cuando la primera línea es #cloud-config."
       },
       {
         "pregunta": "¿Qué limitaciones hay en los scripts del user data?",
@@ -830,7 +830,7 @@
         "options": [],
         "rels": [],
         "correct": 2,
-        "feedback": "Feedback: Si esperan datos de entrada de usuario (por ejemplo, con read) el script acabará siendo cancelado tras un timeout."
+        "feedback": "Feedback: Si esperan datos de entrada de usuario (por ejemplo, con read) el script acabará siendo cancelado tras un timeout."
       },
       {
         "pregunta": "¿Cuál es el gestor de paquetes de Node.JS?",
@@ -862,13 +862,13 @@
         "pregunta": "¿Qué comando sirve para solicitar una terminación programada de un proceso?",
         "resp": [
           {
-            "texto": " kill -15 <pid> ."
+            "texto": " kill -15 <pid> ."
           },
           {
-            "texto": " kill -9 <pid> ."
+            "texto": " kill -9 <pid> ."
           },
           {
-            "texto": " kill -15  <nombre>."
+            "texto": " kill -15  <nombre>."
           },
           {
             "texto": " Ninguna de las anteriores."
@@ -919,7 +919,7 @@
         "options": [],
         "rels": [],
         "correct": 3,
-        "feedback": "pidof muestra el PID del comando especificado y ps y top muestran los PID en una de las columnas. "
+        "feedback": "pidof muestra el PID del comando especificado y ps y top muestran los PID en una de las columnas. "
       },
       {
         "pregunta": "¿Qué relación hay entre usuarios y grupos?",
@@ -982,7 +982,7 @@
         "options": [],
         "rels": [],
         "correct": 3,
-        "feedback": "Feedback: La contraseña se guarda como un hash unidireccional en /etc/shadow, nunca como texto plano."
+        "feedback": "Feedback: La contraseña se guarda como un hash unidireccional en /etc/shadow, nunca como texto plano."
       },
       {
         "pregunta": "     ¿Cuál es el resultado de ejecutar ln -s /usr/bin/python3.6 ~/python>? ",
@@ -1478,13 +1478,13 @@
         "feedback": "Feedback: En PowerShell, el sistema de ficheros es solo uno de los tipos de unidades que se pueden manipular. Las unidades disponibles se pueden obtener con Get-PSDrive, sin parámetros."
       },
       {
-        "pregunta": "Relaciona cada expresión con su equivalente en otros entornos de programación. ",
+        "pregunta": "Relaciona cada expresión con su equivalente en otros entornos de programación. ",
         "resp": [],
         "options": [
-          "-ne ",
-          "-lt ",
-          "-gt ",
-          "-ge "
+          "-ne ",
+          "-lt ",
+          "-gt ",
+          "-ge "
         ],
         "rels": [
           "!=",
@@ -1560,7 +1560,7 @@
         "options": [],
         "rels": [],
         "correct": 1,
-        "feedback": "Feedback: Este bloque precede la definición de un parámetro, tanto en scripts como en funciones."
+        "feedback": "Feedback: Este bloque precede la definición de un parámetro, tanto en scripts como en funciones."
       },
       {
         "pregunta": "¿Por qué un bloque de script de un trabajo no puede acceder a las variables de la sesión actual?",
@@ -1644,7 +1644,7 @@
         "options": [],
         "rels": [],
         "correct": 1,
-        "feedback": "Feedback: Este comando intentará recuperar la ayuda del cmdlet nombre-script, en vez de buscar la ayuda de un fichero de script; por otro lado, el modificador /h y --help no son válidos."
+        "feedback": "Feedback: Este comando intentará recuperar la ayuda del cmdlet nombre-script, en vez de buscar la ayuda de un fichero de script; por otro lado, el modificador /h y --help no son válidos."
       },
       {
         "pregunta": "¿Cómo se puede leer una cadena de texto como una contraseña segura?",
@@ -1880,7 +1880,7 @@
         "options": [],
         "rels": [],
         "correct": 2,
-        "feedback": "Feedback: El visor de eventos, o event viewer, es el visor de logs de Windows. Las aplicaciones pueden escribir sus logs en un fichero de texto, pero Windows ofrece un motor nativo para ello."
+        "feedback": "Feedback: El visor de eventos, o event viewer, es el visor de logs de Windows. Las aplicaciones pueden escribir sus logs en un fichero de texto, pero Windows ofrece un motor nativo para ello."
       },
       {
         "pregunta": "¿Qué herramienta nativa es el equivalente a cron en Windows?",
@@ -1990,7 +1990,7 @@
         "options": [],
         "rels": [],
         "correct": 3,
-        "feedback": "Feedback: La AMI solo incluye el disco duro y algunos parámetros de hardware virtual (como la plataforma, x64 o ARM). El tamaño y las opciones de red son detalles de hardware virtual configurables en las VM desplegadas a partir de la AMI. Las etiquetas tampoco tienen que ver con los detalles de sistema operativo de las AMI."
+        "feedback": "Feedback: La AMI solo incluye el disco duro y algunos parámetros de hardware virtual (como la plataforma, x64 o ARM). El tamaño y las opciones de red son detalles de hardware virtual configurables en las VM desplegadas a partir de la AMI. Las etiquetas tampoco tienen que ver con los detalles de sistema operativo de las AMI."
       },
       {
         "pregunta": "¿Qué ocurre con la instancia original en AWS cuando se crea una AMI a partir de ella?",
@@ -2095,7 +2095,7 @@
         "options": [],
         "rels": [],
         "correct": 2,
-        "feedback": "Feedback: La instancia arrancará con el sistema operativo instalado en el disco a partir del que sea tomado el snapshot de la imagen."
+        "feedback": "Feedback: La instancia arrancará con el sistema operativo instalado en el disco a partir del que sea tomado el snapshot de la imagen."
       },
       {
         "pregunta": "¿Qué es el clonado?",

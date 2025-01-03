@@ -1608,7 +1608,7 @@
         ],
         "options": [],
         "rels": [],
-        "feedback": "Se pueden detectar pruebas y vulnerabilidades antes incluso de publicar el parche en producción: esto reduce el riesgo de la aplicación. Se ejecutan de manera automática por lo que el funcionamiento es consistente: si se evita el factor humano, la fiabilidad de las pruebas es mayor. Se ejecutan de manera automática por lo que no hay peligro de que, por un error humano, no se ejecuten.",
+        "feedback": "Se pueden detectar pruebas y vulnerabilidades antes incluso de publicar el parche en producción: esto reduce el riesgo de la aplicación. Se ejecutan de manera automática por lo que el funcionamiento es consistente: si se evita el factor humano, la fiabilidad de las pruebas es mayor. Se ejecutan de manera automática por lo que no hay peligro de que, por un error humano, no se ejecuten.",
         "correct": 3
       },
       {

@@ -1471,7 +1471,7 @@
     "nombre": "test10",
     "test": [
       {
-        "pregunta": "Relaciona los siguientes\nconceptos:",
+        "pregunta": "Relaciona los siguientes conceptos:",
         "resp": [],
         "options": ["Deployments", "StatefulSets", "Jobs", "CronJobs"],
         "rels": [
@@ -1562,7 +1562,7 @@
         "feedback": "Los Deployments son objetos de Kubernetes de alto nivel que nos permitirán desplegar y actualizar nuestras aplicaciones de forma declarativa. Estos harán uso de objetos Replicasets para la creación y gestión de los Pods."
       },
       {
-        "pregunta": "Relacione los siguientes\ncomandos aplicados a un Deployment de Kubernetes:",
+        "pregunta": "Relacione los siguientes comandos aplicados a un Deployment de Kubernetes:",
         "resp": [],
         "options": [
           "kubectl rollout status",
@@ -1581,10 +1581,10 @@
       {
         "pregunta": "¿Cuál de las siguientes propiedades de un manifiesto YAML permiten establecer un tiempo límite de ejecución de un Job en Kubernetes?:",
         "resp": [
-          { "texto": "A. spec.backoffLimit" },
-          { "texto": "B. spec.completions" },
-          { "texto": "C. spec.activeDeadlineSeconds" },
-          { "texto": "D. spec.schedule" }
+          { "texto": "spec.backoffLimit" },
+          { "texto": "spec.completions" },
+          { "texto": "spec.activeDeadlineSeconds" },
+          { "texto": "spec.schedule" }
         ],
         "correct": 2,
         "feedback": "Para establecer un tiempo límite de ejecución del Job utilizaremos la propiedad spec.activeDeadlineSeconds, indicando el número de segundos desde el inicio de la ejecución del Job, independientemente del número de Pods que se hayan creado."
