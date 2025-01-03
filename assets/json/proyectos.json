@@ -778,5 +778,29 @@
         "feedback": "Son aspectos importantes que deben considerarse para hacer un buen uso de Kanban, de lo contrario no se estará aplicando bien la metodología / herramienta."
       }
     ]
+  },
+  {
+    "nombre": "test05",
+    "test": []
+  },
+  {
+    "nombre": "test06",
+    "test": []
+  },
+  {
+    "nombre": "test07",
+    "test": []
+  },
+  {
+    "nombre": "test08",
+    "test": []
+  },
+  {
+    "nombre": "test09",
+    "test": []
+  },
+  {
+    "nombre": "test10",
+    "test": []
   }
 ]
