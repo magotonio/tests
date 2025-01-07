@@ -524,7 +524,7 @@
         "feedback": "Respuesta correcta"
       },
       {
-        "pregunta": "Si ejecutamos un contenedor de la siguiente manera:Figura 8. Código de la pregunta 9. Fuente: elaboración propia.",
+        "pregunta": "Si ejecutamos un contenedor de la siguiente manera: $ docker run --mount source=mis-datos,target=/datos appimagen.",
         "resp": [
           {
             "texto": "Montará el volumen de Docker llamado «mis-datos» en la ruta /datos del contenedor."
