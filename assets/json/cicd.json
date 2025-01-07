@@ -197,123 +197,121 @@
   {
     "nombre": "test02",
     "test": [
-      [
-        {
-          "pregunta": "¿En qué consiste un commit?",
-          "resp": [
-            {
-              "texto": "Es el proceso de incluir un fichero en un sistema de control de cambios."
-            },
-            {
-              "texto": "Es un conjunto de cambios registrados en la historia de un sistema de control de cambios."
-            },
-            {
-              "texto": "Es una carpeta con los ficheros de una versión de la aplicación."
-            },
-            {
-              "texto": "Es el cambio a un punto anterior de la historia del repositorio."
-            }
-          ],
-          "correct": 1,
-          "feedback": "Los cambios pueden ser modificaciones de líneas en ficheros existentes (nuevas líneas, líneas eliminadas o modificadas), ficheros añadidos o eliminados del repositorio. Algunos sistemas detectan el renombrado de ficheros como un cambio en sí mismo, otros consideran un renombrado cuando desaparece un fichero y se añade uno nuevo."
-        },
-        {
-          "pregunta": "¿Qué debería ser versionado?",
-          "resp": [
-            { "texto": "El código fuente de la aplicación." },
-            { "texto": "La documentación." },
-            { "texto": "Las herramientas de despliegue." },
-            { "texto": "Todos los anteriores." }
-          ],
-          "correct": 3,
-          "feedback": "Es fundamental ser capaz de reproducir una versión de la aplicación y esto no se consigue solo con el código fuente. Son necesarios también los scripts de despliegues, las dependencias, herramientas, etc."
-        },
-        {
-          "pregunta": "¿En qué consiste la edición simultánea?",
-          "resp": [
-            {
-              "texto": "Varios desarrolladores editan un mismo fichero y uno de ellos combina los cambios del resto manualmente."
-            },
-            {
-              "texto": "Un desarrollador bloquea un fichero para trabajar sobre él."
-            },
-            {
-              "texto": "Varios desarrolladores trabajan sobre el mismo repositorio y probablemente sobre los mismos ficheros y el sistema se encarga de fusionar los cambios de todos automáticamente."
-            },
-            { "texto": "Ninguna de las anteriores." }
-          ],
-          "correct": 2,
-          "feedback": "En algunos casos es necesario corregir conflictos manualmente."
-        },
-        {
-          "pregunta": "Relaciona el concepto con su definición.",
-          "resp": [],
-          "options": ["Commit.", "Rama.", "Repositorio.", "Fusión."],
-          "rels": [
-            "Conjunto de cambios registrados en la historia.",
-            "Puntero a un conjunto de cambios consecutivos.",
-            "Almacén de los cambios de un sistema o aplicación.",
-            "Unión de dos ramas."
-          ],
-          "feedback": "Respuesta correctaRespuesta correcta"
-        },
-        {
-          "pregunta": "¿Qué significa «viajar en el tiempo» en el contexto de los sistemas de control de versiones?",
-          "resp": [
-            {
-              "texto": "Que se pueden instalar versiones antiguas de una aplicación."
-            },
-            {
-              "texto": "Que las nuevas versiones son compatibles con las anteriores."
-            },
-            {
-              "texto": "Que un desarrollador puede trabajar en una versión antigua del repositorio."
-            },
-            { "texto": "Ninguna de las anteriores." }
-          ],
-          "correct": 2,
-          "feedback": "Más concretamente, la copia de trabajo se puede actualizar con cualquier commit del histórico."
-        },
-        {
-          "pregunta": "¿Qué metadatos incluyen los commits?",
-          "resp": [
-            { "texto": "Autor." },
-            { "texto": "Fecha." },
-            { "texto": "Comentarios." },
-            { "texto": "Todos los anteriores." }
-          ],
-          "correct": 3,
-          "feedback": "También incluyen un identificador único, pueden incluir una firma, etc."
-        },
-        {
-          "pregunta": "¿Cómo se recomienda versionar las dependencias de una aplicación?",
-          "resp": [
-            {
-              "texto": "Copiando el código fuente de la dependencia dentro de una carpeta del repositorio de la aplicación."
-            },
-            {
-              "texto": "Manteniendo un documento con instrucciones sobre cómo instalarla."
-            },
-            {
-              "texto": "Referenciando la versión de la dependencia como una librería e instalándola con un gestor de paquetes durante el despliegue."
-            },
-            { "texto": "Todas los anteriores son estrategias válidas." }
-          ],
-          "correct": 2,
-          "feedback": "Técnicamente, todas las opciones son posible, pero la $0 no permite actualizar la versión de la dependencia fácilmente y la $1 no tiene en cuenta una instalación automatizada."
-        },
-        {
-          "pregunta": "¿Cómo se crea una nueva rama llamada feature en Git?",
-          "resp": [
-            { "texto": "git checkout -b feature." },
-            { "texto": "git branch feature." },
-            { "texto": "git create branch feature." },
-            { "texto": "$0 y $1." }
-          ],
-          "correct": 3,
-          "feedback": "«$0» crea la rama y la activa en la copia de trabajo, mientras que «$1» la crea, pero no cambia la rama activa."
-        }
-      ]
+      {
+        "pregunta": "¿En qué consiste un commit?",
+        "resp": [
+          {
+            "texto": "Es el proceso de incluir un fichero en un sistema de control de cambios."
+          },
+          {
+            "texto": "Es un conjunto de cambios registrados en la historia de un sistema de control de cambios."
+          },
+          {
+            "texto": "Es una carpeta con los ficheros de una versión de la aplicación."
+          },
+          {
+            "texto": "Es el cambio a un punto anterior de la historia del repositorio."
+          }
+        ],
+        "correct": 1,
+        "feedback": "Los cambios pueden ser modificaciones de líneas en ficheros existentes (nuevas líneas, líneas eliminadas o modificadas), ficheros añadidos o eliminados del repositorio. Algunos sistemas detectan el renombrado de ficheros como un cambio en sí mismo, otros consideran un renombrado cuando desaparece un fichero y se añade uno nuevo."
+      },
+      {
+        "pregunta": "¿Qué debería ser versionado?",
+        "resp": [
+          { "texto": "El código fuente de la aplicación." },
+          { "texto": "La documentación." },
+          { "texto": "Las herramientas de despliegue." },
+          { "texto": "Todos los anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "Es fundamental ser capaz de reproducir una versión de la aplicación y esto no se consigue solo con el código fuente. Son necesarios también los scripts de despliegues, las dependencias, herramientas, etc."
+      },
+      {
+        "pregunta": "¿En qué consiste la edición simultánea?",
+        "resp": [
+          {
+            "texto": "Varios desarrolladores editan un mismo fichero y uno de ellos combina los cambios del resto manualmente."
+          },
+          {
+            "texto": "Un desarrollador bloquea un fichero para trabajar sobre él."
+          },
+          {
+            "texto": "Varios desarrolladores trabajan sobre el mismo repositorio y probablemente sobre los mismos ficheros y el sistema se encarga de fusionar los cambios de todos automáticamente."
+          },
+          { "texto": "Ninguna de las anteriores." }
+        ],
+        "correct": 2,
+        "feedback": "En algunos casos es necesario corregir conflictos manualmente."
+      },
+      {
+        "pregunta": "Relaciona el concepto con su definición.",
+        "resp": [],
+        "options": ["Commit.", "Rama.", "Repositorio.", "Fusión."],
+        "rels": [
+          "Conjunto de cambios registrados en la historia.",
+          "Puntero a un conjunto de cambios consecutivos.",
+          "Almacén de los cambios de un sistema o aplicación.",
+          "Unión de dos ramas."
+        ],
+        "feedback": "Respuesta correctaRespuesta correcta"
+      },
+      {
+        "pregunta": "¿Qué significa «viajar en el tiempo» en el contexto de los sistemas de control de versiones?",
+        "resp": [
+          {
+            "texto": "Que se pueden instalar versiones antiguas de una aplicación."
+          },
+          {
+            "texto": "Que las nuevas versiones son compatibles con las anteriores."
+          },
+          {
+            "texto": "Que un desarrollador puede trabajar en una versión antigua del repositorio."
+          },
+          { "texto": "Ninguna de las anteriores." }
+        ],
+        "correct": 2,
+        "feedback": "Más concretamente, la copia de trabajo se puede actualizar con cualquier commit del histórico."
+      },
+      {
+        "pregunta": "¿Qué metadatos incluyen los commits?",
+        "resp": [
+          { "texto": "Autor." },
+          { "texto": "Fecha." },
+          { "texto": "Comentarios." },
+          { "texto": "Todos los anteriores." }
+        ],
+        "correct": 3,
+        "feedback": "También incluyen un identificador único, pueden incluir una firma, etc."
+      },
+      {
+        "pregunta": "¿Cómo se recomienda versionar las dependencias de una aplicación?",
+        "resp": [
+          {
+            "texto": "Copiando el código fuente de la dependencia dentro de una carpeta del repositorio de la aplicación."
+          },
+          {
+            "texto": "Manteniendo un documento con instrucciones sobre cómo instalarla."
+          },
+          {
+            "texto": "Referenciando la versión de la dependencia como una librería e instalándola con un gestor de paquetes durante el despliegue."
+          },
+          { "texto": "Todas los anteriores son estrategias válidas." }
+        ],
+        "correct": 2,
+        "feedback": "Técnicamente, todas las opciones son posible, pero la $0 no permite actualizar la versión de la dependencia fácilmente y la $1 no tiene en cuenta una instalación automatizada."
+      },
+      {
+        "pregunta": "¿Cómo se crea una nueva rama llamada feature en Git?",
+        "resp": [
+          { "texto": "git checkout -b feature." },
+          { "texto": "git branch feature." },
+          { "texto": "git create branch feature." },
+          { "texto": "$0 y $1." }
+        ],
+        "correct": 3,
+        "feedback": "«$0» crea la rama y la activa en la copia de trabajo, mientras que «$1» la crea, pero no cambia la rama activa."
+      }
     ]
   },
   {
@@ -1194,7 +1192,7 @@
           { "texto": "Mercurial." },
           { "texto": "SVN." }
         ],
-        "correct": 1,
+        "correct": 2,
         "feedback": "Bitbucket ofrecía compatibilidad con Mercurial, pero dejó de ofrecerla en 2020."
       },
       {

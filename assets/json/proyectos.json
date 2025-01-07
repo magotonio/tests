@@ -1164,7 +1164,7 @@
             "texto": "Las tareas y características útiles para poder hacer las entregas del producto."
           }
         ],
-        "correct": 0,
+        "correct": 1,
         "feedback": "El Roadmap presenta la estructura en iteraciones del producto, y sobre la hoja de ruta se señalarán dónde se espera que se realicen las entregas)."
       },
       {

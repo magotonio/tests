@@ -558,7 +558,7 @@
             "texto": "Todas las anteriores."
           }
         ],
-        "correct": 3,
+        "correct": 0,
         "feedback": "El comando docker top nos muestra los procesos en ejecución en un contenedor.El comando docker stats nos muestra en vivo el uso de recursos de los contenedores, incluyendo el numero de procesos del contenedor.El comando docker exec podría utilizarse para ejecutar un comando que muestre información de los procesos, por ejemplo, docker exec  ps."
       }
     ]

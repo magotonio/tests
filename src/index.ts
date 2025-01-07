@@ -18,7 +18,7 @@ const tests = {
   sistemas,
   contenedores,
   proyectos,
-  cicd
+  cicd,
 };
 
 const arrAsignaturas = [
@@ -29,7 +29,7 @@ const arrAsignaturas = [
   "sistemas",
   "contenedores",
   "proyectos",
-  "cicd"
+  "cicd",
 ];
 
 function prompt(message: string): string {
