@@ -942,7 +942,7 @@
         "rels": [
           "Permite ejecutar un Pod en cada uno de los nodos del clúster.",
           "Gestionan el despliegue y escalado de aplicaciones con estado.",
-          "Gestionan el despliegue y escalado de aplicaciones con estado.",
+          "Gestionan el despliegue y escalado de aplicaciones sin estado.",
           "Programan el despliegue de Pods para realizar de tareas periódicas o planificadas."
         ],
         "feedback": "Respuesta correctaRespuesta correcta"
