@@ -514,7 +514,7 @@
       {
         "pregunta": "Relaciona los siguientes conceptos:",
         "resp": [],
-        "options": ["Volumes", "Bind mounts", "Tmpfs mounts", "Bind mounts"],
+        "options": ["Volumes", "Bind mounts 1", "Tmpfs mounts", "Bind mounts 2"],
         "rels": [
           "Gestionado por Docker, solo accesible desde el host por comandos de Docker.",
           "Los procesos del sistema anfitrión pueden modificarlos.",
